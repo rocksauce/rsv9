@@ -17,8 +17,9 @@ DOWNLOAD the DIVI.zip here: https://rocksaucestudios.box.com/s/m7ohpasg1t3m7d87h
 9. In local, click `Pull from WP Engine` or `Start Site and Pull` icon at the bottom right of the platform to sync with the live site.
 
 
-Workflow Expectations with this structure
+## Workflow Expectations with this structure ##
 
 1. When you are done with your task of the moment, `Push your changes` to the GITHub
 2. Once GIT is updated, in `Local` click `Push to WP Engine`
 3. ***Make sure you do not disconnect turn off, close, or disconnect your computer from power or from the internet until this process is complete***
+4. Contact your representative at Rocksauce and inform them that you have `Pushed your changes to the RSv9 Dev Site`
