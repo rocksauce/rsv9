@@ -6,6 +6,7 @@
  Author URI:  	https://www.qmanning.com
  Template:     Divi
  Version:      9.0.1
+ Text Domain:  RSv9
 */
 
 /*****Add any custom CSS below this line*****/
@@ -13,6 +14,8 @@
 /* ------------------------------------------------------------ *\
 	Default
 \* ------------------------------------------------------------ */
+
+@import 'scss/blog' ;
 
 #main-header,
 .et_pb_section {
@@ -4745,7 +4748,7 @@ body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error
 	display: none;
 }
 .recent-post .post-content p {
-	font-size: 16px;
+	font-size: 16px !important;
 	line-height: 1.4;
 	font-weight: 500;
 	letter-spacing: -0.02em;
@@ -5582,7 +5585,7 @@ body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error
 	display: none !important;
 }
 .blog-all article h2 {
-	font-size: 33px;
+	font-size: 24px;
 }
 @media (max-width: 767px) {
 	.blog-all article {
@@ -5592,7 +5595,7 @@ body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error
 	}
 
 	.blog-all article h2 {
-		font-size: 25px;
+		font-size: 20px;
 	}
 }
 
@@ -5649,5 +5652,59 @@ body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error
 	}
 	.privacy-policy #main-content .container p {
 		font-size: 14px;
+	}
+}
+
+
+.et_pb_module{
+    .et_pb_ajax_pagination_container{
+        
+            .block-one{
+				.entry-featured-image-url{
+					text-align: center;
+            		background: #ffffff36;
+
+					img{
+						max-height: 225px;
+						min-height: 220px;
+						width: auto;
+					}
+				}
+                
+            }
+
+            .block-two{
+                .entry-featured-image-url{
+					text-align: center;
+            		background: #ffffff36;
+
+					img{
+						max-height: 400px;
+    					min-height: 310px;
+					}
+				}
+            }
+            
+        
+			
+    }
+}
+
+.single-post{
+	#main-content{
+		.page{
+			.entry-content{
+				.et_builder_inner_content{
+					.et_pb_section_0{
+						background-image: url(https://rocksaucedev.wpengine.com/wp-content/uploads/2021/04/post-image6.jpg)!important;
+
+						.et_pb_row_0{
+							min-height: 518.8px;
+							max-height: 718.8px;
+						}
+					}
+				}
+			}
+		}
 	}
 }
