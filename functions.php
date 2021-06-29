@@ -81,4 +81,5 @@ function load_posts_api_callback(){
     die;
 }
 
-
+// Ads
+include_once 'cpt/cpt.php';

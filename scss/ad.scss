@@ -1,0 +1,51 @@
+.et_pb_module{
+    .et_pb_ajax_pagination_container{
+        
+            .block-one{
+				.entry-featured-image-url{
+					text-align: center;
+            		background: #ffffff36;
+
+					img{
+						max-height: 225px;
+						min-height: 220px;
+						width: auto;
+					}
+				}
+                
+            }
+
+            .block-two{
+                .entry-featured-image-url{
+					text-align: center;
+            		background: #ffffff36;
+
+					img{
+						max-height: 400px;
+    					min-height: 310px;
+					}
+				}
+            }
+            
+        
+			
+    }
+}
+
+
+
+.add_cta_content{
+	.add_cta_content{
+		p{
+			p{
+				display: none;
+				
+			}
+
+			p:nth-child(2) {
+				display: block;
+			}
+		}
+		
+	}
+}

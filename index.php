@@ -220,7 +220,7 @@
                             </div> <!-- .et_pb_row -->
                         </div> <!-- .et_pb_section -->                      
                         
-                        <?php get_template_part( 'blog/safari', 'page' ); ?>
+                        <?php get_template_part( 'blog/ad', 'page' ); ?>
                         
                         <div class="et_pb_section et_pb_section_5 recent-post recent-post-small et_section_regular">
                             <div class="et_pb_row et_pb_row_5">
@@ -294,6 +294,7 @@
 
                         </div> <!-- .et_pb_section -->
                         
+                        <?php get_template_part( 'blog/testimonial', 'page' ); ?>
                     </div>
                 </div>
             </div>

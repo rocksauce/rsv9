@@ -113,7 +113,7 @@
 
     
 
-    <div class="">
+    <div class="et_pb_section">
         <div class="et_pb_row et_pb_row_5">
             <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
             
@@ -159,7 +159,7 @@
         </div> <!-- .et_pb_row -->
     </div> <!-- .et_pb_section -->
 <?php 
-    
+    //get_template_part( 'blog/ad', 'page' );
     }
     else{
         $no_more_items = true;

@@ -1,0 +1,110 @@
+.single-post{
+	#main-content{
+		.page{
+			.entry-content{
+				.et_builder_inner_content{
+					.et_pb_section_0{
+						//background-image: url(https://rocksaucedev.wpengine.com/wp-content/uploads/2021/04/post-image6.jpg)!important;
+
+						.et_pb_row_0{
+							min-height: 518.8px;
+							max-height: 718.8px;
+
+							.et_pb_column_0{
+								.text-inner{
+									.et_pb_text_inner{
+										
+
+										font-family: Helvetica Neue;								
+										font-style: normal;
+										font-weight: bold;		
+										
+										line-height: 90%;
+									
+										color: #373737;		
+															
+										h3{
+											display: inline-block;
+											background: #F6F3E0;
+											padding: 11px 8px 5px 5px;
+										}
+										.archive_type{
+											
+											font-size: 32px;
+											
+										}
+										.archive_title{
+											font-size: 80px;
+										}
+										.archive_autor{
+											font-size: 24px;
+											color: #DF5B4E;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					.et_pb_section_1{
+						.sidebar_rs{
+							.date_rs{
+								font-family: Helvetica Neue;
+
+								.et_pb_text_inner{
+									p{
+										
+										font-style: normal;							
+										font-weight: bold;
+										font-size: 160px;
+										line-height: 82.1%;
+									}
+								}
+
+								
+							}
+
+							.month_year_rs{
+								.et_pb_text_inner{
+									padding: 20px;
+									p{
+										font-style: normal;
+										font-weight: bold;
+										font-size: 24px;
+										line-height: 82.1%;
+										
+										text-align: center;
+										letter-spacing: -0.01em;
+									}
+								}
+							}
+							.categories_rs{
+								.et_pb_text_inner{
+									padding: 20px;
+									ul{
+										list-style-type: none;
+
+										li{
+											font-style: normal;
+											font-weight: bold;
+											font-size: 16px;
+											line-height: 82.1%;
+											
+											text-align: center;
+											letter-spacing: -0.01em;
+											text-decoration-line: underline;
+
+											color: #DF5B4E;
+    										padding: 5px 20px;
+										}
+									}
+								}
+							}
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
