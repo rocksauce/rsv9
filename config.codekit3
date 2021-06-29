@@ -9,6 +9,70 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/blog\/ad-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/ad-page.php",
+      "oF" : 0
+    },
+    "\/blog\/header_menu-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/header_menu-page.php",
+      "oF" : 0
+    },
+    "\/blog\/load_more-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/load_more-page.php",
+      "oF" : 0
+    },
+    "\/blog\/related-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/related-page.php",
+      "oF" : 0
+    },
+    "\/blog\/testimonial-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/testimonial-page.php",
+      "oF" : 0
+    },
+    "\/cpt\/cpt.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/cpt\/cpt.php",
+      "oF" : 0
+    },
+    "\/cpt\/inc\/ad-cta.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/cpt\/inc\/ad-cta.php",
+      "oF" : 0
+    },
+    "\/cpt\/inc\/testimonials.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/cpt\/inc\/testimonials.php",
+      "oF" : 0
+    },
     "\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -69,6 +133,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/no-image.png" : {
+      "ft" : 32768,
+      "iS" : 7821,
+      "oA" : 0,
+      "oAP" : "\/images\/no-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/play-button.png" : {
       "ft" : 32768,
       "iS" : 1334,
@@ -92,6 +169,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index.php",
+      "oF" : 0
+    },
     "\/js\/functions.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -102,6 +187,36 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/js\/load_posts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/load_posts-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/screenshot.jpg" : {
       "ft" : 16384,
@@ -116,7 +231,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/style-min.css" : {
+    "\/scss\/_gform_overrides.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/_gform_overrides.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/ad.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -124,9 +253,107 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/style-min-min.css",
+      "oAP" : "\/scss\/ad-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/scss\/ad.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/ad.css.map",
+      "oF" : 0
+    },
+    "\/scss\/ad.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/ad.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/blog.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/blog-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/scss\/blog.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/blog.css.map",
+      "oF" : 0
+    },
+    "\/scss\/blog.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/blog.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/single.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/single-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/scss\/single.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/single.css.map",
+      "oF" : 0
+    },
+    "\/scss\/single.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/single.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/single.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single.php",
+      "oF" : 0
     },
     "\/style.css" : {
       "aP" : 1,
@@ -163,7 +390,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 646161751.79649198,
-    "displayValue" : "RSv9-child",
+    "displayValue" : "rsv9",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-red",
     "iconImageWasSetByUser" : 0
@@ -2112,7 +2339,7 @@
     "languageDefaultsSASS" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.css",
-      "autoOutputPathRelativePath" : "..\/css",
+      "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,

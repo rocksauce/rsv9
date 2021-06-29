@@ -1,0 +1,119 @@
+// Overrides for the G-Form Plugin
+// 1. Check to see if a style is already being overridden herein before creating a new one
+// 2. Overrides should focus on REMOVING G-Form specific formatting
+// 3. Specific G-Forms should be given classes + IDs
+// 4. If you want specific spacing, style, etc. then you should create the appropriate class or ID, then add to it.
+
+	.gform_wrapper .gform_heading {
+		margin: 0 !important;
+	}
+
+	gform_legacy_markup_wrapper {
+	    margin-bottom: 0!important;
+	    margin-top: 0!important;
+	    max-width: 100%;
+	}
+
+	.gform_wrapper h3.gform_title {
+		margin: 0 0 24px !important;
+		padding: 0 0 0 !important;
+		font-size: 24px;
+		line-height: 1;
+		letter-spacing: -0.02em;
+		color: #373737;
+		font-weight: 700;
+	}
+	.gform_wrapper span.gform_description {
+		padding: 0 !important;
+		margin: 0 !important;
+		font-size: 16px;
+		line-height: 1;
+		color: #676661;
+		font-weight: 700 !important;
+	}
+	.gform_wrapper label.gfield_label {
+		display: none !important;
+	}
+	.gform_wrapper ul.gform_fields li.gfield {
+		margin: 0 !important;
+		padding: 0 0 12px !important;
+		max-width: 100%;
+	}
+	body .gform_wrapper .top_label div.ginput_container {
+		margin: 0 !important;
+	}
+	.gform_wrapper ul.gform_fields li.gfield select,
+	.gform_wrapper ul.gform_fields li.gfield textarea,
+	.gform_wrapper ul.gform_fields li.gfield input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+		padding: 15px 0 !important;
+		font-size: 16px;
+		line-height: 1;
+		color: #676661;
+		background-color: transparent;
+		border: 0;
+		border-bottom: 2px solid #B9B8AF;
+		border-radius: 0;
+		display: block;
+		text-align: left;
+		font-weight: 700;
+	}
+	.gform_wrapper ul.gform_fields li.gfield select {
+		padding: 10px 0 !important;
+		color: #DF5B4E;
+		border-radius: 0 !important;
+		background: url(./images/select-arrow.svg) no-repeat 100% center;
+		box-shadow: 0px 0px #f6f3e0 !important;
+		-webkit-appearance: none;
+	}
+	select::-ms-expand { display: none; }
+	.gform_wrapper ul.gform_fields li.gfield textarea {
+		height: 100px;
+		resize: none;
+	}
+	.gform_wrapper .gform_footer {
+		padding: 0 !important;
+		margin: 21px 0 0 !important;
+	}
+	.gform_wrapper .gform_footer .gform_button {
+		padding: 17px;
+		margin: 0;
+		width: auto;
+		display: inline-block;
+		font-size: 16px !important;
+		line-height: 1 !important;
+		color: #f6f3e0;
+		letter-spacing: -0.01em;
+		font-weight: 700;
+		background: #1FC774;
+		border: 1px solid #1FC774;
+		border-radius: 2px;
+		cursor: pointer;
+		-webkit-transition: all .3s;
+		transition: all .3s;
+	}
+	.gform_wrapper .gform_footer .gform_button:hover {
+		padding: 17px !important;
+		border: 1px solid #1FC774 !important;
+		color: #1FC774;
+		background: #f6f3e0 !important;
+	}
+	.gform_wrapper .field_description_below .gfield_description,
+	.gform_wrapper .validation_error {
+		display: none !important;
+	}
+	.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+	.gform_wrapper li.gfield_error textarea {
+		border-bottom: 1px solid #ff0000 !important;
+	}
+	body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+		background-color: transparent !important;
+		border: 0 !important;
+		max-width: 100% !important;
+		width: 100% !important;
+		min-width: 100% !important;
+	}
+
+	.gform_wrapper, .gf_browser_chrome {
+		padding:0 !important;
+		margin:0 !important;
+	}
