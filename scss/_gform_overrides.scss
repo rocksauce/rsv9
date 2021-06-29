@@ -17,7 +17,7 @@
 	.gform_wrapper h3.gform_title {
 		margin: 0 0 24px !important;
 		padding: 0 0 0 !important;
-		font-size: 24px;
+		font-size: 32px !important;
 		line-height: 1;
 		letter-spacing: -0.02em;
 		color: #373737;
@@ -25,8 +25,8 @@
 	}
 	.gform_wrapper span.gform_description {
 		padding: 0 !important;
-		margin: 0 !important;
-		font-size: 16px;
+		margin: 0 0 24px 0 !important;
+		font-size: 24px;
 		line-height: 1;
 		color: #676661;
 		font-weight: 700 !important;
@@ -52,10 +52,29 @@
 		background-color: transparent;
 		border: 0;
 		border-bottom: 2px solid #B9B8AF;
-		border-radius: 0;
+		border-radius: 2px;
 		display: block;
 		text-align: left;
 		font-weight: 700;
+		@include active_fade;
+		text-indent:4px;
+
+		&::-webkit-input-placeholder {
+			color:$color_medium_gray !important;
+			@include active_fade;
+		}
+
+		&:hover, &:active, &:focus {
+			border-bottom-color:$color_dark_gray !important;
+			color:$color_dark_gray !important;
+			background-color:$color_clean !important;
+			@include active_fade;
+		}
+
+		&:hover::-webkit-input-placeholder {
+			color:$color_dark_gray !important;
+			@include active_fade;
+		}
 	}
 	.gform_wrapper ul.gform_fields li.gfield select {
 		padding: 10px 0 !important;
@@ -75,7 +94,7 @@
 		margin: 21px 0 0 !important;
 	}
 	.gform_wrapper .gform_footer .gform_button {
-		padding: 17px;
+		padding: 16px;
 		margin: 0;
 		width: auto;
 		display: inline-block;
@@ -92,7 +111,7 @@
 		transition: all .3s;
 	}
 	.gform_wrapper .gform_footer .gform_button:hover {
-		padding: 17px !important;
+		padding: 16px !important;
 		border: 1px solid #1FC774 !important;
 		color: #1FC774;
 		background: #f6f3e0 !important;

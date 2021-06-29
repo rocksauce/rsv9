@@ -1,0 +1,44 @@
+// Form Styles
+
+/* Sticky Forms */
+	.rsv9_sticky_form {
+		z-index:10000;
+		background: rgba(246, 243, 224, 0.8) !important;
+		backdrop-filter: blur(10px);
+	}
+
+	#rsv9_design_sprint_form {
+		margin-top:64px;
+
+	.gform_wrapper ul.gform_fields li.gfield select,
+	.gform_wrapper ul.gform_fields li.gfield textarea,
+	.gform_wrapper ul.gform_fields li.gfield input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+
+		&:hover, &:active, &:focus {
+			border-bottom-color:$color_violet !important;
+			color:$color_violet !important;
+			@include active_fade;
+		}
+
+		&:hover::-webkit-input-placeholder {
+			color:$color_violet !important;
+			@include active_fade;
+		}
+	}
+
+		.gform_wrapper {
+			.gform_footer {
+				.gform_button {
+					border-color:$color_violet !important;
+					color: $color_cream !important;
+					background: $color_violet !important;
+
+					&:hover {
+						color:$color_violet !important;
+						background: $color_cream !important;
+					}
+				}
+			}
+		}
+	}
+

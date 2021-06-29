@@ -15,6 +15,22 @@
 	Default
 \* ------------------------------------------------------------ */
 
+/* ------------------------------------------------------------ *\
+	Global Colors
+\* ------------------------------------------------------------ */
+	$color_cream: #F6F3E0;
+	$color_violet: #A06BCE;
+	$color_dark_gray: #373737;
+	$color_medium_gray: #676661;
+	$color_clean: #FBF9F6;
+
+/* ------------------------------------------------------------ *\
+	Global Animations + Transitions
+\* ------------------------------------------------------------ */
+	@mixin active_fade {
+		transition: 0.5s ease !important;
+	}
+
 @import 'scss/blog' ;
 @import 'scss/single' ;
 @import 'scss/ad' ;
@@ -3891,6 +3907,12 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	G-Form Override Files
 \* ------------------------------------------------------------ */
   		@import "scss/_gform_overrides";
+
+
+/* ------------------------------------------------------------ *\
+  	General Form Styles
+\* ------------------------------------------------------------ */
+		@import "scss/_forms";
 
 
 @media (max-width: 767px) {
