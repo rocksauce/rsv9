@@ -36,7 +36,7 @@
 
 ?>
 
-            <div class="et_pb_section et_pb_section_3 section-idea et_pb_section_parallax et_pb_with_background et_section_regular">
+            <div class="et_pb_section et_pb_section_3 section-idea et_pb_section_parallax et_pb_with_background et_section_regular rsv-9-add">
 
                 <div class="et_parallax_bg_wrap">
                     <div class="et_parallax_bg et_pb_parallax_css" style="background-image: url(<?= $bkg_image ?>);"></div>
@@ -63,12 +63,12 @@
                     <div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
 
                         <?php if($link_one){ ?>
-                            <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper  et_pb_module ">
+                            <div class="et_pb_button_module_wrapper  et_pb_module ">
                                 <a class="et_pb_button et_pb_button_0 btn-<?php echo $colors[rand(0,6)] ?> et_pb_bg_layout_light" href="<?=$link_one?>"><?=$text_button_one?></a>
                             </div>
                         <?php } ?>
                         <?php if($link_two){ ?>
-                            <div class="et_pb_button_module_wrapper et_pb_button_1_wrapper  et_pb_module ">
+                            <div class="et_pb_button_module_wrapper  et_pb_module ">
                                 <a class="et_pb_button et_pb_button_1 btn-<?php echo $colors[rand(0,6)] ?> et_pb_bg_layout_light" href="<?=$link_two?>"><?=$text_button_two?></a>
                             </div>
                         <?php } ?>

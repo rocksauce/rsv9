@@ -42,14 +42,14 @@
         <article id="post-0" class="post-0 page type-page status-publish hentry">
             <div class="entry-content">
                 <div class="et-l et-l--post">
-                    <div class="et_builder_inner_content et_pb_gutters1">
+                    <div class="et_builder_inner_content et_pb_gutters1 rsv9_blog_content">
                         <?php get_template_part( 'blog/header_menu', 'page' ); ?>
 
                         <div class="et_pb_section et_pb_section_1 blog-intro et_section_regular">
                             <div class="et_pb_row et_pb_row_1">
                                 <div class="et_pb_column et_pb_column_3_5 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough">
                                     <div class="et_pb_module et_pb_post_slider et_pb_post_slider_0 et_pb_slider et_pb_post_slider_image_background et_pb_slider_fullwidth_off et_pb_slider_with_overlay et_pb_bg_layout_dark">
-                                        <div class="et_pb_slides">
+                                        <div class="et_pb_slides rsv9_slides">
 
                                             <?php 
                                             
@@ -102,7 +102,7 @@
                                 </div> <!-- .et_pb_column -->
                                 <div class="et_pb_column et_pb_column_2_5 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                     <div class="et_pb_module et_pb_blog_0 small-posts et_pb_posts et_pb_bg_layout_light ">
-                                        <div class="et_pb_ajax_pagination_container">
+                                        <div class="et_pb_ajax_pagination_container posts_list_rsv9">
 
                                             <?php
 
@@ -273,29 +273,33 @@
                             
                         </div>
                         
-                        <div class="et_pb_section et_pb_section_6 recent-post recent-post-small et_section_regular">
-                          
-                            <div class="et_pb_row et_pb_row_7">
-                                <div class="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
-
-
-                                    <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper  et_pb_module ">
-                                        <button id="load_more_posts" class="et_pb_button et_pb_button_2 btn-dark-blue et_pb_bg_layout_light" >Click to load more</button>
-                                        <div id="hide_no_resulsts">
-                                            <?php get_template_part( 'includes/no-results', 'index' ); ?>
-                                        </div>
-                                    </div>
-                                </div> <!-- .et_pb_column -->
-
-
-                            </div> <!-- .et_pb_row -->
-
-                            
-
-                        </div> <!-- .et_pb_section -->
                         
-                        <?php get_template_part( 'blog/testimonial', 'page' ); ?>
+                        
+                        
                     </div>
+
+                    <div class="et_pb_section et_pb_section_6 recent-post recent-post-small et_section_regular">
+                          
+                        <div class="et_pb_row et_pb_row_7">
+                            <div class="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
+
+
+                                <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper  et_pb_module ">
+                                    <button id="load_more_posts" class="et_pb_button et_pb_button_2 btn-dark-blue et_pb_bg_layout_light" >Click to load more</button>
+                                    <div id="hide_no_resulsts">
+                                        <?php get_template_part( 'includes/no-results', 'index' ); ?>
+                                    </div>
+                                </div>
+                            </div> <!-- .et_pb_column -->
+
+
+                        </div> <!-- .et_pb_row -->
+
+                        
+
+                    </div> <!-- .et_pb_section -->
+                    
+                    <?php get_template_part( 'blog/testimonial', 'page' ); ?>
                 </div>
             </div>
         

@@ -51,3 +51,44 @@
 		}
 	}
 }
+
+.rsv9_blog_content{
+	
+	.menu_section{
+		.et_pb_row{
+			.et_pb_column{
+				.et_pb_text{
+					.et_pb_text_inner{
+						h1{
+							color: #115B7E;
+						}
+					}	
+				}
+			}
+		}
+	}
+
+	.et_pb_section_1{
+
+		.rsv9_slides{
+			.et_pb_slide{
+				height: 412px;
+			}
+		}
+
+		
+	}
+
+	.rsv-9-add{
+		margin-bottom: 50px;
+
+	}
+
+	#load_more_posts{
+		cursor: pointer;
+	}
+
+	.no_padding_section{
+		 padding: 0% 0 !important;
+	}
+}

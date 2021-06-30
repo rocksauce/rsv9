@@ -39,7 +39,7 @@ jQuery(document, window).ready(function () {
                 if(!no_more_posts){
                     excluded_ids = response.excluded_ids;
                     
-                    jQuery('#more_posts').append(response.more_posts);
+                    jQuery('.rsv9_blog_content').append(response.more_posts);
                 }else{
                     jQuery("#load_more_posts").hide();
                     jQuery("#hide_no_resulsts").show();

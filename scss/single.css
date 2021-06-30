@@ -74,4 +74,8 @@
   color: #DF5B4E;
   padding: 5px 20px;
 }
+
+.single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_5 article {
+  padding: 0 20px !important;
+}
 /*# sourceMappingURL=single.css.map */
