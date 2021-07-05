@@ -18,51 +18,6 @@
 }
 
 
-// Update Global Styles
-	// Nav
-		#et-top-navigation {
-			#top-menu-nav {
-				#top-menu {
-					li {
-						a {
-							color: $light_nav !important;
-							display:none !important;
-						}
-					}
-				}
-			}
-		}
-
-		.link-blue {
-			color: $light_nav !important;
-		}
-
-		.nav li.btn-green a {
-			color: $light_nav !important;
-			display:none !important;
-		}
-		.nav li.btn-green a:hover {
-			color: #1FC774 !important;
-		}
-
-		.nav li.link-blue a:hover {
-			color: #01a5e6 !important;
-		}
-		.nav li.link-orange a:hover {
-			color: #fc800f !important;
-		}
-		.nav li.link-purple a:hover {
-			color: #a06bce !important;
-		}
-		.nav li.link-red a:hover {
-			color: #ff9191 !important;
-		}
-		.nav li.link-orange a:hover {
-			color: #fc800f !important;
-		}
-
-
-
 body {
 	background-color:#000;
 	background-image:url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/ylvsku4tgip95byyxzsu.jpg") !important;
@@ -492,45 +447,18 @@ logo {
 
 	}
 
-// Nav
-
-#et-top-navigation {
-	#top-menu-nav {
-		#top-menu {
-			li {
-				a {
-					color: $light_nav !important;
-					display:none !important;
-				}
-			}
-		}
-	}
+#logo {
+	filter:invert(1) sepia(24%) saturate(159%) hue-rotate(352deg) brightness(115%) contrast(93%) !important;
 }
 
-.link-blue {
-	color: $light_nav !important;
+#main-header ul li a:not(:hover) {
+	color:$light_nav !important;
 }
 
-.nav li.btn-green a {
-	color: $light_nav !important;
-	display:none !important;
-}
-.nav li.btn-green a:hover {
-	color: #1FC774 !important;
+#main-header {
+	backdrop-filter: blur(10px) !important;
 }
 
-.nav li.link-blue a:hover {
-	color: #01a5e6 !important;
-}
-.nav li.link-orange a:hover {
-	color: #fc800f !important;
-}
-.nav li.link-purple a:hover {
-	color: #a06bce !important;
-}
-.nav li.link-red a:hover {
-	color: #ff9191 !important;
-}
-.nav li.link-orange a:hover {
-	color: #fc800f !important;
+#rsv9-footer-logo {
+	fill: $light_nav !important;
 }

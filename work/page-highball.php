@@ -15,10 +15,10 @@
 		<p class="attribution">- Sebastian Stan</p>
 	</div>
 	<div class="appStoreLinks">
-		<a href="#" class="appStoreButton appleButton">
+		<a href="https://apps.apple.com/us/app/the-highball/id381042337" target="_blank" class="appStoreButton appleButton">
 			<div id="apple"></div>
 		</a>
-		<a href="#" class="appStoreButton">
+		<a href="https://play.google.com/store/apps/details?id=com.rocksaucestudios.highball" target="_blank" class="appStoreButton">
 			<div id="google"></div>
 		</a>
 	</div>
@@ -87,4 +87,5 @@
 		});
 
 </script>
+
 <?php get_footer(); ?>
