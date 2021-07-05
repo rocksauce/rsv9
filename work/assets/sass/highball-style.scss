@@ -2,15 +2,13 @@
 @import "normalize.scss";
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
+@import "_light_nav";
 
 // Fonts
 @mixin fontFamily {
 	font-family:'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-// Colors
-	$yellow: #dbad27;
-	$light_nav: #F6F3E0;
 
 // Animations
 @mixin linkFade {
@@ -447,18 +445,3 @@ logo {
 
 	}
 
-#logo {
-	filter:invert(1) sepia(24%) saturate(159%) hue-rotate(352deg) brightness(115%) contrast(93%) !important;
-}
-
-#main-header ul li a:not(:hover) {
-	color:$light_nav !important;
-}
-
-#main-header {
-	backdrop-filter: blur(10px) !important;
-}
-
-#rsv9-footer-logo {
-	fill: $light_nav !important;
-}

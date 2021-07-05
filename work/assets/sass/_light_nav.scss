@@ -1,0 +1,33 @@
+/*
+	Light Nav + Footer Styles
+*/
+
+// Colors
+$yellow: #dbad27;
+$light_nav: #F6F3E0;
+
+// Animations
+@mixin linkFade {
+transition: all 0.2s ease;
+}
+
+#logo {
+	filter:invert(1) sepia(24%) saturate(159%) hue-rotate(352deg) brightness(122%) contrast(93%) !important;
+}
+
+#main-header {
+	background-color:transparent !important;
+	backdrop-filter: blur(10px) !important;
+	ul {
+		li {
+			a:not(:hover) {
+				color:$light_nav !important;
+			}
+		}
+	}
+}
+
+
+#rsv9-footer-logo {
+	fill: $light_nav !important;
+}
