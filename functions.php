@@ -81,5 +81,21 @@ function load_posts_api_callback(){
     die;
 }
 
+if (!function_exists('rs_the_excerpt')) {
+
+    function rs_the_excerpt($limit = 500) {
+        global $post;
+
+        $result = "";
+        $content = strip_tags( get_the_excerpt());
+        if($content != ""){
+            $content = substr($content, 0, $limit) . '...';
+            $result = "<p>$content</p>";
+        }
+        echo $result;
+    }
+
+ }
+
 // Ads
 include_once 'cpt/cpt.php';

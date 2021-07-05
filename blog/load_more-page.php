@@ -30,12 +30,10 @@
     if($blockLeft->have_posts() ){
         get_template_part( 'blog/ad', 'page' )
 ?>
-
-
-    <div class="et_pb_section et_pb_section_2 blog-cols et_section_regular no_padding_section">
-        <div class="et_pb_row et_pb_row_2">
+    <div class="et_pb_section et_pb_section_2 blog-cols et_section_regular">
+        <div class="et_pb_row et_pb_row_2 rs-b2">
             <div class="et_pb_column et_pb_column_2_5 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
-                <div class="et_pb_module et_pb_blog_1 et_pb_posts et_pb_bg_layout_light ">
+                <div class="et_pb_module et_pb_blog_1 et_pb_posts et_pb_bg_layout_light rs-b2-lc">
                     <div class="et_pb_ajax_pagination_container">
                         <?php 
                                 $list_query_options['posts_per_page'] = 2;
@@ -54,7 +52,7 @@
                         ?>
                                     <article id="post-<?= get_the_ID()?>" class="block-one et_pb_post clearfix et_pb_blog_item_1_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry">
 
-                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url"><img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="300"></a>
+                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="300"></a>
                                         <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
 
                                         <div class="post-content">
@@ -72,7 +70,7 @@
                 </div> <!-- .et_pb_posts -->
             </div> <!-- .et_pb_column -->
             <div class="et_pb_column et_pb_column_3_5 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                <div class="et_pb_module et_pb_blog_2 et_pb_posts et_pb_bg_layout_light ">
+                <div class="et_pb_module et_pb_blog_2 et_pb_posts et_pb_bg_layout_light rs-b2-rc ">
                     <div class="et_pb_ajax_pagination_container">
                     <?php 
                                 $list_query_options['posts_per_page'] = 1;
@@ -90,12 +88,12 @@
                         ?>
                                         <article  id="post-<?= get_the_ID()?>"  class="block-two et_pb_post clearfix et_pb_blog_item_2_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry category-design category-development">
 
-                                            <a href="<?= the_permalink() ?>" class="entry-featured-image-url"><img loading="lazy" src="<?= $image ?>" alt="What is a Design Sprint? (Part Two)" class="" width="1080" height="675"></a>
+                                            <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="What is a Design Sprint? (Part Two)" class="" width="1080" height="675"></a>
                                             <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
 
                                             <div class="post-content">
-                                                <div class="post-content-inner">
-                                                    <p><?=the_excerpt()?></p>
+                                                <div class="post-content-inner rs-content">
+                                                    <p><?php rs_the_excerpt( 250 ) ?></p>
                                                 </div>
                                             </div>
                                         </article> <!-- .et_pb_post -->                                                   
@@ -118,7 +116,7 @@
             
                 <div class="et_pb_module et_pb_blog_0 blog-all et_pb_posts et_pb_bg_layout_light ">
 
-                    <div class="et_pb_ajax_pagination_container">
+                    <div class="et_pb_ajax_pagination_container rs-posts-thum">
                         <?php 
 
                             $list_query_options['posts_per_page'] = 6;
@@ -136,15 +134,16 @@
                         ?>
                                     <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
 
-                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url">
+                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
                                             <img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="675"></a>
-                                            <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
+                                            <h2 class="entry-title rs-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
 
-                                        <div class="post-content"><div class="post-content-inner"><p><?= the_excerpt() ?></p>
-                                        </div></div>			
+                                        <div class="post-content">
+                                            <div class="post-content-inner rs-content"><?php rs_the_excerpt( 80 ) ?></div>
+                                        </div>			
                                     </article>
                         <?php
-
+                                wp_reset_postdata();
                                 endwhile;
                             }
 
