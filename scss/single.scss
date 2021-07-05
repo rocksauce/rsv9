@@ -7,15 +7,15 @@
 						//background-image: url(https://rocksaucedev.wpengine.com/wp-content/uploads/2021/04/post-image6.jpg)!important;
 
 						.et_pb_row_0{
-							min-height: 518.8px;
-							max-height: 718.8px;
+							min-height: 550.8px;
+							max-height: 556px;
 
 							.et_pb_column_0{
 								.text-inner{
 									.et_pb_text_inner{
 										
 
-										font-family: Helvetica Neue;								
+										font-family: 'Helvetica Neue';								
 										font-style: normal;
 										font-weight: bold;		
 										
@@ -26,18 +26,25 @@
 										h3{
 											display: inline-block;
 											background: #F6F3E0;
-											padding: 11px 8px 5px 5px;
+											padding: 16px;
+											
 										}
 										.archive_type{
-											
+										
+											font-style: normal;
+											font-weight: bold;
 											font-size: 32px;
+											text-decoration: underline #cbcbcb;
 											
 										}
 										.archive_title{
 											font-size: 80px;
+											font-weight: bold;
 										}
 										.archive_autor{
+											font-weight: bold;
 											font-size: 24px;
+											text-decoration-line: underline;
 											color: #DF5B4E;
 										}
 									}
@@ -52,6 +59,7 @@
 								font-family: Helvetica Neue;
 
 								.et_pb_text_inner{
+									text-align: left;
 									p{
 										
 										font-style: normal;							
@@ -66,36 +74,39 @@
 
 							.month_year_rs{
 								.et_pb_text_inner{
-									padding: 20px;
+									padding: 20px 0px 12px;
+									text-align: left;
 									p{
 										font-style: normal;
 										font-weight: bold;
 										font-size: 24px;
 										line-height: 82.1%;
 										
-										text-align: center;
+										
 										letter-spacing: -0.01em;
 									}
 								}
 							}
 							.categories_rs{
 								.et_pb_text_inner{
-									padding: 20px;
+									padding: 20px 0px 20px;
 									ul{
 										list-style-type: none;
-
+										text-align: left;
+										padding: 0px;
+										
 										li{
 											font-style: normal;
 											font-weight: bold;
 											font-size: 16px;
 											line-height: 82.1%;
 											
-											text-align: center;
+											
 											letter-spacing: -0.01em;
 											text-decoration-line: underline;
 
 											color: #DF5B4E;
-    										padding: 5px 20px;
+    										padding: 8px 0px 8px;
 										}
 									}
 								}

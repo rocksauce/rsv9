@@ -63,7 +63,7 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
 
 
                         <div class="et_pb_row et_pb_row_1 et_pb_gutters1 et_pb_row_1-4_3-4">
-                            <div class="sidebar_rs et_pb_column et_pb_column_1_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
+                            <div class="sidebar_rs et_pb_column et_pb_column_1_3 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
 
 
                                 <div class="date_rs et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_light">
@@ -100,7 +100,7 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
                                     </div>
                                 </div> <!-- .et_pb_text -->
                             </div> <!-- .et_pb_column -->
-                            <div class="et_pb_column et_pb_column_3_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                            <div class="et_pb_column et_pb_column_2_3 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                 <?=the_content()?>
                             </div> <!-- .et_pb_column -->
 
@@ -109,7 +109,7 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
 
 
                     </div> <!-- .et_pb_section -->
-                    <?php get_template_part( 'blog/ad', 'page' ); ?>
+                    <?php wp_reset_postdata(); get_template_part( 'blog/ad', 'page' ); ?>
                     <?php get_template_part( 'blog/related', 'page' ); ?>
 
                 </div><!-- .et_builder_inner_content -->

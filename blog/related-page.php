@@ -3,7 +3,7 @@
     $list_query_options = array(
         'category__in' => wp_get_post_categories(get_the_ID()),
         'post__not_in' => array(get_the_ID()),
-        'posts_per_page' => 2,
+        'posts_per_page' => 3,
         'orderby' => 'date',
     );
 
@@ -23,7 +23,7 @@
             
                 <div class="et_pb_module et_pb_blog_0 blog-all et_pb_posts et_pb_bg_layout_light ">
 
-                    <div class="et_pb_ajax_pagination_container">
+                    <div class="et_pb_ajax_pagination_container rs-posts-thum">
                         <?php 
 
                             
@@ -40,15 +40,16 @@
                         ?>
                                     <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
 
-                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url">
+                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
                                             <img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="675"></a>
                                             <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
 
-                                        <div class="post-content"><div class="post-content-inner"><p><?= the_excerpt() ?></p>
-                                        </div></div>			
+                                        <div class="post-content">
+                                            <div class="post-content-inner rs-content"><?php rs_the_excerpt( 90 ) ?></div>
+                                        </div>			
                                     </article>
                         <?php
-
+                                wp_reset_postdata();
                                 endwhile;
                             }
 

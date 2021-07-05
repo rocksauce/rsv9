@@ -12,31 +12,12 @@
 
 .et_pb_row_5 .et_pb_module .et_pb_ajax_pagination_container .et_pb_post .entry-featured-image-url {
   text-align: center;
-  background: #ffffff36;
+  background: #FFFFAA80;
 }
 
 .et_pb_row_5 .et_pb_module .et_pb_ajax_pagination_container .et_pb_post .entry-featured-image-url img {
-  height: 215px;
+  height: 225px;
   width: auto;
-}
-
-.et_pb_row_5 .et_pb_module .et_pb_ajax_pagination_container .et_pb_post .post-content .post-content-inner {
-  max-height: 2.6em;
-}
-
-.et_pb_row_5 .et_pb_module .et_pb_ajax_pagination_container .et_pb_post .post-content .post-content-inner p {
-  display: none;
-}
-
-.et_pb_row_5 .et_pb_module .et_pb_ajax_pagination_container .et_pb_post .post-content .post-content-inner p:nth-child(2) {
-  display: block;
-  display: -webkit-box;
-  line-height: 1.1em;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 16px;
 }
 
 .rsv9_blog_content .menu_section .et_pb_row .et_pb_column .et_pb_text .et_pb_text_inner h1 {
@@ -57,5 +38,51 @@
 
 .rsv9_blog_content .no_padding_section {
   padding: 0% 0 !important;
+}
+
+.rs-b2 .rs-b2-lc article .entry-title {
+  min-height: 55px;
+}
+
+.rs-b2 .rs-b2-lc article .image-link {
+  background: #FFFFAA80;
+}
+
+.rs-b2 .rs-b2-lc article .image-link img {
+  max-height: 205px;
+  min-height: 200px;
+  width: auto;
+}
+
+.rs-b2 .rs-b2-rc article .image-link {
+  background: #FFFFAA80;
+  max-height: 405px;
+  min-height: 400px;
+}
+
+.rs-posts-thum article .rs-title a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 21.6px;
+}
+
+.rs-posts-thum article .rs-content p {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 140%;
+  /* or 22px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.02em;
+}
+
+.rs-load-more {
+  padding: 70px 0px 100px 0px !important;
 }
 /*# sourceMappingURL=blog.css.map */
