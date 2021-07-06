@@ -15,7 +15,30 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
 
 ?>
 
+<style>
+    figure.alignleft.size-large{
+        width: 960px;
+        position: relative;
+        display: -ms-inline-grid;
+        display: inline-grid;
+        margin: 0px 0px 0px -210px !important;
+        background: #FFFFAA;
+        height: 550px;
+    }
 
+    figure.alignleft.size-large > img {
+        max-height: 480px;
+    }
+
+    figure.alignleft.size-large> figcaption {
+        display: table-caption;
+        caption-side: bottom;
+        background: #f6f3e0;
+        padding: 23px 0px;
+        margin-top: 0px;
+    }
+
+</style>
 
 <div id="main-content">
     <article id="post-570" class="post-570 page type-page status-publish hentry">
