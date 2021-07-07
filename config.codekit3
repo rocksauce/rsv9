@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/blog\/ad-page.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -322,6 +330,40 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/blog.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/sing-cutom.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/sing-cutom-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/scss\/sing-cutom.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/sing-cutom.css.map",
+      "oF" : 0
+    },
+    "\/scss\/sing-cutom.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/sing-cutom.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1090,6 +1132,26 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/work\/assets\/sass\/clock-a-doodle.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/assets\/sass\/clock-a-doodle-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/work\/assets\/sass\/clock-a-doodle.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/assets\/sass\/clock-a-doodle.css.map",
+      "oF" : 0
+    },
     "\/work\/assets\/sass\/clock-a-doodle.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1118,6 +1180,26 @@
       "pg" : 1,
       "sct" : 0
     },
+    "\/work\/assets\/sass\/metasauce.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/assets\/sass\/metasauce-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/work\/assets\/sass\/metasauce.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/assets\/sass\/metasauce.css.map",
+      "oF" : 0
+    },
     "\/work\/assets\/sass\/metasauce.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1131,6 +1213,26 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/work\/assets\/sass\/normalize.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/assets\/sass\/normalize-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/work\/assets\/sass\/normalize.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/assets\/sass\/normalize.css.map",
+      "oF" : 0
     },
     "\/work\/assets\/sass\/normalize.scss" : {
       "aP" : 0,
@@ -1567,6 +1669,26 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/work\/highball\/assets\/sass\/metasauce.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/highball\/assets\/sass\/metasauce-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/work\/highball\/assets\/sass\/metasauce.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/highball\/assets\/sass\/metasauce.css.map",
+      "oF" : 0
+    },
     "\/work\/highball\/assets\/sass\/metasauce.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1580,6 +1702,26 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/work\/highball\/assets\/sass\/normalize.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/highball\/assets\/sass\/normalize-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/work\/highball\/assets\/sass\/normalize.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/work\/highball\/assets\/sass\/normalize.css.map",
+      "oF" : 0
     },
     "\/work\/highball\/assets\/sass\/normalize.scss" : {
       "aP" : 0,
