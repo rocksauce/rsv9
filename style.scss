@@ -16,13 +16,10 @@
 \* ------------------------------------------------------------ */
 
 /* ------------------------------------------------------------ *\
-	Global Colors
+	Globals
 \* ------------------------------------------------------------ */
-	$color_cream: #F6F3E0;
-	$color_violet: #A06BCE;
-	$color_dark_gray: #373737;
-	$color_medium_gray: #676661;
-	$color_clean: #FBF9F6;
+@import 'scss/_global_colors';
+@import 'scss/_global_fonts';
 
 /* ------------------------------------------------------------ *\
 	Global Animations + Transitions
@@ -432,13 +429,19 @@ body {
 	box-shadow: none !important;
 	padding: 15px 0;
 	-webkit-transition: all .3s;
-			transition: all .3s;
+		transition: all .3s;
+	z-index:1000000 !important;
+	background: rgba(246,243,224,0.8) !important;
+	backdrop-filter: blur(10px);
+	box-shadow: none !important;
+	z-index:1000000 !important;
 }
 
 #main-header.et-fixed-header {
 	background: rgba(246,243,224,0.8) !important;
 	backdrop-filter: blur(10px);
 	box-shadow: none !important;
+	z-index:1000000 !important;
 }
 #page-container {
 	padding-top: 100px !important;
@@ -483,6 +486,7 @@ body {
 .et_header_style_left #et-top-navigation,
 .et_header_style_split #et-top-navigation {
 	padding: 33px 0 0 !important;
+
 }
 .nav li {
 	padding: 0 0 0 10px !important;
@@ -697,6 +701,11 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	margin-top: 14px;
 	color: #df5b4e !important;
 }
+
+#et-boc {
+
+}
+
 .footer-body .et_pb_column + .et_pb_column p {
 	padding: 0;
 	margin-bottom: 42px;

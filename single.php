@@ -14,71 +14,65 @@ if( $image == ''){
 $author_id = get_post_field( 'post_author', get_the_ID() );
 
 ?>
-
-<style>
-    figure.alignleft.size-large{
-        width: 960px;
-        position: relative;
-        display: -ms-inline-grid;
-        display: inline-grid;
-        margin: 0px 0px 0px -210px !important;
-        background: #FFFFAA;
-        height: 550px;
-    }
-
-    figure.alignleft.size-large > img {
-        max-height: 480px;
-    }
-
-    figure.alignleft.size-large> figcaption {
-        display: table-caption;
-        caption-side: bottom;
-        background: #f6f3e0;
-        padding: 23px 0px;
-        margin-top: 0px;
-    }
-
-</style>
-
+<!-- Main Hero -->
+    <div id="blog_single_content">
+        <!-- Hero photo + text -->
+        <div id="blog_single_hero_photo" style="background-image: url(<?=$image?>)!important;">
+            <div id="blog_single_hero_text_container">
+                <div id="blog_single_hero_text">
+                    <div>
+                        <h3><a href="/blog/" class="blog_single_hero_backlink">Blog</a></h3>
+                    </div>
+                    <div>
+                        <h1 class="blog_single_hero_title"><?=get_the_title() ?></h1>
+                    </div>
+                    <div>
+                        <h4>
+                            <a href="#" class="blog_single_hero_byline"><?= get_the_author_meta('display_name', $author_id)?></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /Main Hero -->
+<!-- Blog Content -->
+    <div id="blog_article_content_container">
+    <!-- Date + categories -->
+        <ul id="blog_date_and_categories">
+            <li id="blog_date_large"><?= the_time( 'd' ) ?></li>
+            <li id="blog_month_year"><?= the_time( 'F Y' ) ?></li>
+            <li id="blog_categories">
+                <ul class="blog_category_list">
+                    <?php
+                        $categories = get_the_category();
+                            foreach ($categories as $key => $category) {
+                        ?>
+                        <li class="blog_category_list_item">
+                            <a href="<?=esc_attr( esc_url( get_category_link( $category->term_id ) ) )?>"><?= esc_html( $category->name ) ?></a>
+                        </li>
+                    <?php
+                        }
+                    ?>
+                </ul>
+            </li>
+        </ul>
+    <!-- /Date + categories -->
+    <!-- Blog article content -->
+        <div id="blog_article_content">
+           <?=the_content()?>
+        </div>
+    <!-- /Blog article content -->
+</div>
+<!-- / Blog Content -->
 <div id="main-content">
-    <article id="post-570" class="post-570 page type-page status-publish hentry">
+
+    <article class="type-page status-publish hentry">
 
 
         <div class="entry-content">
             <div class="et-l et-l--post">
                 <div class="et_builder_inner_content et_pb_gutters1">
-                    <div 
-                        class="et_pb_section et_pb_section_0 et_pb_with_background et_section_regular et_pb_section_sticky" 
-                        style="background-image: url(<?=$image?>)!important;"
-                    >
-                        <div class="et_pb_row et_pb_row_0 et_pb_equal_columns et-last-child">
-                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
-
-
-                                <div class="text-inner et_pb_module et_pb_text et_pb_text_0 et_pb_text_align_left et_pb_bg_layout_light et_had_animation" >
-
-
-                                    <div class="et_pb_text_inner">
-                                        <h3 class="archive_type">Blog</h3>
-                                        <h3 class="archive_title"><?=get_the_title() ?></h3>
-                                        <h3 class="archive_autor"><?= get_the_author_meta('display_name', $author_id)?></h3>
-                                    </div>
-                                </div> <!-- .et_pb_text -->
-                            </div> <!-- .et_pb_column -->
-                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_1 et_pb_css_mix_blend_mode_passthrough et_pb_row_sticky">
-
-
-                                <div class="et_pb_module et_pb_image et_pb_image_0 et_pb_image_sticky et-animated et_had_animation"  >
-
-
-                                    <span class="et_pb_image_wrap "><img src="https://rocksaucedev.wpengine.com/wp-content/uploads/2021/06/conference_illustration_01.png" alt="" title=""></span>
-                                </div>
-                            </div> <!-- .et_pb_column -->
-                           
-
-                        </div> <!-- .et_pb_row -->
-
-
                     </div> <!-- .et_pb_section -->
                     <div class="et_pb_section et_pb_section_1 et_section_regular">
 
@@ -101,7 +95,7 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
 
                                     <div class="et_pb_text_inner">
                                         <p><?= the_time( 'F Y' ) ?></p>
-        
+
                                     </div>
                                 </div> <!-- .et_pb_text -->
                                 <div class="categories_rs et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
@@ -109,7 +103,7 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
 
                                     <div class="et_pb_text_inner">
                                         <ul>
-                                            <?php 
+                                            <?php
                                                 $categories = get_the_category();
                                                 foreach ($categories as $key => $category) {
                                             ?>
