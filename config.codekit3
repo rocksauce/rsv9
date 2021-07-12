@@ -102,6 +102,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/blog_image_repeating_bg.png" : {
+      "ft" : 32768,
+      "iS" : 88,
+      "oA" : 0,
+      "oAP" : "\/images\/blog_image_repeating_bg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/blog_photo_bg.png" : {
       "ft" : 32768,
       "iS" : 144,
@@ -114,6 +127,27 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/images\/blog_thinkery_interface_elements_austin.jpg" : {
+      "ft" : 16384,
+      "iS" : 758251,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/blog_thinkery_interface_elements_austin.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Design Sprints, Safaris Workshops.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/images\/Design Sprints, Safaris Workshops-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/images\/footer-layouts.png" : {
       "ft" : 32768,
