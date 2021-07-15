@@ -1,7 +1,10 @@
 <?php
-
     $args = array(
         'post_type' => 'ad-cta',
+    remove_all_filters('posts_orderby');
+    $args = array(
+        'post_type' => 'ad-cta',
+        ccae0874102e5b05ddae5318dcb9e59dbb1c3b05
         'posts_per_page' => 1,
         'orderby' => 'rand'
     );
@@ -28,8 +31,10 @@
                 'purple',
                 'green',
                 'red',
+            ];
+
+            $colors2 = [
                 'grey',
-                'black',
                 'blue',
                 'orange'
             ];
@@ -60,16 +65,16 @@
 
                 </div> <!-- .et_pb_row -->
                 <div class="et_pb_row et_pb_row_4">
-                    <div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                    <div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child ">
 
                         <?php if($link_one){ ?>
                             <div class="et_pb_button_module_wrapper  et_pb_module ">
-                                <a class="et_pb_button et_pb_button_0 btn-<?php echo $colors[rand(0,6)] ?> et_pb_bg_layout_light" href="<?=$link_one?>"><?=$text_button_one?></a>
+                                <a class="et_pb_button et_pb_button_0 rsv-9-buttons btn-<?php echo $colors[rand(0,2)] ?> et_pb_bg_layout_light" href="<?=$link_one?>"><?=$text_button_one?></a>
                             </div>
                         <?php } ?>
                         <?php if($link_two){ ?>
                             <div class="et_pb_button_module_wrapper  et_pb_module ">
-                                <a class="et_pb_button et_pb_button_1 btn-<?php echo $colors[rand(0,6)] ?> et_pb_bg_layout_light" href="<?=$link_two?>"><?=$text_button_two?></a>
+                                <a class="et_pb_button et_pb_button_1 rsv-9-buttons btn-<?php echo $colors2[rand(0,2)] ?> et_pb_bg_layout_light" href="<?=$link_two?>"><?=$text_button_two?></a>
                             </div>
                         <?php } ?>
                     </div> <!-- .et_pb_column -->
