@@ -209,6 +209,7 @@
 	margin-top:64px;
 	letter-spacing:-.02em;
 	justify-content:space-between;
+	padding-bottom:104px;
 }
 
 #blog_article_content {
@@ -330,21 +331,103 @@ blockquote {
 		padding:16px !important;
 		border-radius:4px;
 		background: linear-gradient(90deg, rgba(209,242,255,1) 8px, rgba(249,246,235,1) 8px, rgba(249,246,235,1) 100%);
-		transition: background-color 0.5s ease !important;
+		@include active_fade();
 	}
 
 	p {
-		transition: background-color 0.5s ease !important;
+		@include active_fade();
 
 		&:hover {
 			background: linear-gradient(90deg, rgba(223,097,078,1) 8px, rgba(249,246,235,1) 8px, rgba(249,246,235,1) 100%);
-			transition: background-color 0.5s ease !important;
+			@include active_fade();
 		}
 	}
+}
 
-	&:hover {
+#other_blog_articles {
+	display:grid;
+	max-width:1200px;
+	margin:0 auto;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-content:space-between;
+	gap:39px;
+	padding:104px 0 104px 0;
+
+	.other_blog_article {
+		min-width:374px;
+		display:inline-grid;
+		grid-gap:8px;
+		grid-template-rows: repeat(3, min-content);
+		margin:0;
+		padding:0;
+		@include active_fade();
+
+		&:hover, &:active, &:focus {
+			transform:translateY(-10px);
+			@include active_fade();
+
+			.other_blog_article_image {
+				@include active_fade();
+				box-shadow: 0 2px 24px rgba(0,0,0,.15);
+			}
+
+			.other_blog_article_title {
+				color:$color_fire;
+				text-decoration-color:$color_subtle_link_fire;
+			}
+		}
+
+
+		.other_blog_article_image {
+			min-width:374px;
+			min-height:168px;
+			height:168px;
+			width:100%;
+			display:inline-grid;
+			overflow:hidden;
+			background-size:cover;
+			background-repeat:no-repeat;
+			background-position:center center;
+			border-radius:4px;
+			overflow:hidden;
+			margin:0;
+			padding:0;
+			@include active_fade();
+		}
+
+		.other_blog_article_title {
+			font-size:24px;
+			font-weight:bold;
+			line-height:.9;
+			display:inline-grid;
+			margin:8px 0 0 0;
+			padding:0;
+			color:$color_dark_gray;
+			text-decoration:underline;
+			text-decoration-thickness:3px;
+			text-decoration-color:$color_subtle_link_gray;
+			@include active_fade();
+
+			&:hover, &:active, &:focus {
+				color:$color_fire;
+				text-decoration-color:$color_subtle_link_fire;
+				@include active_fade();
+			}
+		}
+		.other_blog_article_summary p {
+			font-size:16px;
+			font-weight:500;
+			line-height:1.3;
+			letter-spacing: -0.02em;
+			display:inline-grid;
+			margin:0;
+			padding:0;
+		}
 	}
 }
+
+
+
 
 .single-post{
 	#main-content{
@@ -383,7 +466,7 @@ blockquote {
 										.archive_title {
 											font-size: 72px;
 											line-height:.9;
-											letter-spacing:-2px;
+											letter-spacing: -0.04em;
 											font-weight: bold;
 										}
 										.archive_autor{

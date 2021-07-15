@@ -1,7 +1,7 @@
 <?php
 
-    $args = array( 
-        'post_type' => 'ad-cta', 
+    $args = array(
+        'post_type' => 'ad-cta',
         'posts_per_page' => 1,
         'orderby' => 'rand'
     );
@@ -12,11 +12,11 @@
         while ( $adlBlock->have_posts() ) : $adlBlock->the_post();
             $bkg_image = get_the_post_thumbnail_url();
             if( $bkg_image == ''){
-                $bkg_image = '/wp-content/themes/rsv9/images/no-image.png';
+                $bkg_image = '/wp-content/themes/rsv9/images/no-image.jpg';
             }
 
             // configure all this variables on admin
-        
+
 
             $text_button_one = get_post_meta(get_the_ID(), '_add_cta_link_one', true);
             $link_one = get_post_meta(get_the_ID(), '_add_cta_link_one_url', true);
