@@ -9,7 +9,7 @@
                 <div class="et_pb_text_inner">
                     <h1>Blog</h1>
                     <ul>
-                        <li><a href="/blog-posts">All</a></li>
+                        <li><a href="/blog">All</a></li>
                         <?php 
                             $categories = get_categories( array(
                                 'orderby' => 'name',
