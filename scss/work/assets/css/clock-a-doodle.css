@@ -1,0 +1,1066 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+@import url("http://fonts.googleapis.com/css?family=Questrial");
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+
+/*
+	Light Nav + Footer Styles
+*/
+#logo {
+  filter: invert(1) sepia(24%) saturate(159%) hue-rotate(352deg) brightness(122%) contrast(93%) !important;
+}
+
+#main-header {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px) !important;
+}
+#main-header ul li a:not(:hover) {
+  color: #F6F3E0 !important;
+}
+
+#rsv9-footer-logo {
+  fill: #F6F3E0 !important;
+}
+
+@font-face {
+  font-family: "heroic_condensedregular";
+  src: url("../fonts/hc.eot");
+  src: url("../fonts/hc.eot?#iefix") format("embedded-opentype"), url("../fonts/hc.woff2") format("woff2"), url("../fonts/hc.woff") format("woff"), url("../fonts/hc.ttf") format("truetype"), url("../fonts/hc.svg#heroic_condensedregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+#main-header {
+  background-color: rgba(83, 72, 71, 0.5) !important;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #534847 !important;
+}
+
+.case-study-single {
+  background: #534847;
+  font-family: "Questrial", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+  margin: 0 auto;
+}
+.case-study-single #top {
+  padding: 6vw 0 6vw 4vw;
+  overflow: hidden;
+  display: inline-block;
+}
+.case-study-single #top .clock {
+  width: 30%;
+  display: block;
+  overflow: visible;
+  float: left;
+}
+.case-study-single #top .clock img {
+  width: 100%;
+}
+.case-study-single #top .description {
+  float: right;
+  width: 60%;
+  margin-top: 7%;
+}
+.case-study-single #top .description .logo {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/lfm720gndcp49wai7q8d.png) no-repeat #5c5150 center center;
+  background-size: 80%;
+  padding: 8vw;
+  width: 13%;
+}
+.case-study-single #top .description .text {
+  padding: 2vw;
+  background: #4d4342;
+}
+.case-study-single #top .description .text h1 {
+  font-family: "heroic_condensedregular", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+  color: #41b8ea;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+.case-study-single #top .description .text p {
+  font-family: "Questrial", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+  color: #fff;
+  font-size: 1.6vw;
+  line-height: 2.3vw;
+}
+.case-study-single #top .description .alarmIcon {
+  width: 13%;
+  background: #ffc51b;
+}
+.case-study-single #top .description .alarmIcon img {
+  width: 100%;
+}
+.case-study-single .bigPhoto {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/yo5bgmffemzvq1ubid95.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 74vw;
+}
+.case-study-single .bigPhoto .text {
+  margin-top: 35vw;
+  padding: 2vw;
+  width: 36%;
+  float: right;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 3px #000000;
+}
+.case-study-single .bigPhoto .text h1 {
+  font-family: "heroic_condensedregular", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+  font-size: 3.8vw;
+  color: #ffc51b;
+}
+.case-study-single .bigPhoto .text p {
+  color: #fff;
+  font-size: 1.6vw;
+  line-height: 2.6vw;
+  text-align: justify;
+  padding-bottom: 1.7vw;
+}
+.case-study-single .multiColor {
+  background: #fff;
+  width: 100%;
+  background-size: 100%;
+  padding-top: 5vw;
+  overflow: hidden;
+}
+.case-study-single .multiColor .text {
+  width: 100%;
+  margin: 0 auto;
+}
+.case-study-single .multiColor .text h1 {
+  text-align: center;
+  font-family: "heroic_condensedregular", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+  font-size: 8vw;
+  color: #3d3434;
+}
+.case-study-single .multiColor .text p {
+  font-family: "Questrial", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+  text-align: justify;
+  font-size: 2.2vw;
+  line-height: 3.3vw;
+  padding-top: 1.5vw;
+  width: 62%;
+  margin: 0 auto;
+}
+.case-study-single .multiColor .appMap {
+  float: right;
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/gzeobnyhtgs4ymj4urfx.png) no-repeat right top;
+  background-size: 97%;
+  width: 100%;
+  height: 139.5vw;
+  display: block;
+  z-index: 10000;
+  overflow: hidden;
+  margin-top: 5vw;
+  margin-bottom: -26vw;
+}
+.case-study-single .multiColor .logosAndMore {
+  clear: both;
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/rzldkktsu8vzhmsjiwrj.png) no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 325vw;
+  position: relative;
+}
+.case-study-single .multiColor .logosAndMore .text {
+  padding-top: 31vw;
+}
+.case-study-single .multiColor .logosAndMore .logoList {
+  width: 62%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.8vw;
+}
+.case-study-single .multiColor .logosAndMore .logoList .logo {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.case-study-single .multiColor .logosAndMore .logoList .logo img {
+  width: 70%;
+}
+.case-study-single .multiColor .logosAndMore .logoList .bigLogo {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 8vw;
+}
+.case-study-single .multiColor .logosAndMore .logoList .bigLogo img {
+  width: 75%;
+}
+.case-study-single .multiColor .logosAndMore .devices {
+  margin-top: 15vw;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.case-study-single .multiColor .logosAndMore .devices .nexus9 {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/u3ke9kh0kcglntu0pjfe.png) no-repeat;
+  background-size: 100%;
+  width: 80vw;
+  height: 54vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10010;
+}
+.case-study-single .multiColor .logosAndMore .devices .iphone6gold {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/aju7umk6hae4k1bbpvha.png) no-repeat;
+  background-size: 100%;
+  width: 26vw;
+  height: 56vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10020;
+  top: -35vw;
+  left: -33vw;
+}
+.case-study-single .multiColor .logosAndMore .devices .samsungGalaxy {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/ewalsoxgynj9alyu699m.png) no-repeat;
+  background-size: 100%;
+  width: 28vw;
+  height: 58vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10020;
+  top: -91vw;
+  right: -32vw;
+}
+.case-study-single .multiColor .logosAndMore .devices .iphone5 {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/l2fiegiiyd1xg29nxz42.png) no-repeat;
+  background-size: 100%;
+  width: 24vw;
+  height: 54vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10020;
+  top: -120vw;
+}
+.case-study-single .multiColor .logosAndMore .devices .iphone6black {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/uxvgtix2lcd2fthoqqoj.png) no-repeat;
+  background-size: 100%;
+  width: 26vw;
+  height: 56vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10020;
+  top: -145vw;
+  left: -33vw;
+}
+.case-study-single .multiColor .logosAndMore .devices .onePlus {
+  background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/r642bgp7ksl67rilnbj6.png) no-repeat;
+  background-size: 100%;
+  width: 28vw;
+  height: 58vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10020;
+  top: -202vw;
+  right: -32vw;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  .case-study-single #top {
+    padding: 25vw 0 0 0;
+  }
+  .case-study-single #top .clock {
+    text-align: center;
+    width: 100%;
+    display: block;
+    overflow: visible;
+    float: none;
+    padding-bottom: 10vw;
+  }
+  .case-study-single #top .clock img {
+    width: 75%;
+  }
+  .case-study-single #top .description {
+    background: #fff;
+    float: none;
+    width: 100%;
+    margin-top: 7%;
+  }
+  .case-study-single #top .description .logo {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/lfm720gndcp49wai7q8d.png) no-repeat #5c5150 center center;
+    background-size: 80%;
+    padding: 8vw;
+    width: 50%;
+    height: 40vw;
+  }
+  .case-study-single #top .description .text {
+    padding: 5vw;
+    background: #4d4342;
+  }
+  .case-study-single #top .description .text h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+  .case-study-single #top .description .text p {
+    text-align: center;
+    font-size: 4.5vw;
+    line-height: 6.5vw;
+    margin-top: 2vw;
+  }
+  .case-study-single #top .description .alarmIcon {
+    display: none;
+  }
+  .case-study-single .bigPhoto {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/yo5bgmffemzvq1ubid95.jpg) no-repeat -20vw 0;
+    background-size: 200%;
+    width: 100%;
+    height: 130vw;
+  }
+  .case-study-single .bigPhoto .text {
+    margin-top: 13vw;
+    padding: 2vw;
+    width: 100%;
+    float: none;
+    text-shadow: 0px 0px 10px #000000, 0px 0px 3px #000000;
+    text-align: center;
+    display: inline-block;
+  }
+  .case-study-single .bigPhoto .text h1 {
+    font-family: "heroic_condensedregular", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+    font-size: 11vw;
+    color: #ffc51b;
+  }
+  .case-study-single .bigPhoto .text p {
+    color: #fff;
+    font-size: 4vw;
+    line-height: 6.5vw;
+    text-align: center;
+    padding: 2vw 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .case-study-single .multiColor .text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .case-study-single .multiColor .text h1 {
+    font-size: 15vw;
+  }
+  .case-study-single .multiColor .text p {
+    text-align: center;
+    font-size: 6vw;
+    line-height: 7.5vw;
+    padding-top: 1.5vw;
+    width: 88%;
+    margin: 0 auto;
+  }
+  .case-study-single .multiColor .appMap {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/gzeobnyhtgs4ymj4urfx.png) no-repeat left top;
+    background-size: 250%;
+    width: 100%;
+    height: 300vw;
+  }
+  .case-study-single .multiColor .logosAndMore {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/rzldkktsu8vzhmsjiwrj.png) no-repeat;
+    background-size: 340%;
+    width: 100%;
+    height: 1245vw;
+  }
+  .case-study-single .multiColor .logosAndMore .text {
+    padding-top: 5vw;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList {
+    width: 100%;
+    margin-top: 0.8vw;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList .logo {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList .logo img {
+    width: 70%;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList .bigLogo {
+    padding-top: 0vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices {
+    margin-top: 15vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .nexus9 {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/u3ke9kh0kcglntu0pjfe.png) no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 60vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .iphone6gold {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/aju7umk6hae4k1bbpvha.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 110vw;
+    margin-top: 42vw;
+    left: 0vw;
+    clear: both;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .samsungGalaxy {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/ewalsoxgynj9alyu699m.png) no-repeat;
+    background-size: 100%;
+    width: 55%;
+    height: 115vw;
+    margin-top: -37vw;
+    top: 0vw;
+    right: 0vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .iphone5 {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/l2fiegiiyd1xg29nxz42.png) no-repeat;
+    background-size: 100%;
+    width: 50vw;
+    height: 104.6vw;
+    top: 0vw;
+    margin-top: -3vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .iphone6black {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/uxvgtix2lcd2fthoqqoj.png) no-repeat;
+    background-size: 100%;
+    width: 55vw;
+    height: 111.5vw;
+    top: 0vw;
+    left: 0vw;
+    margin-top: 5vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .onePlus {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/r642bgp7ksl67rilnbj6.png) no-repeat;
+    background-size: 100%;
+    width: 57vw;
+    height: 117vw;
+    top: 0vw;
+    right: 0vw;
+    margin-top: 5vw;
+  }
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+  .case-study-single #top {
+    padding: 25vw 0 0 0;
+  }
+  .case-study-single #top .clock {
+    text-align: center;
+    width: 100%;
+    display: block;
+    overflow: visible;
+    float: none;
+    padding-bottom: 10vw;
+  }
+  .case-study-single #top .clock img {
+    width: 75%;
+  }
+  .case-study-single #top .description {
+    background: #fff;
+    float: none;
+    width: 100%;
+    margin-top: 7%;
+  }
+  .case-study-single #top .description .logo {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/lfm720gndcp49wai7q8d.png) no-repeat #5c5150 center center;
+    background-size: 80%;
+    padding: 8vw;
+    width: 50%;
+    height: 40vw;
+  }
+  .case-study-single #top .description .text {
+    padding: 5vw;
+    background: #4d4342;
+  }
+  .case-study-single #top .description .text h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+  .case-study-single #top .description .text p {
+    text-align: center;
+    font-size: 4.5vw;
+    line-height: 6.5vw;
+    margin-top: 2vw;
+  }
+  .case-study-single #top .description .alarmIcon {
+    display: none;
+  }
+  .case-study-single .bigPhoto {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/yo5bgmffemzvq1ubid95.jpg) no-repeat -20vw 0;
+    background-size: 200%;
+    width: 100%;
+    height: 130vw;
+  }
+  .case-study-single .bigPhoto .text {
+    margin-top: 13vw;
+    padding: 2vw;
+    width: 100%;
+    float: none;
+    text-shadow: 0px 0px 10px #000000, 0px 0px 3px #000000;
+    text-align: center;
+    display: inline-block;
+  }
+  .case-study-single .bigPhoto .text h1 {
+    font-family: "heroic_condensedregular", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
+    font-size: 11vw;
+    color: #ffc51b;
+  }
+  .case-study-single .bigPhoto .text p {
+    color: #fff;
+    font-size: 4vw;
+    line-height: 6.5vw;
+    text-align: center;
+    padding: 2vw 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .case-study-single .multiColor .text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .case-study-single .multiColor .text h1 {
+    font-size: 15vw;
+  }
+  .case-study-single .multiColor .text p {
+    text-align: center;
+    font-size: 6vw;
+    line-height: 7.5vw;
+    padding-top: 1.5vw;
+    width: 88%;
+    margin: 0 auto;
+  }
+  .case-study-single .multiColor .appMap {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/gzeobnyhtgs4ymj4urfx.png) no-repeat left top;
+    background-size: 250%;
+    width: 100%;
+    height: 300vw;
+  }
+  .case-study-single .multiColor .logosAndMore {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/rzldkktsu8vzhmsjiwrj.png) no-repeat;
+    background-size: 340%;
+    width: 100%;
+    height: 1245vw;
+  }
+  .case-study-single .multiColor .logosAndMore .text {
+    padding-top: 5vw;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList {
+    width: 100%;
+    margin-top: 0.8vw;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList .logo {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList .logo img {
+    width: 70%;
+  }
+  .case-study-single .multiColor .logosAndMore .logoList .bigLogo {
+    padding-top: 0vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices {
+    margin-top: 15vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .nexus9 {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/u3ke9kh0kcglntu0pjfe.png) no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 60vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .iphone6gold {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/aju7umk6hae4k1bbpvha.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 110vw;
+    margin-top: 42vw;
+    left: 0vw;
+    clear: both;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .samsungGalaxy {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581640/ewalsoxgynj9alyu699m.png) no-repeat;
+    background-size: 100%;
+    width: 55%;
+    height: 115vw;
+    margin-top: -37vw;
+    top: 0vw;
+    right: 0vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .iphone5 {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/l2fiegiiyd1xg29nxz42.png) no-repeat;
+    background-size: 100%;
+    width: 50vw;
+    height: 104.6vw;
+    top: 0vw;
+    margin-top: -3vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .iphone6black {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/uxvgtix2lcd2fthoqqoj.png) no-repeat;
+    background-size: 100%;
+    width: 55vw;
+    height: 111.5vw;
+    top: 0vw;
+    left: 0vw;
+    margin-top: 5vw;
+  }
+  .case-study-single .multiColor .logosAndMore .devices .onePlus {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581638/r642bgp7ksl67rilnbj6.png) no-repeat;
+    background-size: 100%;
+    width: 57vw;
+    height: 117vw;
+    top: 0vw;
+    right: 0vw;
+    margin-top: 5vw;
+  }
+}
+footer {
+  background-color: #5D5150 !important;
+  padding-top: 100px !important;
+}
