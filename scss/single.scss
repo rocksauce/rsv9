@@ -96,10 +96,10 @@
 				8px 0 0 $color_cream,
 				-8px 0 0 $color_cream;
 
-			&:hover, &:active, &:focus, &:visited {
-				color:$color_fire;
-				text-decoration-color: $color_dark_gray;
-			}
+				&:hover, &:active, &:focus, &:visited {
+					color:$color_fire !important;
+					text-decoration-color: $color_dark_gray !important;
+				}
     		}
 
 		.blog_single_hero_title {
@@ -138,8 +138,6 @@
 			}
 		}
 	}
-
-h2
 
 #blog_date_and_categories {
 	list-style:none;

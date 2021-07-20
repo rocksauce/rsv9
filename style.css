@@ -210,8 +210,8 @@
   box-shadow: 8px -4px 0 #F6F3E0, -8px -4px 0 #F6F3E0, 8px 0 0 #F6F3E0, -8px 0 0 #F6F3E0;
 }
 #blog_single_hero_text .blog_single_hero_backlink:hover, #blog_single_hero_text .blog_single_hero_backlink:active, #blog_single_hero_text .blog_single_hero_backlink:focus, #blog_single_hero_text .blog_single_hero_backlink:visited {
-  color: #DF5B4E;
-  text-decoration-color: #373737;
+  color: #DF5B4E !important;
+  text-decoration-color: #373737 !important;
 }
 #blog_single_hero_text .blog_single_hero_title {
   font-size: 24px;
@@ -239,7 +239,7 @@
   text-decoration-color: #DF5B4E;
 }
 
-h2 #blog_date_and_categories {
+#blog_date_and_categories {
   list-style: none;
   margin: 0;
   padding: 0 0 0 8px;
@@ -248,13 +248,13 @@ h2 #blog_date_and_categories {
   height: auto;
   display: inline-block;
 }
-h2 #blog_date_and_categories li {
+#blog_date_and_categories li {
   list-style: none;
   margin: 0;
   padding: 0;
   display: block;
 }
-h2 #blog_date_and_categories #blog_date_large {
+#blog_date_and_categories #blog_date_large {
   font-size: 160px;
   color: #373737;
   font-weight: bold;
@@ -262,23 +262,23 @@ h2 #blog_date_and_categories #blog_date_large {
   line-height: 1;
   letter-spacing: -0.03em;
 }
-h2 #blog_date_and_categories #blog_month_year {
+#blog_date_and_categories #blog_month_year {
   font-size: 24px;
   font-weight: bold;
   letter-spacing: -0.03em;
 }
-h2 #blog_date_and_categories .blog_category_list {
+#blog_date_and_categories .blog_category_list {
   list-style: none;
   margin: 32px 0 0 0;
 }
-h2 #blog_date_and_categories .blog_category_list li.blog_category_list_item {
+#blog_date_and_categories .blog_category_list li.blog_category_list_item {
   margin: 0;
   padding: 0;
   display: block;
   line-height: 1;
   margin-bottom: 8px;
 }
-h2 #blog_date_and_categories .blog_category_list li.blog_category_list_item a {
+#blog_date_and_categories .blog_category_list li.blog_category_list_item a {
   color: #DF5B4E;
   text-decoration: underline;
   text-decoration-color: #F3DCCA;
@@ -287,7 +287,7 @@ h2 #blog_date_and_categories .blog_category_list li.blog_category_list_item a {
   font-weight: bold;
   letter-spacing: -0.04em;
 }
-h2 #blog_date_and_categories .blog_category_list li.blog_category_list_item a:active, h2 #blog_date_and_categories .blog_category_list li.blog_category_list_item a:hover, h2 #blog_date_and_categories .blog_category_list li.blog_category_list_item a:focus {
+#blog_date_and_categories .blog_category_list li.blog_category_list_item a:active, #blog_date_and_categories .blog_category_list li.blog_category_list_item a:hover, #blog_date_and_categories .blog_category_list li.blog_category_list_item a:focus {
   color: #373737 !important;
   text-decoration-color: #DF5B4E;
 }
