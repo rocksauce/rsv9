@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/blog-single.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog-single.html",
+      "oF" : 0
+    },
     "\/blog\/ad-page.php" : {
       "cB" : 0,
       "ft" : 8192,

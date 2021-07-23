@@ -59,7 +59,6 @@
 	#blog_single_hero_text_container {
 		max-width:1200px;
 		width:90%;
-		margin:0 auto;
 		position:relative;
 		margin:auto;
 	}
@@ -201,89 +200,7 @@
 	}
 }
 
-#blog_article_content_container {
-	display:grid;
-	grid-template-columns:184px 600px;
-	max-width:936px;
-	width:100%;
-	grid-gap:24px;
-	margin:0 auto;
-	margin-top:64px;
-	letter-spacing:-.02em;
-	justify-content:space-between;
-	padding-bottom:104px;
-}
 
-#blog_article_content {
-	width:100%;
-
-	p:first-of-type {
-		font-size:24px;
-		font-weight:normal;
-		line-height:1.5;
-		letter-spacing:-.03em;
-	}
-
-	h3 {
-		font-size:40px;
-		font-weight:bold;
-		letter-spacing:-.04em;
-		margin:32px 0 8px 0;
-		padding:0;
-	}
-
-	h2 {
-		font-size:48px;
-		font-weight:bold;
-		letter-spacing:-.04em;
-		margin:32px 0 8px 0;
-		padding:0;
-
-	}
-
-	h4 {
-		font-size:24;
-		font-weight:bold;
-		letter-spacing:-.03em;
-		margin:32px 0 8px 0;
-		padding:0;
-	}
-
-
-	p, li, blockquote {
-		font-size:16px;
-		line-height:1.5;
-		margin:0 0 16px 0;
-		padding:0;
-	}
-
-	ul {
-		width:90%;
-		margin:0 auto;
-		margin-top:24px;
-		margin-bottom:32px;
-	}
-
-	li {
-		list-style-type: '⚡️';
-		padding-left:8px;
-		line-height:1;
-		margin:0 0 24px 8px;
-		font-weight:600;
-	}
-
-	a {
-		color:$color_fire;
-		text-decoration:underline;
-		text-decoration-color:$color_subtle_link_fire;
-		text-decoration-thickness:3px;
-
-		&:hover, &:active, &:focus {
-			color:$color_dark_gray;
-			text-decoration-color:$color_fire;
-		}
-	}
-}
 
 .wp-block-image {
 	width:856px !important;
@@ -586,4 +503,144 @@ blockquote {
 			}
 		}
 	}
+}
+
+// Media queries for different Devices
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  	.blog_single_hero_title {
+	  	font-size:32px !important;
+		box-shadow:
+		0 0 0 $color_cream,
+		0 0 0 $color_cream,
+		0 0 0 $color_cream,
+		0 0 0 $color_cream !important;
+		left:0px !important;
+	}
+
+	.blog_single_hero_backlink {
+		font-size:24px !important;
+		background-color:none !important;
+		box-shadow:
+		0 0 0 $color_cream,
+		0 0 0 $color_cream,
+		0 0 0 $color_cream,
+		0 0 0 $color_cream !important;
+	}
+
+	.blog_single_hero_byline {
+		font-size:16px !important;
+		line-height:.9 !important;
+		box-shadow:
+		0 0 0 $color_cream,
+		0 0 0 $color_cream,
+		0 0 0 $color_cream,
+		0 0 0 $color_cream !important;
+	}
+
+	#blog_single_hero_photo {
+		height:264px;
+		background-position:left bottom;
+		width:100%;
+		margin-bottom:48px !important;
+	}
+
+	#blog_single_hero_text_container {
+		width:90% !important;
+		margin-top:40px !important;
+	}
+
+	#blog_article_content_container {
+		grid-template-columns:90% !important;
+		max-width:90% !important;
+		width:90% !important;
+		padding-bottom:32px;
+		margin:0 auto !important;
+	}
+	.blog_category_list {
+		list-style:none;
+		margin:0 0 0 0 !important;
+		display:block !important;
+	}
+
+	.blog_category_list_item	{
+		a {
+			font-size:13px !important;
+		}
+		margin:0 !important;
+		padding:0 !important;
+	}
+
+	#blog_date_large, #blog_month_year {
+		display:inline-block !important;
+		font-size:16px !important
+	}
+
+	#blog_article_content {
+		width:100%;
+
+		p:first-of-type {
+			font-size:16px !important;
+		}
+		h2, h3, h4 {
+			width:100% !important;
+		}
+		h3 {
+			font-size:24px;
+			font-weight:bold !important;
+			letter-spacing:-.03em !important;
+			margin:24px 0 4px 0;
+		}
+
+		h2 {
+			font-size:32px !important;
+			font-weight:bold !important;
+			letter-spacing:-.03em !important;
+			margin:24px 0 4px 0;
+
+		}
+
+		h4 {
+			font-size:16 !important;
+			font-weight:bold !important;
+			letter-spacing:-.03em !important;
+			margin:24px 0 4px 0;
+		}
+
+
+		p, li, blockquote {
+			font-size:14px;
+		}
+
+		ul {
+			width:90%;
+			margin:0 auto;
+			margin-top:24px;
+			margin-bottom:32px;
+		}
+
+		li {
+			list-style-type: '⚡️';
+			padding-left:8px;
+			line-height:1;
+			margin:0 0 24px 8px;
+			font-weight:600;
+		}
+
+		a {
+			color:$color_fire;
+			text-decoration:underline;
+			text-decoration-color:$color_subtle_link_fire;
+			text-decoration-thickness:3px;
+
+			&:hover, &:active, &:focus {
+				color:$color_dark_gray;
+				text-decoration-color:$color_fire;
+			}
+		}
+	}
+
 }
