@@ -244,7 +244,7 @@
 #blog_date_and_categories {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 8px;
+  padding: 0 0 0 0;
   position: relative;
   top: -24px;
   height: auto;
@@ -639,6 +639,60 @@ blockquote p:hover {
   #blog_article_content a:hover, #blog_article_content a:active, #blog_article_content a:focus {
     color: #373737;
     text-decoration-color: #DF5B4E;
+  }
+
+  .wp-block-embed-youtube, .wp-block-embed-youtube iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  .wp-block-embed-youtube figcaption, .wp-block-embed-youtube iframe figcaption {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: interactive;
+    letter-spacing: -0.01em;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .wp-block-image {
+    width: 100%;
+    min-width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 56px 0 48px 0;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    left: 0;
+  }
+  .wp-block-image figure, .wp-block-image .size-large, .wp-block-image .size-small, .wp-block-image .size-med, .wp-block-image .size-medium, .wp-block-image .is-resized {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .wp-block-image img {
+    height: auto !important;
+    width: 90% !important;
+  }
+
+  figcaption {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 0 0;
+    padding: 0;
+    line-height: 1;
+  }
+  figcaption a:link {
+    margin: 0;
+    padding: 8px 0 0 0;
+    line-height: 1;
+    font-size: 12px;
+    color: #676661;
+    text-decoration-color: #676661;
+    text-decoration-thickness: 2px;
+    display: inline-block;
+  }
+  figcaption a:link:hover {
+    color: #DF5B4E;
+    text-decoration-color: #373737;
   }
 }
 #main-header,
