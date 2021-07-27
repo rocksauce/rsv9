@@ -208,6 +208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 90%;
 =======
 =======
@@ -217,6 +218,9 @@
   width: 100%;
   margin: 0 auto;
 >>>>>>> parent of 812aaba (Blog Page CSS)
+=======
+  width: 90%;
+>>>>>>> parent of 320a169 (Reverting?)
   position: relative;
   margin: auto;
 }
@@ -242,6 +246,7 @@
   text-decoration-thickness: 3px !important;
   position: relative;
 }
+<<<<<<< HEAD
 
 #blog_single_hero_text .blog_single_hero_backlink {
   font-size: 32px;
@@ -269,6 +274,8 @@
 >>>>>>> parent of 3a8c47b (Fixing issues)
 }
 
+=======
+>>>>>>> parent of 320a169 (Reverting?)
 #blog_single_hero_text .blog_single_hero_title {
   font-size: 24px;
   font-family: 'Helvetica Neue LT W05_75 Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -277,6 +284,7 @@
   letter-spacing: -.05em;
   position: relative;
   z-index: 0;
+  line-height: 1.1;
   left: -4px;
   -webkit-box-shadow: 12px 0px 0 #F6F3E0, -4px 0px 0 #F6F3E0, 4px 0 0 #F6F3E0, -4px 0 0 #F6F3E0;
           box-shadow: 12px 0px 0 #F6F3E0, -4px 0px 0 #F6F3E0, 4px 0 0 #F6F3E0, -4px 0 0 #F6F3E0;
@@ -303,11 +311,28 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2 #blog_date_and_categories {
 =======
 #blog_date_and_categories {
 >>>>>>> parent of 812aaba (Blog Page CSS)
 =======
+=======
+.blog_single_hero_backlink {
+  font-size: 32px;
+  color: #373737;
+  text-decoration-color: #E4E1D1 !important;
+  position: relative;
+  line-height: 1;
+  z-index: 1;
+  box-shadow: 8px -4px 0 #F6F3E0, -8px -4px 0 #F6F3E0, 8px 0 0 #F6F3E0, -8px 0 0 #F6F3E0;
+}
+.blog_single_hero_backlink:hover, .blog_single_hero_backlink:active, .blog_single_hero_backlink:focus {
+  color: #DF5B4E;
+  text-decoration-color: #373737 !important;
+}
+
+>>>>>>> parent of 320a169 (Reverting?)
 #blog_date_and_categories {
 >>>>>>> parent of 3a8c47b (Fixing issues)
   list-style: none;
