@@ -58,7 +58,12 @@
 
 	#blog_single_hero_text_container {
 		max-width:1200px;
+<<<<<<< HEAD
 		width:90%;
+=======
+		width:100%;
+		margin:0 auto;
+>>>>>>> parent of 812aaba (Blog Page CSS)
 		position:relative;
 		margin:auto;
 	}
@@ -83,6 +88,24 @@
 			position:relative;
 		}
 
+		.blog_single_hero_backlink {
+			font-size: 32px;
+			color: $color_dark_gray;
+			text-decoration-color: $color_subtle_link_gray;
+			position:relative;
+			z-index:1;
+			box-shadow:
+				8px -4px 0 $color_cream,
+				-8px -4px 0 $color_cream,
+				8px 0 0 $color_cream,
+				-8px 0 0 $color_cream;
+
+				&:hover, &:active, &:focus, &:visited {
+					color:$color_fire !important;
+					text-decoration-color: $color_dark_gray !important;
+				}
+    		}
+
 		.blog_single_hero_title {
 			font-size:24px;
 			font-family: 'Helvetica Neue LT W05_75 Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -91,7 +114,6 @@
 			letter-spacing:-.05em;
 			position:relative;
 			z-index:0;
-			line-height:1.1;
 			left:-4px;
 			box-shadow:
 				12px 0px 0 $color_cream,
@@ -120,25 +142,6 @@
 			}
 		}
 	}
-
-.blog_single_hero_backlink {
-	font-size: 32px;
-	color: $color_dark_gray;
-	text-decoration-color: $color_subtle_link_gray !important;
-	position:relative;
-	line-height:1;
-	z-index:1;
-	box-shadow:
-		8px -4px 0 $color_cream,
-		-8px -4px 0 $color_cream,
-		8px 0 0 $color_cream,
-		-8px 0 0 $color_cream;
-
-		&:hover, &:active, &:focus {
-			color:$color_fire;
-			text-decoration-color: $color_dark_gray !important;
-		}
-}
 
 #blog_date_and_categories {
 	list-style:none;
