@@ -111,6 +111,7 @@
 				color:$color_fire;
 				text-decoration-color: $color_dark_gray;
 			}
+<<<<<<< HEAD
 =======
 				&:hover, &:active, &:focus, &:visited {
 					color:$color_fire !important;
@@ -118,6 +119,9 @@
 				}
 >>>>>>> parent of 812aaba (Blog Page CSS)
     		}
+=======
+		    }
+>>>>>>> parent of 3a8c47b (Fixing issues)
 
 		.blog_single_hero_title {
 			font-size:24px;
@@ -157,10 +161,13 @@
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2
 
 =======
 >>>>>>> parent of 812aaba (Blog Page CSS)
+=======
+>>>>>>> parent of 3a8c47b (Fixing issues)
 #blog_date_and_categories {
 	list-style:none;
 	margin:0;
@@ -221,13 +228,76 @@ h2
 	}
 }
 
+<<<<<<< HEAD
+=======
+#blog_article_content_container {
+	display:grid;
+	grid-template-columns:184px 600px;
+	max-width:936px;
+	width:100%;
+	grid-gap:24px;
+	margin:0 auto;
+	margin-top:64px;
+	letter-spacing:-.02em;
+	justify-content:space-between;
+	padding-bottom:104px;
+}
+
+#blog_article_content {
+	width:100%;
+
+	p:first-of-type {
+		font-size:24px;
+		font-weight:normal;
+		line-height:1.5;
+		letter-spacing:-.03em;
+	}
+
+	h3 {
+		font-size:40px;
+		font-weight:bold;
+		letter-spacing:-.04em;
+		margin:32px 0 8px 0;
+		padding:0;
+	}
+
+	h4 {
+		font-size:24;
+		font-weight:bold;
+		letter-spacing:-.03em;
+		margin:32px 0 8px 0;
+		padding:0;
+	}
+
+
+	p, li, blockquote {
+		font-size:16px;
+		line-height:1.5;
+		margin:0 0 16px 0;
+		padding:0;
+	}
+
+	ul {
+		width:90%;
+		margin:0 auto;
+		margin-top:24px;
+		margin-bottom:32px;
+	}
+
+	li {
+		list-style-type: '⚡️';
+		padding-left:8px;
+		line-height:1;
+		margin:0 0 24px 8px;
+		font-weight:600;
+	}
+>>>>>>> parent of 3a8c47b (Fixing issues)
 
 
 .wp-block-image {
-	width:856px !important;
-	min-width:100%;
-	max-height:480px  !important;
-	height:480px !important;
+	width:100% !important;
+	max-width:856px !important;
+	min-width:856px !important;
 	background: linear-gradient(180deg, rgba(251,249,196,1) 0%, rgba(251,249,196,1) 480px, rgba(251,249,196,0) 480px);
 	border-radius:4px !important;
 	display:block !important;
@@ -236,34 +306,12 @@ h2
 	grid-column-start: 1;
 	grid-column-end:2;
 	left:-256px;
-	padding:0 !important;
-	text-align:left !important;
-	align-content:left !important;
-	justify-content:left !important;
 
-
-	figure, .size-large, .size-small, .size-med, .size-medium, .is-resized {
-		height:100% !important;
-		width:auto !important;
-		max-height:480px !important;
-		display:block !important;
-		padding:0 !important;
-		margin:0 !important;
-		text-align:left !important;
-		align-content:left !important;
-		justify-content:left !important;
-	}
 
 	img {
-		height:100% !important;
+		height:480px !important;
 		max-height:480px !important;
 		width:auto !important;
-		padding:0 !important;
-		margin:0 !important;
-		text-align:left !important;
-		align-content:left !important;
-		justify-content:left !important;
-		float:left !important;
 	}
 
 	figcaption {
@@ -506,7 +554,7 @@ blockquote {
 											text-decoration-line: underline;
 
 											color: $color_fire;
-    										padding: 8px 0px 8px;
+										    padding: 8px 0px 8px;
 										}
 									}
 								}

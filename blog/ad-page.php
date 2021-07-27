@@ -1,7 +1,10 @@
 <?php
+$args = array(
+    'post_type' => 'ad-cta',
 remove_all_filters('posts_orderby');
 $args = array(
     'post_type' => 'ad-cta',
+    ccae0874102e5b05ddae5318dcb9e59dbb1c3b05
     'posts_per_page' => 1,
     'orderby' => 'rand'
 );
@@ -12,7 +15,7 @@ if($adlBlock->have_posts() ){
     while ( $adlBlock->have_posts() ) : $adlBlock->the_post();
         $bkg_image = get_the_post_thumbnail_url();
         if( $bkg_image == ''){
-            $bkg_image = '/wp-content/themes/rsv9/images/no-image.png';
+            $bkg_image = '/wp-content/themes/rsv9/images/no-image.jpg';
         }
 
         // configure all this variables on admin
