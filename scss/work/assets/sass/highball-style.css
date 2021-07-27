@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+/*
+	Light Nav + Footer Styles
+*/
+#logo {
+  filter: invert(1) sepia(24%) saturate(159%) hue-rotate(352deg) brightness(122%) contrast(93%) !important;
+}
+
+#main-header {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px) !important;
+}
+#main-header ul li a:not(:hover) {
+  color: #F6F3E0 !important;
+}
+
+#rsv9-footer-logo {
+  fill: #F6F3E0 !important;
+}
+
+body {
+  background-color: #000;
+  background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/ylvsku4tgip95byyxzsu.jpg") !important;
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.case-study-single {
+  padding-top: 100px;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #fff;
+  font-weight: 300;
+  padding-bottom: 150px;
+}
+
+logo {
+  background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/abfxr3gimatnhtv2fufa.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 370px;
+  height: 114px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  color: transparent;
+  margin-bottom: 40px;
+}
+
+#smallQuote {
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+}
+#smallQuote p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#smallQuote p.attribution {
+  color: #dbad27;
+  text-align: right;
+  font-weight: 300;
+}
+
+.appStoreButton {
+  background-color: #dbad27;
+  width: 130px;
+  height: 50px;
+  display: block;
+  transition: all 0.2s ease;
+  margin-top: 0;
+  float: left;
+}
+.appStoreButton:hover {
+  background-color: #fff;
+  transition: all 0.2s ease;
+  margin-top: -5px;
+}
+
+.appStoreLinks {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.appleButton {
+  margin-right: 40px;
+}
+
+#apple {
+  background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/z3la8otl1lnevrsjyssw.svg");
+  width: 100px;
+  height: 36px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 5px;
+}
+
+#google {
+  background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/qqcot2cj4mlihz8xryd5.svg");
+  width: 115px;
+  height: 31px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+#phoneFrameHolder {
+  width: 333px;
+  height: 666px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+#phoneFrameHolder #phoneFrame {
+  background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/azte2wlkfqmztkcghwym.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 333px;
+  height: 666px;
+  display: block;
+  margin-top: -532px;
+  position: relative;
+  z-index: 10;
+}
+#phoneFrameHolder video {
+  width: 301px;
+  height: 532px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  top: 66px;
+  left: 16px;
+}
+
+#description {
+  width: 868px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-bottom: 200px;
+  display: block;
+}
+#description .text {
+  width: 410px;
+  float: left;
+}
+#description .text h1, #description .text h2 {
+  font-size: 45px;
+  color: #dbad27;
+  margin: 0;
+}
+#description .text h1 {
+  font-weight: 500;
+}
+#description .text h2 {
+  font-weight: 300;
+}
+#description .text p {
+  font-size: 22px;
+  line-height: 40px;
+}
+#description .text strong {
+  font-weight: 400;
+}
+#description #highballPhotos {
+  background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/mwpblngdnblhzq5hujkq.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  width: 455px;
+  height: 664px;
+  display: block;
+  position: relative;
+  top: 10px;
+}
+
+.frame {
+  background-size: 35%;
+  width: 100%;
+  height: 70vw;
+  z-index: 1;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.frame .slidee {
+  float: left;
+  width: 31vw;
+  height: 70vw;
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+.frame .slidee:first-child {
+  cursor: default;
+}
+.frame .shot1 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/jwze1vdmun7jvi9jjs43.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .shot2 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/ugywq6wedwwbaglfychd.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .shot3 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/gs19uimsmanwhhduafny.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .shot5 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746665/zoq1gchioxtv0bkoapco.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .shot6 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/s4qdsgtbqoue49kwlocu.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .shot7 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/wmekuidd2umlhsd8guao.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .shot8 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/olahdvqicmptyyrjlvje.jpg") no-repeat;
+  background-size: 100%;
+}
+.frame .clickToView {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/xpubi57jndqj1jijxyqv.gif") no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  logo {
+    width: 85vw;
+    height: 30vw;
+    margin-bottom: 40px;
+  }
+
+  #smallQuote {
+    width: 95%;
+  }
+  #smallQuote p {
+    font-size: 6vw;
+    line-height: 8vw;
+  }
+
+  .appStoreButton {
+    width: 45vw;
+    height: 13vw;
+  }
+
+  .appStoreLinks {
+    width: 95%;
+    margin-top: 15vw;
+  }
+
+  .appleButton {
+    margin-right: 40px;
+  }
+
+  #apple {
+    width: 28vw;
+    height: 10vw;
+    top: 1vw;
+  }
+
+  #google {
+    width: 30vw;
+    height: 10vw;
+    top: 2.5vw;
+  }
+
+  #phoneFrameHolder {
+    width: 80vw;
+    height: 160vw;
+    margin-top: 40vw;
+  }
+  #phoneFrameHolder #phoneFrame {
+    background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/azte2wlkfqmztkcghwym.svg");
+    width: 80vw;
+    height: 160vw;
+    display: block;
+    margin-top: -127vw;
+    position: relative;
+    z-index: 10;
+  }
+  #phoneFrameHolder video {
+    width: auto;
+    height: 128.5vw;
+    top: 16.8vw;
+    left: 4vw;
+  }
+
+  #description {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 15vw;
+    padding-bottom: 200px;
+  }
+  #description .text {
+    width: 100%;
+    float: none;
+  }
+  #description .text h1, #description .text h2 {
+    text-align: center;
+    font-size: 10vw;
+  }
+  #description .text p {
+    font-size: 5vw;
+    line-height: 8vw;
+    text-align: center;
+  }
+  #description .text strong {
+    font-weight: 400;
+  }
+  #description #highballPhotos {
+    background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/jc0hwfaeox9vqodnpr5n.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+    height: 124vw;
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+
+  .frame {
+    background-size: 35%;
+    width: 100%;
+    height: 160vw;
+    z-index: 1;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .frame .slidee {
+    float: left;
+    width: 80vw;
+    height: 160vw;
+    display: block;
+    z-index: 1;
+    position: relative;
+    margin-right: 1vw;
+    cursor: pointer;
+  }
+  .frame .slidee:first-child {
+    cursor: default;
+  }
+  .frame .shot1 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/jwze1vdmun7jvi9jjs43.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .shot2 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/ugywq6wedwwbaglfychd.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .shot3 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/gs19uimsmanwhhduafny.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .shot5 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746665/zoq1gchioxtv0bkoapco.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .shot6 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/s4qdsgtbqoue49kwlocu.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .shot7 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/wmekuidd2umlhsd8guao.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .shot8 {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746660/olahdvqicmptyyrjlvje.jpg") no-repeat;
+    background-size: 100%;
+  }
+  .frame .clickToView {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1486746661/xpubi57jndqj1jijxyqv.gif") no-repeat;
+    background-size: 100%;
+  }
+}
