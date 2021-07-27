@@ -600,6 +600,7 @@ blockquote p:hover {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*.single-post{
 	#main-content{
 		.page{
@@ -921,10 +922,13 @@ blockquote p:hover {
 
 }*/
 =======
+=======
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 {
   min-height: 550.8px;
   max-height: 556px;
 }
+<<<<<<< HEAD
 
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner {
   font-family: 'Helvetica Neue';
@@ -934,26 +938,44 @@ blockquote p:hover {
   color: #373737;
 }
 
+=======
+.single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.9;
+  color: #373737;
+}
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner h3 {
   display: inline-block;
   padding: 8px 8px 16px 16px;
   display: inline-block;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner .archive_type {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
+<<<<<<< HEAD
   -webkit-text-decoration: underline #cbcbcb;
           text-decoration: underline #cbcbcb;
 }
 
+=======
+  text-decoration: underline #cbcbcb;
+}
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner .archive_title {
   font-size: 72px;
   line-height: 0.9;
   letter-spacing: -0.04em;
   font-weight: bold;
 }
+<<<<<<< HEAD
 
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner .archive_autor {
   font-weight: bold;
@@ -971,18 +993,38 @@ blockquote p:hover {
   text-align: left;
 }
 
+=======
+.single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_0 .et_pb_row_0 .et_pb_column_0 .text-inner .et_pb_text_inner .archive_autor {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration-line: underline;
+  color: #DF5B4E;
+}
+.single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .date_rs {
+  font-family: Helvetica Neue;
+}
+.single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .date_rs .et_pb_text_inner {
+  text-align: left;
+}
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .date_rs .et_pb_text_inner p {
   font-style: normal;
   font-weight: bold;
   font-size: 160px;
   line-height: 82.1%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .month_year_rs .et_pb_text_inner {
   padding: 20px 0px 12px;
   text-align: left;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .month_year_rs .et_pb_text_inner p {
   font-style: normal;
   font-weight: bold;
@@ -990,34 +1032,219 @@ blockquote p:hover {
   line-height: 82.1%;
   letter-spacing: -0.01em;
 }
+<<<<<<< HEAD
 
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .categories_rs .et_pb_text_inner {
   padding: 20px 0px 20px;
 }
 
+=======
+.single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .categories_rs .et_pb_text_inner {
+  padding: 20px 0px 20px;
+}
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .categories_rs .et_pb_text_inner ul {
   list-style-type: none;
   text-align: left;
   padding: 0px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_1 .sidebar_rs .categories_rs .et_pb_text_inner ul li {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 82.1%;
   letter-spacing: -0.01em;
+<<<<<<< HEAD
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #DF5B4E;
   padding: 8px 0px 8px;
 }
 
+=======
+  text-decoration-line: underline;
+  color: #DF5B4E;
+  padding: 8px 0px 8px;
+}
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_5 article {
   padding: 0 20px !important;
 }
 
+<<<<<<< HEAD
 >>>>>>> parent of 3a8c47b (Fixing issues)
+=======
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .blog_single_hero_title {
+    font-size: 32px !important;
+    box-shadow: 0 0 0 #F6F3E0, 0 0 0 #F6F3E0, 0 0 0 #F6F3E0, 0 0 0 #F6F3E0 !important;
+    left: 0px !important;
+  }
+
+  .blog_single_hero_backlink {
+    font-size: 24px !important;
+    background-color: none !important;
+    box-shadow: 0 0 0 #F6F3E0, 0 0 0 #F6F3E0, 0 0 0 #F6F3E0, 0 0 0 #F6F3E0 !important;
+  }
+
+  .blog_single_hero_byline {
+    font-size: 16px !important;
+    line-height: 0.9 !important;
+    box-shadow: 0 0 0 #F6F3E0, 0 0 0 #F6F3E0, 0 0 0 #F6F3E0, 0 0 0 #F6F3E0 !important;
+  }
+
+  #blog_single_hero_photo {
+    height: 264px;
+    background-position: left bottom;
+    width: 100%;
+    margin-bottom: 48px !important;
+  }
+
+  #blog_single_hero_text_container {
+    width: 90% !important;
+    margin-top: 40px !important;
+  }
+
+  #blog_article_content_container {
+    grid-template-columns: 90% !important;
+    max-width: 90% !important;
+    width: 90% !important;
+    padding-bottom: 32px;
+    margin: 0 auto !important;
+  }
+
+  .blog_category_list {
+    list-style: none;
+    margin: 0 0 0 0 !important;
+    display: block !important;
+  }
+
+  .blog_category_list_item {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .blog_category_list_item a {
+    font-size: 13px !important;
+  }
+
+  #blog_date_large, #blog_month_year {
+    display: inline-block !important;
+    font-size: 16px !important;
+  }
+
+  #blog_article_content {
+    width: 100%;
+  }
+  #blog_article_content p:first-of-type {
+    font-size: 16px !important;
+  }
+  #blog_article_content h2, #blog_article_content h3, #blog_article_content h4 {
+    width: 100% !important;
+  }
+  #blog_article_content h3 {
+    font-size: 24px;
+    font-weight: bold !important;
+    letter-spacing: -0.03em !important;
+    margin: 24px 0 4px 0;
+  }
+  #blog_article_content h2 {
+    font-size: 32px !important;
+    font-weight: bold !important;
+    letter-spacing: -0.03em !important;
+    margin: 24px 0 4px 0;
+  }
+  #blog_article_content h4 {
+    font-size: 16 !important;
+    font-weight: bold !important;
+    letter-spacing: -0.03em !important;
+    margin: 24px 0 4px 0;
+  }
+  #blog_article_content p, #blog_article_content li, #blog_article_content blockquote {
+    font-size: 14px;
+  }
+  #blog_article_content ul {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+  #blog_article_content li {
+    list-style-type: "⚡️";
+    padding-left: 8px;
+    line-height: 1;
+    margin: 0 0 24px 8px;
+    font-weight: 600;
+  }
+  #blog_article_content a {
+    color: #DF5B4E;
+    text-decoration: underline;
+    text-decoration-color: #F3DCCA;
+    text-decoration-thickness: 3px;
+  }
+  #blog_article_content a:hover, #blog_article_content a:active, #blog_article_content a:focus {
+    color: #373737;
+    text-decoration-color: #DF5B4E;
+  }
+
+  .wp-block-embed-youtube, .wp-block-embed-youtube iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  .wp-block-embed-youtube figcaption, .wp-block-embed-youtube iframe figcaption {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: interactive;
+    letter-spacing: -0.01em;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .wp-block-image {
+    width: 100%;
+    min-width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 56px 0 48px 0;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    left: 0;
+  }
+  .wp-block-image figure, .wp-block-image .size-large, .wp-block-image .size-small, .wp-block-image .size-med, .wp-block-image .size-medium, .wp-block-image .is-resized {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .wp-block-image img {
+    height: auto !important;
+    width: 90% !important;
+  }
+
+  figcaption {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 0 0;
+    padding: 0;
+    line-height: 1;
+  }
+  figcaption a:link {
+    margin: 0;
+    padding: 8px 0 0 0;
+    line-height: 1;
+    font-size: 12px;
+    color: #676661;
+    text-decoration-color: #676661;
+    text-decoration-thickness: 2px;
+    display: inline-block;
+  }
+  figcaption a:link:hover {
+    color: #DF5B4E;
+    text-decoration-color: #373737;
+  }
+}
+>>>>>>> parent of 7dc0623 (Busted ass css changes)
 #main-header,
 .et_pb_section {
   background-color: transparent !important;
