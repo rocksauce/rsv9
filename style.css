@@ -179,8 +179,11 @@
   max-width: 1200px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 90%;
 =======
+=======
+>>>>>>> parent of 812aaba (Blog Page CSS)
 =======
 >>>>>>> parent of 812aaba (Blog Page CSS)
   width: 100%;
@@ -217,8 +220,13 @@
   box-shadow: 8px -4px 0 #F6F3E0, -8px -4px 0 #F6F3E0, 8px 0 0 #F6F3E0, -8px 0 0 #F6F3E0;
 }
 #blog_single_hero_text .blog_single_hero_backlink:hover, #blog_single_hero_text .blog_single_hero_backlink:active, #blog_single_hero_text .blog_single_hero_backlink:focus, #blog_single_hero_text .blog_single_hero_backlink:visited {
+<<<<<<< HEAD
   color: #DF5B4E;
   text-decoration-color: #373737;
+=======
+  color: #DF5B4E !important;
+  text-decoration-color: #373737 !important;
+>>>>>>> parent of 812aaba (Blog Page CSS)
 }
 #blog_single_hero_text .blog_single_hero_title {
   font-size: 24px;
@@ -246,7 +254,11 @@
   text-decoration-color: #DF5B4E;
 }
 
+<<<<<<< HEAD
 h2 #blog_date_and_categories {
+=======
+#blog_date_and_categories {
+>>>>>>> parent of 812aaba (Blog Page CSS)
   list-style: none;
   margin: 0;
   padding: 0 0 0 0;
