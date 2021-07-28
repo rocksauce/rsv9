@@ -603,6 +603,11 @@ blockquote p:hover {
   padding: 0 20px !important;
 }
 
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background-color: #000 !important;
+  }
+}
 #main-header,
 .et_pb_section {
   background-color: transparent !important;

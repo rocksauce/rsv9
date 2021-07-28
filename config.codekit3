@@ -463,9 +463,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/single.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/single.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
