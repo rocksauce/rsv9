@@ -36,7 +36,9 @@
 .et_pb_section {
 	background-color: transparent !important;
 }
-
+body {
+    background-color: #f6f3e0 !important;
+}
 .et_pb_row,
 .container {
 	width: 100% !important;
@@ -775,7 +777,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	}
 	.footer-body h3 {
 		margin-bottom: 15px !important;
-		font-size: 30px !important;
+		font-size: 35px !important;
 		line-height: 1 !important;
 	}
 	.footer-body h4,
@@ -791,8 +793,9 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	.footer-body .et_pb_column + .et_pb_column p {
 		padding: 0;
 		margin-bottom: 15px;
-		font-size: 18px;
+		font-size: 24px;
 	}
+	
 	.footer-body .et_pb_column + .et_pb_column ul li a {
 		font-size: 14px;
 	}
@@ -1605,8 +1608,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 		padding: 40px 20px !important;
 	}
 	.section-idea h2 {
-		max-width: 100%;
-		width: 100%;
+		display: inline;
 		margin: 0;
 		padding: 10px;
 		font-size: 30px !important;
@@ -5594,4 +5596,17 @@ a, a:link, a:hover, a:visited, a:focus {
 	padding: 16px !important;
     font-size: 21px !important;
     line-height: 1.22 !important;
+}
+
+.et_pb_text_inner{
+	display: flex;
+	flex-direction: column;
+	@media (min-width: 768px){
+		 display: block;
+	}
+	ul{
+		@media (max-width: 768px){
+			margin-left: 0px !important; 	
+		}
+	}
 }
