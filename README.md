@@ -1,6 +1,7 @@
 # Rocksauce Website v9
 
-This GIT is for a CHILD THEME for RSv9 based on DIVI. Divi must be installed into your local instantiation of WordPress. 
+This repository is for a CHILD THEME for RSv9 based on DIVI. Divi must be installed into your local instantiation of WordPress.
+Use the most recent version of Wordpress at the time you install it.
 
 DOWNLOAD the DIVI.zip here: https://rocksaucestudios.box.com/s/m7ohpasg1t3m7d87hp4g9hen8wmb3yti
 
