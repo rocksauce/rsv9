@@ -1,0 +1,425 @@
+@import "compass/reset";
+@import url(http://fonts.googleapis.com/css?family=Armata);
+
+//Colors
+	$teal: #5abdb1;
+	$gray: #404041;
+
+//Mixins
+
+	@mixin boxShadowBot {
+		border: 0px solid $gray;
+		border-bottom-width:1px;
+	}
+
+	@mixin boxShadowTop {
+		border: 0px solid $gray;
+		border-top-width:1px;
+	}
+
+	@mixin boxShadowBoth {
+		border: 0px solid $gray;
+		border-top-width:1px;
+		border-bottom-width:1px;		
+	}
+	
+	@mixin boxShadowTopRight {
+		border: 0px solid $gray;
+		border-top-width:1px;
+		border-right-width:1px;
+	}
+	
+	@mixin leftBorder {
+		border:solid 0px $gray;
+		border-left-width:1px;
+	}
+	
+	@mixin mobileCSS {
+		
+		.case-study-single {
+			
+			#topImg {
+				background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/c2fhe9b9rgvo7g6uthjp.png) no-repeat $gray -43vw -19vw;
+				background-size:160%;
+			}
+			
+			#bigPhone {
+				background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/jzswmhacpy2f4n9nz9wi.png) no-repeat;
+				width:84vw;
+				height:85vw;
+				background-size:100%;	
+				left:50%;
+				margin-left:-54vw;
+			}
+			
+			.descriptions {
+				display:none;
+			}
+			
+			.illustrations {
+				width:100%;
+				margin-top:21vw;
+			}
+			
+			.plusSign {
+				display:none;
+			}
+						
+			#keyPad {
+				padding:6vw;
+				
+				img {
+					width:70%;
+				}	
+			}
+			
+			#logoTable {
+				
+				td {
+					padding:5vw;
+				}
+			}
+			
+			#entryFields {
+				height:74vw;
+			}
+
+			.onPhotoText {
+				display:none;
+			}
+
+			.behindPhotos {
+				display:none;
+			}
+
+			.screenShots {
+				width:60%;
+			}
+			
+			#screenOne, #screenTwo {
+				height:105.5vw;
+			}
+			
+			#shopPhoto {
+				background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/o49jr2dytxod6ysf1bke.jpg) no-repeat top right;
+				background-size:148%;
+				width:100%;
+			}
+			
+			#quoteArea {
+				
+				.photo {
+					background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/uoeeztyc6eflgoqxcmnq.jpg) no-repeat;
+					background-size:100%;
+					width:40%;
+					height:40vw;
+					float:none;
+					display:block;
+					margin:0 auto;
+					margin-top:4vw;
+					
+				}
+				
+				.text {
+					width:90%;
+					float:none;
+					padding:0vw;
+					margin:0 auto;
+					text-align:center;					
+					
+					p {
+						margin-top:5vw;
+						font-size:5vw;
+						line-height:6.7vw;											
+					}
+					
+					h1 {
+						margin-top:2.5vw;
+						font-size:2.9vw;
+						color:$teal;
+						margin-bottom:5vw;
+						
+						strong {
+							color:#f6691e;
+							font-weight:none;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+.case-study-single {
+	
+	background:$teal;
+	font-family: 'Armata', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', helvetica, calibri, arial, sans-serif;
+
+	#topImg {
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/c2fhe9b9rgvo7g6uthjp.png) no-repeat $gray;
+		background-size:100%;
+		width:100%;
+		height:55vw;
+		display:block;
+	}
+	
+	#bigPhone {
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/jzswmhacpy2f4n9nz9wi.png) no-repeat;
+		width:55vw;
+		height:56vw;
+		background-size:100%;
+		display:block;
+		position:absolute;
+		top:11.5vw;
+		left:50%;
+		margin-left:-37.5vw;
+		z-index:10000;
+	}
+	
+	.mainLeftSide {
+		float:left;
+		width:40%;
+		display:block;
+		 box-shadow:1px 0px 0px $gray;
+		overflow:hidden;
+	}
+	
+	.mainRightSide {
+		float:left;
+		width:60%;	
+		display:block;
+		overflow:hidden;
+	}
+	
+	.textBox {
+		padding:2.5vw;
+		overflow:hidden;
+	
+		p {
+			color:$gray;
+			font-size:1.7vw;
+			width:95%;
+			text-align:right;
+			float:right;
+			line-height:2.6vw;
+		}	
+	}
+	
+	.borderTop {
+		@include boxShadowTop;	
+	}
+	
+	.borderBot {
+		@include boxShadowBot;
+	}
+	
+	.borderBoth {
+		@include boxShadowBoth;
+	}
+	
+	.borderTopRight {
+		@include boxShadowTopRight;
+	}
+	
+	.lightestBox {
+		background:#63d1c3;
+	}
+	
+	.nextBox {
+		background:#5abdb1;
+	}
+	
+	.firstBox {
+		margin-top:15vw;
+	}
+	
+	.plusSign {
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/xc22xhysb6gzdbnrbafl.png) no-repeat;
+		background-size:100%;
+		width:3vw;
+		height:2.7vw;
+		position:absolute;
+		display:block;
+		z-index:9999;
+		left:40%;
+		margin-left:-1.5vw;
+	}
+	
+	.plusOne {
+		top:93vw;
+	}
+	
+	.plusTwo {
+		top:150vw;
+	}
+	
+	.plusThree {
+		top:185vw;
+	}
+	
+	#logoTable {
+		margin-top:18vw;
+		width:100%;
+		
+		td {
+			border:0px solid $gray;
+			border-top-width:1px;
+			padding:3vw;
+			text-align:center;
+			width:50%;
+			
+			img {
+				max-width:75%;
+				max-height:55%;
+			}
+		}
+		
+		td:nth-child(odd) {
+			border-right-width:1px;	
+		}
+		
+		.finalLogo {
+			background:#204c47;
+			@include leftBorder;		
+		}
+	}
+	
+	.spacerOne {
+		height:10vw;
+	}
+	
+	.spacerTwo {
+		height:7vw;
+	}
+	
+	#keyPad {
+		background:#e7efee;
+		padding:2vw;
+		text-align:center;
+		@include leftBorder;
+		
+		img {
+			width:55%;
+		}	
+	}
+	
+	#entryFields {
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/a6h3d5psb7u4cgo8gxsf.png) no-repeat;
+		background-size:100%;
+		@include leftBorder;
+		border-top-width:1px;
+		width:100%;
+		height:44vw;
+		display:block;
+	}
+	
+	.longDivider {
+		background-color:$gray;
+		width:100%;
+		height:1px;
+		display:block;
+		position:relative;
+		clear:both;
+	}
+	
+	#shopPhoto {
+		clear:both;
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/o49jr2dytxod6ysf1bke.jpg) no-repeat;
+		background-size:100%;
+		width:100%;
+		overflow:hidden;
+		display:block;
+	}
+	
+	#screenOne {
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/pk9onse1awucmkachsqu.jpg) no-repeat;
+		background-size:100%;
+		width:100%;
+		height:70.5vw;
+		border:0 solid $gray;
+	}
+	
+	#screenTwo {
+		background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/ryrwltvmglvrvcadbniy.jpg) no-repeat;
+		background-size:100%;
+		width:100%;
+		height:70vw;
+		border:0 solid $gray;
+		border-top-width:1px;	
+	}
+	
+	.onPhotoText {
+		background-color:rgba(64, 64, 65, .5);
+		border:solid 0px $gray;	
+		border-top-width:1px;
+		border-bottom-width:1px;
+		padding:2em;
+		
+		&.boxOne {
+			margin-top:30vw;		
+		}
+		
+		&.boxTwo {
+			margin-top:45vw;		
+		}
+		
+		p {
+			font-size:1.5vw;
+			width:75%;
+			color:#fff;
+			line-height:2.5vw;
+		}	
+	}
+	
+	#quoteArea {
+		clear:both;
+		background:$gray;
+		width:100%;
+		overflow:hidden;
+		border:0px solid $gray;
+		border-top-width:1px;
+		
+		.photo {
+			background:url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/uoeeztyc6eflgoqxcmnq.jpg) no-repeat;
+			background-size:100%;
+			width:40%;
+			height:40vw;
+			float:left;
+			display:block;
+		}
+		
+		.text {
+			width:48%;
+			float:left;
+			padding:5vw;
+			
+			p {
+				margin-top:5vw;
+				color:#fff;
+				font-size:2.5vw;
+				line-height:3.8vw;
+			}
+			
+			h1 {
+				margin-top:1.5vw;
+				font-size:1.9vw;
+				color:$teal;
+				
+				strong {
+					color:#f6691e;
+					font-weight:none;
+				}
+			}
+		}
+	}
+}
+
+// Media Query
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+	@include mobileCSS;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+	@include mobileCSS;
+}
+

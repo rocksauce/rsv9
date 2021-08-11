@@ -1,0 +1,399 @@
+@import url(http://fonts.googleapis.com/css?family=Armata);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+.case-study-single {
+  background: #5abdb1;
+  font-family: 'Armata', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', helvetica, calibri, arial, sans-serif; }
+  .case-study-single #topImg {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/c2fhe9b9rgvo7g6uthjp.png) no-repeat #404041;
+    background-size: 100%;
+    width: 100%;
+    height: 55vw;
+    display: block; }
+  .case-study-single #bigPhone {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/jzswmhacpy2f4n9nz9wi.png) no-repeat;
+    width: 55vw;
+    height: 56vw;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    top: 11.5vw;
+    left: 50%;
+    margin-left: -37.5vw;
+    z-index: 10000; }
+  .case-study-single .mainLeftSide {
+    float: left;
+    width: 40%;
+    display: block;
+    box-shadow: 1px 0px 0px #404041;
+    overflow: hidden; }
+  .case-study-single .mainRightSide {
+    float: left;
+    width: 60%;
+    display: block;
+    overflow: hidden; }
+  .case-study-single .textBox {
+    padding: 2.5vw;
+    overflow: hidden; }
+    .case-study-single .textBox p {
+      color: #404041;
+      font-size: 1.7vw;
+      width: 95%;
+      text-align: right;
+      float: right;
+      line-height: 2.6vw; }
+  .case-study-single .borderTop {
+    border: 0px solid #404041;
+    border-top-width: 1px; }
+  .case-study-single .borderBot {
+    border: 0px solid #404041;
+    border-bottom-width: 1px; }
+  .case-study-single .borderBoth {
+    border: 0px solid #404041;
+    border-top-width: 1px;
+    border-bottom-width: 1px; }
+  .case-study-single .borderTopRight {
+    border: 0px solid #404041;
+    border-top-width: 1px;
+    border-right-width: 1px; }
+  .case-study-single .lightestBox {
+    background: #63d1c3; }
+  .case-study-single .nextBox {
+    background: #5abdb1; }
+  .case-study-single .firstBox {
+    margin-top: 15vw; }
+  .case-study-single .plusSign {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/xc22xhysb6gzdbnrbafl.png) no-repeat;
+    background-size: 100%;
+    width: 3vw;
+    height: 2.7vw;
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    left: 40%;
+    margin-left: -1.5vw; }
+  .case-study-single .plusOne {
+    top: 93vw; }
+  .case-study-single .plusTwo {
+    top: 150vw; }
+  .case-study-single .plusThree {
+    top: 185vw; }
+  .case-study-single #logoTable {
+    margin-top: 18vw;
+    width: 100%; }
+    .case-study-single #logoTable td {
+      border: 0px solid #404041;
+      border-top-width: 1px;
+      padding: 3vw;
+      text-align: center;
+      width: 50%; }
+      .case-study-single #logoTable td img {
+        max-width: 75%;
+        max-height: 55%; }
+    .case-study-single #logoTable td:nth-child(odd) {
+      border-right-width: 1px; }
+    .case-study-single #logoTable .finalLogo {
+      background: #204c47;
+      border: solid 0px #404041;
+      border-left-width: 1px; }
+  .case-study-single .spacerOne {
+    height: 10vw; }
+  .case-study-single .spacerTwo {
+    height: 7vw; }
+  .case-study-single #keyPad {
+    background: #e7efee;
+    padding: 2vw;
+    text-align: center;
+    border: solid 0px #404041;
+    border-left-width: 1px; }
+    .case-study-single #keyPad img {
+      width: 55%; }
+  .case-study-single #entryFields {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/a6h3d5psb7u4cgo8gxsf.png) no-repeat;
+    background-size: 100%;
+    border: solid 0px #404041;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    width: 100%;
+    height: 44vw;
+    display: block; }
+  .case-study-single .longDivider {
+    background-color: #404041;
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: relative;
+    clear: both; }
+  .case-study-single #shopPhoto {
+    clear: both;
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/o49jr2dytxod6ysf1bke.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: block; }
+  .case-study-single #screenOne {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/pk9onse1awucmkachsqu.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70.5vw;
+    border: 0 solid #404041; }
+  .case-study-single #screenTwo {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/ryrwltvmglvrvcadbniy.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70vw;
+    border: 0 solid #404041;
+    border-top-width: 1px; }
+  .case-study-single .onPhotoText {
+    background-color: rgba(64, 64, 65, 0.5);
+    border: solid 0px #404041;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 2em; }
+    .case-study-single .onPhotoText.boxOne {
+      margin-top: 30vw; }
+    .case-study-single .onPhotoText.boxTwo {
+      margin-top: 45vw; }
+    .case-study-single .onPhotoText p {
+      font-size: 1.5vw;
+      width: 75%;
+      color: #fff;
+      line-height: 2.5vw; }
+  .case-study-single #quoteArea {
+    clear: both;
+    background: #404041;
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid #404041;
+    border-top-width: 1px; }
+    .case-study-single #quoteArea .photo {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/uoeeztyc6eflgoqxcmnq.jpg) no-repeat;
+      background-size: 100%;
+      width: 40%;
+      height: 40vw;
+      float: left;
+      display: block; }
+    .case-study-single #quoteArea .text {
+      width: 48%;
+      float: left;
+      padding: 5vw; }
+      .case-study-single #quoteArea .text p {
+        margin-top: 5vw;
+        color: #fff;
+        font-size: 2.5vw;
+        line-height: 3.8vw; }
+      .case-study-single #quoteArea .text h1 {
+        margin-top: 1.5vw;
+        font-size: 1.9vw;
+        color: #5abdb1; }
+        .case-study-single #quoteArea .text h1 strong {
+          color: #f6691e;
+          font-weight: none; }
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  .case-study-single #topImg {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/c2fhe9b9rgvo7g6uthjp.png) no-repeat #404041 -43vw -19vw;
+    background-size: 160%; }
+  .case-study-single #bigPhone {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/jzswmhacpy2f4n9nz9wi.png) no-repeat;
+    width: 84vw;
+    height: 85vw;
+    background-size: 100%;
+    left: 50%;
+    margin-left: -54vw; }
+  .case-study-single .descriptions {
+    display: none; }
+  .case-study-single .illustrations {
+    width: 100%;
+    margin-top: 21vw; }
+  .case-study-single .plusSign {
+    display: none; }
+  .case-study-single #keyPad {
+    padding: 6vw; }
+    .case-study-single #keyPad img {
+      width: 70%; }
+  .case-study-single #logoTable td {
+    padding: 5vw; }
+  .case-study-single #entryFields {
+    height: 74vw; }
+  .case-study-single .onPhotoText {
+    display: none; }
+  .case-study-single .behindPhotos {
+    display: none; }
+  .case-study-single .screenShots {
+    width: 60%; }
+  .case-study-single #screenOne, .case-study-single #screenTwo {
+    height: 105.5vw; }
+  .case-study-single #shopPhoto {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/o49jr2dytxod6ysf1bke.jpg) no-repeat top right;
+    background-size: 148%;
+    width: 100%; }
+  .case-study-single #quoteArea .photo {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/uoeeztyc6eflgoqxcmnq.jpg) no-repeat;
+    background-size: 100%;
+    width: 40%;
+    height: 40vw;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4vw; }
+  .case-study-single #quoteArea .text {
+    width: 90%;
+    float: none;
+    padding: 0vw;
+    margin: 0 auto;
+    text-align: center; }
+    .case-study-single #quoteArea .text p {
+      margin-top: 5vw;
+      font-size: 5vw;
+      line-height: 6.7vw; }
+    .case-study-single #quoteArea .text h1 {
+      margin-top: 2.5vw;
+      font-size: 2.9vw;
+      color: #5abdb1;
+      margin-bottom: 5vw; }
+      .case-study-single #quoteArea .text h1 strong {
+        color: #f6691e;
+        font-weight: none; } }
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+  .case-study-single #topImg {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/c2fhe9b9rgvo7g6uthjp.png) no-repeat #404041 -43vw -19vw;
+    background-size: 160%; }
+  .case-study-single #bigPhone {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703610/jzswmhacpy2f4n9nz9wi.png) no-repeat;
+    width: 84vw;
+    height: 85vw;
+    background-size: 100%;
+    left: 50%;
+    margin-left: -54vw; }
+  .case-study-single .descriptions {
+    display: none; }
+  .case-study-single .illustrations {
+    width: 100%;
+    margin-top: 21vw; }
+  .case-study-single .plusSign {
+    display: none; }
+  .case-study-single #keyPad {
+    padding: 6vw; }
+    .case-study-single #keyPad img {
+      width: 70%; }
+  .case-study-single #logoTable td {
+    padding: 5vw; }
+  .case-study-single #entryFields {
+    height: 74vw; }
+  .case-study-single .onPhotoText {
+    display: none; }
+  .case-study-single .behindPhotos {
+    display: none; }
+  .case-study-single .screenShots {
+    width: 60%; }
+  .case-study-single #screenOne, .case-study-single #screenTwo {
+    height: 105.5vw; }
+  .case-study-single #shopPhoto {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703611/o49jr2dytxod6ysf1bke.jpg) no-repeat top right;
+    background-size: 148%;
+    width: 100%; }
+  .case-study-single #quoteArea .photo {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1419703609/uoeeztyc6eflgoqxcmnq.jpg) no-repeat;
+    background-size: 100%;
+    width: 40%;
+    height: 40vw;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4vw; }
+  .case-study-single #quoteArea .text {
+    width: 90%;
+    float: none;
+    padding: 0vw;
+    margin: 0 auto;
+    text-align: center; }
+    .case-study-single #quoteArea .text p {
+      margin-top: 5vw;
+      font-size: 5vw;
+      line-height: 6.7vw; }
+    .case-study-single #quoteArea .text h1 {
+      margin-top: 2.5vw;
+      font-size: 2.9vw;
+      color: #5abdb1;
+      margin-bottom: 5vw; }
+      .case-study-single #quoteArea .text h1 strong {
+        color: #f6691e;
+        font-weight: none; } }
+
+
+#logo {
+  filter: invert(100%) sepia(67%) saturate(275%) hue-rotate(33deg) brightness(108%) contrast(97%) !important;
+}
+
+
+   #main-header {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+
+#main-header ul li a:not(:hover) {
+  color: #FCFCF7 !important;
+}
+
+
+footer {
+    background-color: #C1C1C1 !important;
+    padding-top: 100px !important;
+}
+
+
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #C1C1C1 !important;
+} 
+
+
