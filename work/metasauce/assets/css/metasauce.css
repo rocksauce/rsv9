@@ -1,0 +1,978 @@
+@-webkit-keyframes cloud1 {
+  0% {
+    left: 58%; }
+  50% {
+    left: 5%; }
+  100% {
+    left: 58%; } }
+/* Standard syntax */
+@keyframes cloud1 {
+  0% {
+    left: 58%; }
+  50% {
+    left: 5%; }
+  100% {
+    left: 58%; } }
+@-webkit-keyframes cloud2 {
+  0% {
+    left: 86%; }
+  50% {
+    left: 5%; }
+  100% {
+    left: 86%; } }
+/* Standard syntax */
+@keyframes cloud2 {
+  0% {
+    left: 86%; }
+  50% {
+    left: 5%; }
+  100% {
+    left: 86%; } }
+@-webkit-keyframes cloud3 {
+  0% {
+    left: 5%; }
+  50% {
+    left: -95%; }
+  100% {
+    left: 5%; } }
+/* Standard syntax */
+@keyframes cloud3 {
+  0% {
+    left: 5%; }
+  50% {
+    left: -95%; }
+  100% {
+    left: 5%; } }
+@-webkit-keyframes cloud4 {
+  0% {
+    left: 25%; }
+  50% {
+    left: -95%; }
+  100% {
+    left: 25%; } }
+/* Standard syntax */
+@keyframes cloud4 {
+  0% {
+    left: 25%; }
+  50% {
+    left: -95%; }
+  100% {
+    left: 25%; } }
+@-webkit-keyframes cloud5 {
+  0% {
+    left: 125%; }
+  50% {
+    left: 50%; }
+  100% {
+    left: 125%; } }
+/* Standard syntax */
+@keyframes cloud5 {
+  0% {
+    left: 125%; }
+  50% {
+    left: 50%; }
+  100% {
+    left: 125%; } }
+@-webkit-keyframes cloud6 {
+  0% {
+    left: 110%; }
+  50% {
+    left: 75%; }
+  100% {
+    left: 110%; } }
+/* Standard syntax */
+@keyframes cloud6 {
+  0% {
+    left: 110%; }
+  50% {
+    left: 75%; }
+  100% {
+    left: 110%; } }
+.case-study-single {
+  background: #fff;
+  font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+  font-weight: 300;
+  font-style: normal; }
+  .case-study-single h1 {
+    display: block;
+    height: 2.3vw;
+    display: inline-block;
+    font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+    font-weight: 300;
+    font-style: normal;
+    color: #603913;
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #33b1e0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 2px; }
+  .case-study-single p {
+    color: #603913;
+    font-size: 1.6vw;
+    margin: 0 auto;
+    display: block;
+    line-height: 2.6vw;
+    padding-top: 2vw; }
+  .case-study-single #top {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/huzi4nanfrpzmbvcmmlq.png) no-repeat 0px 21vw;
+    background-size: 100%;
+    width: 100%;
+    height: 60vw;
+    display: block;
+    overflow: visible !important;
+    padding: 12vw 0 0 0;
+    z-index: 70; }
+    .case-study-single #top .logo {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/sjhdsgkfpy7xz2x4pnfr.png) no-repeat;
+      background-size: 100%;
+      width: 30vw;
+      height: 24vw;
+      display: block;
+      margin: 0 auto; }
+  .case-study-single #skyHills {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/s2incecoxnyerrtf1sqx.png) no-repeat;
+    background-size: 100%;
+    height: 111vw;
+    z-index: 80;
+    display: block;
+    overflow: hidden;
+    margin-top: -18vw; }
+    .case-study-single #skyHills .cloud {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fjwk9l2dbzsl6gw608tm.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #skyHills #c1 {
+      width: 17vw;
+      height: 14vw;
+      display: block;
+      position: relative;
+      left: 58%;
+      top: 11vw;
+      -webkit-animation-name: cloud1;
+      animation-name: cloud1;
+      -webkit-animation-duration: 120s;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;
+      /* Chrome, Safari, Opera	 */
+      animation-duration: 120s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .case-study-single #skyHills #c2 {
+      width: 11vw;
+      height: 8vw;
+      display: block;
+      position: relative;
+      left: 86%;
+      top: 16vw;
+      -webkit-animation-name: cloud2;
+      animation-name: cloud2;
+      -webkit-animation-duration: 180s;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;
+      /* Chrome, Safari, Opera	 */
+      animation-duration: 180s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .case-study-single #skyHills #c3 {
+      width: 13vw;
+      height: 10vw;
+      display: block;
+      position: relative;
+      left: 5%;
+      top: 0%;
+      -webkit-animation-name: cloud3;
+      animation-name: cloud3;
+      -webkit-animation-duration: 180s;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;
+      /* Chrome, Safari, Opera	 */
+      animation-duration: 180s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .case-study-single #skyHills #c4 {
+      width: 8vw;
+      height: 6vw;
+      display: block;
+      position: relative;
+      left: 25%;
+      top: 3vw;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      -webkit-animation-name: cloud4;
+      animation-name: cloud4;
+      -webkit-animation-duration: 180s;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;
+      /* Chrome, Safari, Opera	 */
+      animation-duration: 180s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .case-study-single #skyHills #c5 {
+      width: 12vw;
+      height: 10vw;
+      display: block;
+      position: relative;
+      left: 125%;
+      top: -16vw;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      -webkit-animation-name: cloud5;
+      animation-name: cloud5;
+      -webkit-animation-duration: 180s;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;
+      /* Chrome, Safari, Opera	 */
+      animation-duration: 180s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .case-study-single #skyHills #c6 {
+      width: 8vw;
+      height: 6vw;
+      display: block;
+      position: relative;
+      left: 110%;
+      top: -6vw;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      -webkit-animation-name: cloud6;
+      animation-name: cloud6;
+      -webkit-animation-duration: 180s;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;
+      /* Chrome, Safari, Opera	 */
+      animation-duration: 180s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .case-study-single #skyHills #lock {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/x4atcmzvga3ywilcc4pb.png) no-repeat;
+      background-size: 100%;
+      width: 15vw;
+      height: 21vw;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      top: -29vw;
+      z-index: 85; }
+    .case-study-single #skyHills #text {
+      text-align: center;
+      position: relative;
+      display: block;
+      top: -26vw;
+      z-index: 85; }
+      .case-study-single #skyHills #text p {
+        width: 60%; }
+    .case-study-single #skyHills #hills {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k0jmevup8tk9jgosjbkq.png) no-repeat;
+      background-size: 100%;
+      height: 48vw;
+      display: block;
+      position: relative;
+      z-index: 84;
+      top: -30vw; }
+  .case-study-single #introduction {
+    width: 87%;
+    margin: 0 auto;
+    display: block; }
+    .case-study-single #introduction .icons {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/jzanor0l0nblevn8jzry.png) no-repeat;
+      background-size: 100%;
+      display: block;
+      width: 42vw;
+      height: 75vw;
+      float: left; }
+    .case-study-single #introduction .text {
+      width: 42vw;
+      float: right;
+      position: relative;
+      top: 17vw; }
+      .case-study-single #introduction .text h1 {
+        text-align: right;
+        float: right; }
+      .case-study-single #introduction .text p {
+        clear: both;
+        text-align: right; }
+  .case-study-single #beauty {
+    clear: both;
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/gweg4updc2dnxuf085xs.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 260vw;
+    padding-top: 22vw;
+    overflow: hidden; }
+    .case-study-single #beauty #rocksauceLogo {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/j6ahzhlwzd0wizwjfpgp.png) no-repeat;
+      background-size: 100%;
+      width: 10vw;
+      height: 14vw;
+      display: block;
+      margin: 0 auto;
+      position: relative; }
+    .case-study-single #beauty #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding-top: 5vw; }
+      .case-study-single #beauty #text p {
+        width: 55%; }
+    .case-study-single #beauty .bottomBeauty {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat;
+      background-size: 100%;
+      width: 100%;
+      z-index: 80;
+      height: 75vw;
+      display: block;
+      position: relative;
+      top: 119vw; }
+    .case-study-single #beauty #v1 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/kbubqa5da0ofoayztuog.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #v2 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k7qfkm8va8bdsegr4e5k.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #v3 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fh0z1ytpx2iassssoqqa.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #finalDesign {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qf6modiljejtxhnufdjc.png) no-repeat;
+      background-size: 100%; }
+  .case-study-single .screenshots {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 8vw;
+    position: relative;
+    z-index: 85; }
+  .case-study-single .screenshot {
+    display: block;
+    max-width: 33vw;
+    padding-bottom: 8vw; }
+    .case-study-single .screenshot .image {
+      width: 33vw;
+      height: 58.5vw;
+      display: block; }
+    .case-study-single .screenshot.left {
+      float: left; }
+      .case-study-single .screenshot.left h1, .case-study-single .screenshot.left p {
+        text-align: left; }
+    .case-study-single .screenshot.center {
+      clear: both;
+      float: none;
+      margin: 0 auto; }
+    .case-study-single .screenshot.right {
+      float: right; }
+      .case-study-single .screenshot.right h1, .case-study-single .screenshot.right p {
+        text-align: right; }
+    .case-study-single .screenshot .shotText {
+      padding-top: 2vw; }
+      .case-study-single .screenshot .shotText h1 {
+        font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+        font-weight: 500;
+        font-style: normal;
+        color: #603913;
+        font-style: italic;
+        text-transform: none;
+        width: 100%; }
+      .case-study-single .screenshot .shotText p {
+        font-size: 1.7vw; }
+  .case-study-single #theLogo {
+    clear: both;
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/rpgucwbwzu516rqq5mqx.png) no-repeat #e8e8e8 0 5vw;
+    background-size: 100%; }
+    .case-study-single #theLogo #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding: 22vw 0 10vw 0; }
+      .case-study-single #theLogo #text p {
+        width: 50%; }
+  .case-study-single .logoDescription {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/o8y5gqto2jbcrswpowzy.png) no-repeat;
+    background-size: 100%;
+    width: 80vw;
+    min-height: 95vw;
+    display: block;
+    margin: 0 auto; }
+  .case-study-single #theApp {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat #ececec;
+    background-size: 100%;
+    display: block;
+    min-height: 120vw; }
+    .case-study-single #theApp #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding: 22vw 0 0 0; }
+      .case-study-single #theApp #text p {
+        width: 50%; }
+    .case-study-single #theApp #udidScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/la0rlthwtedicor5vxe9.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #theApp #hardwareScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/xz08c71z2h2pmmmeno6z.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #theApp #creditsScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qrqvmwmcbhlkbbbgkkmp.png) no-repeat;
+      background-size: 100%;
+      height: 113vw; }
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  .case-study-single h1 {
+    height: 5.5vw;
+    font-size: 4.3vw; }
+  .case-study-single p {
+    font-size: 3.4vw;
+    line-height: 5.4vw;
+    padding-top: 1.4vw; }
+  .case-study-single h1, .case-study-single p {
+    float: none !important;
+    text-align: center !important;
+    margin: 0 auto; }
+  .case-study-single #top {
+    height: 100vw; }
+    .case-study-single #top .logo {
+      width: 60vw;
+      height: 58vw; }
+  .case-study-single #skyHills {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/s2incecoxnyerrtf1sqx.png) no-repeat center top;
+    background-size: 160%;
+    height: 170vw;
+    margin-top: -28vw; }
+    .case-study-single #skyHills #lock {
+      width: 30vw;
+      height: 41vw;
+      top: -52vw; }
+    .case-study-single #skyHills #c1 {
+      width: 22vw;
+      height: 19vw;
+      top: 16vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c2 {
+      width: 16vw;
+      height: 13vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c3 {
+      width: 17vw;
+      height: 15vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c4 {
+      width: 13vw;
+      height: 11vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c5, .case-study-single #skyHills #c6 {
+      display: none; }
+    .case-study-single #skyHills #text {
+      top: -48vw; }
+      .case-study-single #skyHills #text p {
+        width: 90%;
+        padding-top: 4vw; }
+    .case-study-single #skyHills #hills {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k0jmevup8tk9jgosjbkq.png) no-repeat;
+      background-size: 100%;
+      height: 48vw;
+      display: block;
+      position: relative;
+      z-index: 84;
+      top: -43vw; }
+  .case-study-single #introduction {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: 226vw; }
+    .case-study-single #introduction .icons {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/jzanor0l0nblevn8jzry.png) no-repeat;
+      background-size: 100%;
+      display: block;
+      width: 77vw;
+      height: 128vw;
+      float: none;
+      margin: 0 auto; }
+    .case-study-single #introduction .text {
+      clear: both;
+      width: 90%;
+      float: none;
+      margin: 0 auto;
+      position: relative;
+      top: 17vw; }
+      .case-study-single #introduction .text h1 {
+        text-align: right;
+        float: right; }
+      .case-study-single #introduction .text p {
+        clear: both;
+        text-align: right; }
+  .case-study-single #beauty {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/gweg4updc2dnxuf085xs.png) no-repeat;
+    background-size: 220%;
+    width: 100%;
+    height: 840vw;
+    padding-top: 22vw;
+    overflow: hidden; }
+    .case-study-single #beauty #rocksauceLogo {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/j6ahzhlwzd0wizwjfpgp.png) no-repeat;
+      background-size: 100%;
+      width: 20vw;
+      height: 27vw; }
+    .case-study-single #beauty #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding-top: 5vw; }
+      .case-study-single #beauty #text p {
+        width: 55%; }
+    .case-study-single #beauty #v1 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/kbubqa5da0ofoayztuog.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #v2 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k7qfkm8va8bdsegr4e5k.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #v3 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fh0z1ytpx2iassssoqqa.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #finalDesign {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qf6modiljejtxhnufdjc.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty .bottomBeauty {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat;
+      background-size: 200%;
+      width: 100%;
+      z-index: 80;
+      height: 400vw;
+      display: block;
+      position: relative;
+      top: -206vw; }
+  .case-study-single .screenshots {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 8vw;
+    text-align: center; }
+  .case-study-single .screenshot {
+    max-width: 60vw;
+    padding-bottom: 0vw;
+    text-align: center;
+    margin: 0 auto; }
+    .case-study-single .screenshot .image {
+      width: 100%;
+      height: 109vw;
+      display: block;
+      margin: 0 auto; }
+    .case-study-single .screenshot.left {
+      float: none; }
+      .case-study-single .screenshot.left h1, .case-study-single .screenshot.left p {
+        text-align: center; }
+    .case-study-single .screenshot.center {
+      clear: both;
+      float: none;
+      margin: 0 auto; }
+    .case-study-single .screenshot.right {
+      float: none; }
+      .case-study-single .screenshot.right h1, .case-study-single .screenshot.right p {
+        text-align: right; }
+    .case-study-single .screenshot .shotText {
+      padding: 2vw 0 10vw 0; }
+      .case-study-single .screenshot .shotText h1 {
+        font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+        font-weight: 500;
+        color: #603913;
+        font-style: italic;
+        text-transform: none;
+        width: 100%; }
+      .case-study-single .screenshot .shotText p {
+        font-size: 3.5vw; }
+  .case-study-single .logoDescription {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/o8y5gqto2jbcrswpowzy.png) no-repeat;
+    background-size: 100%;
+    width: 90vw;
+    min-height: 106vw;
+    display: block;
+    margin: 0 auto; }
+  .case-study-single #theApp {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat #ececec;
+    background-size: 200%;
+    display: block;
+    min-height: 320vw; }
+    .case-study-single #theApp #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding: 22vw 0 0 0; }
+      .case-study-single #theApp #text p {
+        width: 50%; }
+    .case-study-single #theApp .image {
+      padding-bottom: 10vw; }
+    .case-study-single #theApp #udidScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/la0rlthwtedicor5vxe9.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #theApp #hardwareScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/xz08c71z2h2pmmmeno6z.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #theApp #creditsScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qrqvmwmcbhlkbbbgkkmp.png) no-repeat;
+      background-size: 100%;
+      height: 210vw; } }
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+  .case-study-single h1 {
+    height: 5.5vw;
+    font-size: 4.3vw; }
+  .case-study-single p {
+    font-size: 3.4vw;
+    line-height: 5.4vw;
+    padding-top: 1.4vw; }
+  .case-study-single h1, .case-study-single p {
+    float: none !important;
+    text-align: center !important;
+    margin: 0 auto; }
+  .case-study-single #top {
+    height: 100vw; }
+    .case-study-single #top .logo {
+      width: 60vw;
+      height: 58vw; }
+  .case-study-single #skyHills {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/s2incecoxnyerrtf1sqx.png) no-repeat center top;
+    background-size: 160%;
+    height: 170vw;
+    margin-top: -28vw; }
+    .case-study-single #skyHills #lock {
+      width: 30vw;
+      height: 41vw;
+      top: -52vw; }
+    .case-study-single #skyHills #c1 {
+      width: 22vw;
+      height: 19vw;
+      top: 16vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c2 {
+      width: 16vw;
+      height: 13vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c3 {
+      width: 17vw;
+      height: 15vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c4 {
+      width: 13vw;
+      height: 11vw;
+      -webkit-animation-name: none;
+      animation-name: none; }
+    .case-study-single #skyHills #c5, .case-study-single #skyHills #c6 {
+      display: none; }
+    .case-study-single #skyHills #text {
+      top: -48vw; }
+      .case-study-single #skyHills #text p {
+        width: 90%;
+        padding-top: 4vw; }
+    .case-study-single #skyHills #hills {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k0jmevup8tk9jgosjbkq.png) no-repeat;
+      background-size: 100%;
+      height: 48vw;
+      display: block;
+      position: relative;
+      z-index: 84;
+      top: -43vw; }
+  .case-study-single #introduction {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: 226vw; }
+    .case-study-single #introduction .icons {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/jzanor0l0nblevn8jzry.png) no-repeat;
+      background-size: 100%;
+      display: block;
+      width: 77vw;
+      height: 128vw;
+      float: none;
+      margin: 0 auto; }
+    .case-study-single #introduction .text {
+      clear: both;
+      width: 90%;
+      float: none;
+      margin: 0 auto;
+      position: relative;
+      top: 17vw; }
+      .case-study-single #introduction .text h1 {
+        text-align: right;
+        float: right; }
+      .case-study-single #introduction .text p {
+        clear: both;
+        text-align: right; }
+  .case-study-single #beauty {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/gweg4updc2dnxuf085xs.png) no-repeat;
+    background-size: 220%;
+    width: 100%;
+    height: 840vw;
+    padding-top: 22vw;
+    overflow: hidden; }
+    .case-study-single #beauty #rocksauceLogo {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/j6ahzhlwzd0wizwjfpgp.png) no-repeat;
+      background-size: 100%;
+      width: 20vw;
+      height: 27vw; }
+    .case-study-single #beauty #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding-top: 5vw; }
+      .case-study-single #beauty #text p {
+        width: 55%; }
+    .case-study-single #beauty #v1 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/kbubqa5da0ofoayztuog.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #v2 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k7qfkm8va8bdsegr4e5k.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #v3 {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fh0z1ytpx2iassssoqqa.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty #finalDesign {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qf6modiljejtxhnufdjc.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #beauty .bottomBeauty {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat;
+      background-size: 200%;
+      width: 100%;
+      z-index: 80;
+      height: 400vw;
+      display: block;
+      position: relative;
+      top: -206vw; }
+  .case-study-single .screenshots {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 8vw;
+    text-align: center; }
+  .case-study-single .screenshot {
+    max-width: 60vw;
+    padding-bottom: 0vw;
+    text-align: center;
+    margin: 0 auto; }
+    .case-study-single .screenshot .image {
+      width: 100%;
+      height: 109vw;
+      display: block;
+      margin: 0 auto; }
+    .case-study-single .screenshot.left {
+      float: none; }
+      .case-study-single .screenshot.left h1, .case-study-single .screenshot.left p {
+        text-align: center; }
+    .case-study-single .screenshot.center {
+      clear: both;
+      float: none;
+      margin: 0 auto; }
+    .case-study-single .screenshot.right {
+      float: none; }
+      .case-study-single .screenshot.right h1, .case-study-single .screenshot.right p {
+        text-align: right; }
+    .case-study-single .screenshot .shotText {
+      padding: 2vw 0 10vw 0; }
+      .case-study-single .screenshot .shotText h1 {
+        font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+        font-weight: 500;
+        color: #603913;
+        font-style: italic;
+        text-transform: none;
+        width: 100%; }
+      .case-study-single .screenshot .shotText p {
+        font-size: 3.5vw; }
+  .case-study-single .logoDescription {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/o8y5gqto2jbcrswpowzy.png) no-repeat;
+    background-size: 100%;
+    width: 90vw;
+    min-height: 106vw;
+    display: block;
+    margin: 0 auto; }
+  .case-study-single #theApp {
+    background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat #ececec;
+    background-size: 200%;
+    display: block;
+    min-height: 320vw; }
+    .case-study-single #theApp #text {
+      clear: both;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding: 22vw 0 0 0; }
+      .case-study-single #theApp #text p {
+        width: 50%; }
+    .case-study-single #theApp .image {
+      padding-bottom: 10vw; }
+    .case-study-single #theApp #udidScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/la0rlthwtedicor5vxe9.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #theApp #hardwareScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/xz08c71z2h2pmmmeno6z.png) no-repeat;
+      background-size: 100%; }
+    .case-study-single #theApp #creditsScreen {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qrqvmwmcbhlkbbbgkkmp.png) no-repeat;
+      background-size: 100%;
+      height: 210vw; } }
+@media (min-width: 1350px) {
+  .case-study-single h1 {
+    height: 2.0vw;
+    font-size: 1.7vw; }
+  .case-study-single p {
+    font-size: 1.4vw;
+    line-height: 2.1vw;
+    padding-top: 1.7vw; }
+  .case-study-single #skyHills #text p {
+    width: 45%; }
+  .case-study-single #skyHills #hills {
+    top: -32vw; }
+  .case-study-single #introduction {
+    width: 75%;
+    margin: 0 auto;
+    display: block; }
+    .case-study-single #introduction .icons {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/jzanor0l0nblevn8jzry.png) no-repeat;
+      background-size: 100%;
+      display: block;
+      width: 37vw;
+      height: 70vw;
+      float: left; }
+    .case-study-single #introduction .text {
+      width: 35vw;
+      float: right;
+      position: relative;
+      top: 17vw; }
+      .case-study-single #introduction .text h1 {
+        text-align: right;
+        float: right; }
+      .case-study-single #introduction .text p {
+        clear: both;
+        text-align: right; }
+  .case-study-single #beauty {
+    width: 100%;
+    height: 215vw;
+    padding-top: 15vw; }
+    .case-study-single #beauty .bottomBeauty {
+      background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat;
+      background-size: 100%;
+      width: 100%;
+      z-index: 80;
+      height: 70vw;
+      display: block;
+      position: relative;
+      top: 119vw; }
+    .case-study-single #beauty #text {
+      width: 60%;
+      margin: 0 auto; }
+  .case-study-single .screenshots {
+    width: 60%;
+    padding-top: 8vw; }
+  .case-study-single .screenshot {
+    max-width: 28vw;
+    padding-bottom: 10vw; }
+    .case-study-single .screenshot .image {
+      width: 28vw;
+      height: 53.5vw;
+      display: block; }
+    .case-study-single .screenshot.left {
+      float: left; }
+      .case-study-single .screenshot.left h1, .case-study-single .screenshot.left p {
+        text-align: left; }
+    .case-study-single .screenshot.center {
+      clear: both;
+      float: none;
+      margin: 0 auto; }
+    .case-study-single .screenshot.right {
+      float: right; }
+      .case-study-single .screenshot.right h1, .case-study-single .screenshot.right p {
+        text-align: right; }
+      .case-study-single .screenshot.right p {
+        font-size: 1.3vw !important; }
+    .case-study-single .screenshot .shotText {
+      padding-top: 0vw; }
+      .case-study-single .screenshot .shotText p {
+        font-size: 1.3vw !important; }
+  .case-study-single #theLogo #text {
+    clear: both;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 22vw 0 5vw 0; }
+    .case-study-single #theLogo #text p {
+      width: 32%; }
+  .case-study-single .logoDescription {
+    width: 50vw;
+    min-height: 60vw; }
+  .case-study-single #theApp #text {
+    clear: both;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 22vw 0 0 0; }
+    .case-study-single #theApp #text p {
+      width: 32%; }
+  .case-study-single #theApp #creditsScreen {
+    height: 95vw; } }
+
+
+
+#logo {
+  filter: brightness(0) invert(0) !important;
+}
+
+
+#main-header {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+
+#main-header ul li a:not(:hover) {
+  color: #000 !important;
+}
+
+
+footer {
+    background-color: #33b1e0 !important;
+    padding-top: 100px !important;
+}
+
+
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #33b1e0 !important;
+} 
