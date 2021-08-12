@@ -94,14 +94,24 @@ adulthood loomed right around the corner waiting for you.</p>
 					<li class="slidee shot2"></li>
 					<li class="slidee shot3"></li>
 					<li class="slidee shot4"></li>
-					<li class="slidee shot1"></li>
-					<li class="slidee shot2"></li>
-					<li class="slidee shot3"></li>
-					<li class="slidee shot4"></li>
-					<li class="slidee shot1"></li>
-					<li class="slidee shot2"></li>
-					<li class="slidee shot3"></li>
-					<li class="slidee shot4"></li>	
+					<li class="slidee shot5"></li>
+					<li class="slidee shot6"></li>
+					<li class="slidee shot7"></li>
+					<li class="slidee shot8"></li>
+					<li class="slidee shot9"></li>
+					<li class="slidee shot10"></li>
+					<li class="slidee shot11"></li>
+					<li class="slidee shot12"></li>
+					<li class="slidee shot13"></li>
+					<li class="slidee shot14"></li>
+					<li class="slidee shot15"></li>
+					<li class="slidee shot16"></li>
+					<li class="slidee shot17"></li>
+					<li class="slidee shot18"></li>
+					<li class="slidee shot19"></li>
+					<li class="slidee shot20"></li>
+					<li class="slidee shot21"></li>	
+					<li class="slidee shot22"></li>
 					<li class="slidee clickToView"></li>				
 				</ul>
 			</div>
