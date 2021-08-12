@@ -1,0 +1,422 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,700italic);
+.case-study-single {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/jntyklexvnds7gwib9aw.png") repeat-y;
+  background-size: 100%;
+  overflow: hidden; }
+  .case-study-single h1, .case-study-single p {
+    font-family: 'Lato', sans-serif;
+    color: #fff; }
+  .case-study-single h1 {
+    font-weight: 400;
+    font-size: 2.1vw;
+    text-transform: uppercase;
+    letter-spacing: .4vw;
+    line-height: 3vw; }
+  .case-study-single p {
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 3vw;
+    margin-top: 2vw; }
+    .case-study-single p.emphasis {
+      font-size: 1.8vw;
+      font-weight: 400; }
+      .case-study-single p.emphasis .call {
+        color: #ff8f2c; }
+    .case-study-single p.smaller {
+      font-size: 1.4vw; }
+  .case-study-single .top {
+    width: 100%;
+    min-height: 60vw;
+    display: block; }
+    .case-study-single .top .logo {
+      width: 55%;
+      margin: 0 auto;
+      min-height: 50vw;
+      display: block;
+      position: relative;
+      top: 15vw; }
+      .case-study-single .top .logo img {
+        width: 100%;
+        height: auto; }
+  .case-study-single text {
+    width: 65%;
+    display: block; }
+    .case-study-single text.center {
+      margin: 0 auto; }
+      .case-study-single text.center h1, .case-study-single text.center p {
+        text-align: center;
+        color: #fff; }
+  .case-study-single .description {
+    background: #414242;
+    padding: 10vw 0 10vw 0;
+    margin-bottom: 10px; }
+    .case-study-single .description .icons {
+      text-align: center;
+      margin-bottom: 3vw; }
+      .case-study-single .description .icons img {
+        width: 65%;
+        height: auto; }
+  .case-study-single .ux {
+    background: #138b81;
+    padding: 10vw 0 10vw 0;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden; }
+    .case-study-single .ux .area {
+      width: 70%;
+      margin: 0 auto;
+      display: block; }
+      .case-study-single .ux .area text {
+        float: left;
+        max-width: 45%;
+        display: block;
+        margin-right: 5%; }
+        .case-study-single .ux .area text p {
+          font-size: 1.4vw; }
+      .case-study-single .ux .area .uxImage {
+        text-align: right;
+        float: left;
+        width: 50%;
+        display: block; }
+        .case-study-single .ux .area .uxImage img {
+          width: 100%;
+          height: auto; }
+  .case-study-single .branding {
+    background: #004a69;
+    padding: 10vw 0 10vw 0;
+    overflow: hidden;
+    margin-bottom: 10px; }
+  .case-study-single .logoArea {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 13vw;
+    width: 70%;
+    clear: both; }
+    .case-study-single .logoArea .theLogo {
+      max-width: 50%;
+      float: left;
+      display: block; }
+      .case-study-single .logoArea .theLogo img {
+        width: 100%;
+        height: auto; }
+    .case-study-single .logoArea .explain {
+      float: right;
+      max-width: 45%; }
+      .case-study-single .logoArea .explain p {
+        vertical-align: middle;
+        text-align: left; }
+        .case-study-single .logoArea .explain p.one {
+          margin-top: 10vw; }
+        .case-study-single .logoArea .explain p.two {
+          margin-top: 5vw; }
+        .case-study-single .logoArea .explain p.three {
+          margin-top: 10vw; }
+  .case-study-single .elements {
+    background: #cc5a2a;
+    padding: 10vw 0 10vw 0;
+    margin-bottom: 10px;
+    overflow: hidden; }
+    .case-study-single .elements .icons {
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 8vw;
+      margin-bottom: 5vw;
+      display: block; }
+      .case-study-single .elements .icons img {
+        width: 100%;
+        height: auto; }
+  .case-study-single .screenArea {
+    background: #414242;
+    padding: 10vw 0 10vw 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center; }
+  .case-study-single .frame {
+    background-size: 35%;
+    width: 100%;
+    height: 57.5vw;
+    z-index: 1;
+    display: block;
+    position: relative;
+    clear: both; }
+    .case-study-single .frame .slidee {
+      float: left;
+      width: 32vw;
+      height: 56.5vw;
+      display: block;
+      z-index: 1;
+      position: relative;
+      margin-right: 1vw;
+      cursor: pointer; }
+      .case-study-single .frame .slidee:first-child {
+        cursor: default; }
+      .case-study-single .frame .slidee img {
+        width: 100%;
+        height: auto; }
+    .case-study-single .frame .clickToView {
+      background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/wp2mau8qxfhftxuwwtyo.png") no-repeat;
+      background-size: 100%; }
+  .case-study-single .quoteArea {
+    background: #ff8f2c;
+    padding: 10vw 0 10vw 0;
+    margin-bottom: 10px;
+    overflow: hidden; }
+    .case-study-single .quoteArea text {
+      margin: 0 auto; }
+    .case-study-single .quoteArea .logo {
+      float: left;
+      width: 30%;
+      display: block;
+      padding-top: 1vw; }
+      .case-study-single .quoteArea .logo img {
+        width: 100%;
+        height: auto; }
+    .case-study-single .quoteArea p {
+      width: 65%;
+      float: right;
+      text-align: left;
+      font-size: 2.2vw;
+      font-weight: 500; }
+      .case-study-single .quoteArea p.person {
+        margin-top: 2vw;
+        font-weight: 600;
+        font-style: italic; }
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  .case-study-single .top {
+    min-height: 90vw; }
+    .case-study-single .top .logo {
+      width: 85%;
+      min-height: 70vw;
+      top: 23vw; }
+  .case-study-single .description .icons {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vw; }
+    .case-study-single .description .icons img {
+      width: 100%;
+      height: auto; }
+  .case-study-single text {
+    width: 85%;
+    display: block; }
+    .case-study-single text.center {
+      margin: 0 auto; }
+      .case-study-single text.center h1, .case-study-single text.center p {
+        text-align: center;
+        color: #fff; }
+  .case-study-single h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: .7vw;
+    line-height: 6vw; }
+  .case-study-single p {
+    font-size: 4vw;
+    line-height: 7vw;
+    margin-top: 3vw; }
+    .case-study-single p.emphasis {
+      font-size: 4.5vw; }
+      .case-study-single p.emphasis .call {
+        color: #ff8f2c; }
+    .case-study-single p.smaller {
+      font-size: 3vw; }
+  .case-study-single .ux .area {
+    width: 100%;
+    margin: 0 auto;
+    display: block; }
+    .case-study-single .ux .area text {
+      float: none;
+      max-width: 90%;
+      display: block;
+      margin: 0 auto; }
+      .case-study-single .ux .area text h1 {
+        text-align: center; }
+      .case-study-single .ux .area text p {
+        text-align: center;
+        font-size: 3.7vw;
+        line-height: 7vw;
+        margin-top: 3vw; }
+    .case-study-single .ux .area .uxImage {
+      float: none;
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10vw; }
+      .case-study-single .ux .area .uxImage img {
+        width: 100%;
+        height: auto; }
+  .case-study-single .logoArea {
+    margin-top: 13vw;
+    width: 90% !important; }
+    .case-study-single .logoArea .theLogo {
+      min-width: 100% !important;
+      float: none !important;
+      display: block;
+      margin: 0 auto; }
+    .case-study-single .logoArea .explain {
+      float: none !important;
+      max-width: 100% !important; }
+      .case-study-single .logoArea .explain p {
+        text-align: center; }
+        .case-study-single .logoArea .explain p.one {
+          margin-top: 10vw; }
+        .case-study-single .logoArea .explain p.two {
+          margin-top: 5vw; }
+        .case-study-single .logoArea .explain p.three {
+          margin-top: 10vw; }
+  .case-study-single .elements .icons {
+    width: 90%;
+    margin-top: 8vw; }
+  .case-study-single .frame {
+    height: 138vw;
+    margin-top: 5vw;
+    overflow: hidden; }
+    .case-study-single .frame .slidee {
+      width: 75vw;
+      height: 138vw;
+      margin-right: 3vw; }
+  .case-study-single .quoteArea .logo {
+    float: none;
+    width: 100%;
+    display: block;
+    padding-top: 1vw;
+    text-align: center; }
+    .case-study-single .quoteArea .logo img {
+      width: 50%;
+      height: auto;
+      margin: 0 auto; }
+  .case-study-single .quoteArea p {
+    clear: both;
+    width: 100%;
+    float: none;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 500; }
+    .case-study-single .quoteArea p.person {
+      margin-top: 2vw;
+      font-weight: 600;
+      font-style: italic; } }
+
+
+.frame .shot1 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/zpuzrjcfdh9u7pfjjsvv.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot2 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/rqzbffhzehsv1qr33biz.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot3 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/mntvo7mskkmczahyxf2x.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot4 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/n08cqxrzwbchyzemwpm9.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot5 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/o1mzztq29n0iqmlvlv7p.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot6 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/ju9pmxki6c75iaq8c78s.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot7 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/hyp763sz7nhwh6textho.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot8 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/zcaasxpn0wezv2isdo1c.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot9 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/pbcrdcarg8sf1p2y0bkd.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot10 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/p7aaolpqssviyby9rdhk.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot11 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/dbtw0ud7gowch4z0tsfd.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot12 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/nxkg4c6sl7ogawc3xpes.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot13 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059936/b2ivdtvr1dmujld8vm6y.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot14 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/xt5xa3xsfecttklq8vkh.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot15 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/bohlh9n0ebp1jugocnq9.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot16 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/fn1sndl4xiznek5kvwx5.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot17 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/baklr3xxtvw0p8jzn3op.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot18 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/cvme0bqualkhoj5hsyyk.png") no-repeat;
+  background-size: 100%;
+}
+
+
+.frame .shot19 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/pbeijpow1m72cgmckhh1.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot20 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/vqektsy4qsjug6e908xa.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot21 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/vuxzxzaaqmksgastgt6g.png") no-repeat;
+  background-size: 100%;
+}
+
+.frame .shot22 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/cl9r0ao9qmxj45phn3ev.png") no-repeat;
+  background-size: 100%;
+}
