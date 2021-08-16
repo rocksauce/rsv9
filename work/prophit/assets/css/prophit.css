@@ -367,8 +367,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         font-weight: none; } }
 
 
-#logo {
-  filter: invert(100%) sepia(67%) saturate(275%) hue-rotate(33deg) brightness(108%) contrast(97%) !important;
+
+      #logo {
+  filter: brightness(0) invert(1) !important;
 }
 
 
@@ -384,7 +385,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 
 footer {
-    background-color: #C1C1C1 !important;
+    background-color: #404041 !important;
     padding-top: 100px !important;
 }
 
@@ -393,7 +394,7 @@ footer {
 body {
   margin: 0 auto;
   padding: 0;
-  background-color: #C1C1C1 !important;
+  background-color: #404041 !important;
 } 
 
 

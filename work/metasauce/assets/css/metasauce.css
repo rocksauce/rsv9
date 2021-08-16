@@ -90,14 +90,14 @@
     left: 110%; } }
 .case-study-single {
   background: #fff;
-  font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+  font-family: "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
   font-weight: 300;
   font-style: normal; }
   .case-study-single h1 {
     display: block;
     height: 2.3vw;
     display: inline-block;
-    font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+     font-family: "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #603913;
@@ -965,7 +965,7 @@
 
 
 footer {
-    background-color: #33b1e0 !important;
+    background-color:#E8E8E8 !important;
     padding-top: 100px !important;
 }
 
@@ -974,5 +974,24 @@ footer {
 body {
   margin: 0 auto;
   padding: 0;
-  background-color: #33b1e0 !important;
+  background-color: white !important;
 } 
+
+
+
+.nav li.btn-green a {
+    padding: 8px !important;
+    background: #FEFBCC;
+    border-radius: 2px;
+    color: #fff !important;
+    border: 1px solid black;
+}
+
+
+.nav li.btn-green a:hover {
+    padding: 8px !important;
+    background: #FEFBCC;
+    border-radius: 2px;
+    color: #000 !important;
+    border: 1px solid black;
+}

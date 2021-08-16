@@ -404,7 +404,7 @@ body {
 
 
 #main-header {
-  background-color: rgba(9, 65, 132, 0.5) !important;
+  background-color: rgba(128, 16, 26, 0.5) !important;
 }
 
 
@@ -415,6 +415,11 @@ footer {
 
 #main-header ul li a:not(:hover) {
   color: #F6F3E0 !important;
+}
+
+body{
+  background: #80101a !important;
+
 }
 
 
