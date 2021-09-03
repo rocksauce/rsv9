@@ -6,7 +6,7 @@
 ?>
 
 <?php get_header(); ?>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/work/assets/css/clock-a-doodle.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/work/assets/css/clock-a-doodle.css?version=<?php echo rand(1, 2000) ?>" type="text/css" />
 
 	<div class="case-study-single">
 		<div id="top">
@@ -19,7 +19,7 @@
 							<p>
 								<h1>Your Morning Wake-Up Video</h1>
 								<p>
-									Waking up has never been so much fun! Choose a video from your phone or YouTube and actually look forward to your daily alarm.
+									Waking up has never been so much fun! Choose a video from your phone or YouTube to play when your alarm goes off, and actually look forward to starting your day.
 								</p>
 							</p>
 						</td>
@@ -31,21 +31,23 @@
 		<div class="bigPhoto">
 			<div class="text">
 				<h1>EASY TO SET-UP &amp; A JOY TO USE</h1>
-				<p>Clock-A-Doodle's goal was to give users something to look forward to, rather than the annoying blaring of typical alarms.</p>
+				<p>Clock-A-Doodle's goal was to give users something to look forward to each morning. They wanted to motivate users to wake up and start their day with a video to inspire or amuse them, rather than be rudely awakened by the annoying blare of typical alarms. We made it as easy as possible.</p>
 
-				<p>So we made it simple to use. Add an alarm, choose a video, then go to sleep. Yeah, it's that easy. Pick from included options or upgrade to choose anything from YouTube.  </p>
+				<p> Clock-A-Doodle is simple to use. Schedule an alarm, choose a video, then go to sleep. Yep, it's that easy. Upload a video, select from included options, or upgrade to add any video from YouTube.</p>
+
+				
 			</div>
 		</div>
 		<div class="multiColor">
 			<div class="text">
 				<h1>THE BONES &amp; MUSCLES</h1>
-				<p>Building a project means starting with the right bones & muscles, ensuring that all the joints connect as they're supposed to. </p>
+				<p>Building a project means starting with the right bones & muscles, ensuring that all the joints connect as they're supposed to.</p>
 			</div>
 			<div class="appMap"></div>
 			<div class="logosAndMore">
 				<div class="text">
-					<h1>HOW TO NAME YOUR ROOSTER</h1>
-					<p>Often, we have the concept for a name, though we haven't quite decided on the exact words. Originally our client came to us with the name, “Video Rooster,” but after several logo versions, we realized it was just too on the nose. Along the way, we realized the perfect name was staring us right in the face: Clock-A-Doodle.</p>
+					<h1>HOW TO NAME A ROOSTER</h1>
+					<p>Often, our clients will have the concept for a name, though they haven't decided on the exact words when they come to Rocksauce. Originally our client came to us with the name, “Video Rooster,” but after mocking up several versions of that logo, we realized it was just too on the nose. Then we realized the perfect name was staring us right in the face all along: Clock-A-Doodle Ux Design.</p>
 					<div class="logoList">
 						<div class="logo"><img src="http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/d5kcd5ldddaw1e1axlst.png" /></div>
 						<div class="logo"><img src="http://res.cloudinary.com/rocksauce-studios/image/upload/v1420581639/tpl0xcopwdc7lu6ka3gw.png" /></div>

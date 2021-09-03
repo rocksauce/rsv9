@@ -448,14 +448,14 @@ template {
 
 .insideBounds h2 {
   color: #fff;
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "GRBTemp", sans-serif;
+   font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
   font-size: 50px;
   font-weight: normal;
   margin: 0;
   line-height: 45px; }
 
 .insideBounds p {
-  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "GNBTemp", sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -492,7 +492,7 @@ template {
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "GRBTemp", sans-serif;
+     font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
     font-style: normal;
     font-weight: 500;
     background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1515782151/cyjfqm1qi1bldhjaovtl.svg") right center no-repeat;
@@ -515,7 +515,7 @@ template {
   text-decoration: none; }
   #doshButton text {
     fill: #fff;
-    font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "GRBTemp", sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
     font-size: 11.5px;
     transition: all 150ms ease-in; }
   #doshButton .strokeIt {
@@ -531,7 +531,7 @@ template {
     position: relative; }
   #doshButton:hover text {
     fill: #55E5FF;
-    font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "GRBTemp", sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
     font-size: 12px;
     transition: all 150ms ease-in; }
   #doshButton:hover .strokeIt {
@@ -546,12 +546,12 @@ template {
   margin: 0 auto;
   display: block;
   color: #4A4A4A;
-  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "GNBTemp", sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
   font-size: 25px;
   padding-bottom: 200px; }
   .doshContent h2 {
     color: #904D9D;
-    font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "GRBTemp", sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
     font-size: 20px;
     background-image: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1515782151/wpcqbgxftm8pm81uv2hv.svg");
     background-repeat: repeat-x;
@@ -562,7 +562,7 @@ template {
     margin: 80px 0 24px 0; }
   .doshContent p {
     color: #4A4A4A;
-    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "GNBTemp", sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", helvetica, calibri, arial, sans-serif !important;
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 15px; }

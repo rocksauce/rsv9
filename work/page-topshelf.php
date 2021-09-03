@@ -17,8 +17,8 @@
 		</div>
 		<div id="pleasureArea">
 			<div id="content">
-				<p>The party is rocking, but no one wants to go on a beer run. No problems, because TopShelf is about to save the day.</p>
-				<p>Open the app, set your location, and get your favorite drinks delivered right to your door.</p>
+				<p>The party is rocking, but you’re running low on beer. No problems, because TopShelf Design Sprint is here to save the day.</p>
+				<p>Open the TopShelf Design Sprint app, set your location, and get your favorite drinks delivered right to your door.</p>
 
 				<div id="pleasureItems"></div>
 			</div>
@@ -60,8 +60,8 @@
 		</div>
 		<div id="quote">
 			<p>
-				"The Rocksauce Team has been AMAZING to work with!  Especially with us being a startup, they've really helped guide our true vision for the app."<br/>
-				<span class="attribution">Ryan Browne, CEO &amp; Founder, TopShelf</span>
+				"The Rocksauce Team has been AMAZING to work with! Especially with us being a startup, they've really helped guide our true vision for the app."<br/>
+				<span class="attribution">RYAN BROWNE, CEO  &amp; FOUNDER, TOPSHELF</span>
 			</p>
 		</div>
 	</div>

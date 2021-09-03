@@ -17,14 +17,14 @@
 				<div class="phone"></div>
 				<div class="text">
 					<h1>Activity Tracking<br>For your Best Friend!</h1>
-					<p>Okay, let's be honest - DETAILS&#174; Pet Activity Link is one of our favorite projects here at Rocksauce Studios! We love our pets, we love fitness trackers, and of course, we love making beautiful apps for iPhone and Android.</p>
+					<p>Okay, let's be honest—DETAILS&#174; Pet Activity Link is one of our favorite projects here at Rocksauce Studios! We love our pets, we love fitness trackers, and of course, we love making beautiful apps for iPhone and Android.</p>
 
-<p>DETAILS&#174; initially came to us a just a simple concept, a bright idea in an appreneur's head. After Rockauce poured some of our UX & Artistic magic on it, it grew to be a flagship tech project for one of the pet world's leading companies - R2P Pet.</p>
+<p>DETAILS&#174; PAL initially came to us as just a simple concept, a bright idea in an appreneur's head. After Rockauce poured some of our UX & Artistic magic on it, it grew to be a flagship tech project for one of the pet world's leading companies - R2P Pet.</p>
 				</div>
 			</div>
 			<div class="uxArea">
 				<div class="text">			
-					<h1>UX &amp;<br>Strategy</h1>
+					<h1>Details PAL Ux Design &amp;<br>Strategy</h1>
 				</div>
 				<div class="ux"></div>
 			</div>
@@ -33,19 +33,20 @@
 					<div class="logos"></div>
 					<div class="text">
 						<h1>Logo Design</h1>
-						<p>Before being renamed to DETAILS&#174;, Rocksauce worked up some logos for the original name, EmBark.</p>
-						<p>Keeping the core concept of activity at the forefront, we toyed with a few different styles to show the concept of paws moving, dogs jumping or standing, and most adorably, a floppy eared puppy in a sweatband.</p>
+						<p>Before being renamed to DETAILS&#174; PAL, Rocksauce worked up some logos for the original name, EmBark.</p>
+						<p>Keeping the core concept of activity at the forefront, we toyed with a few different styles to show the concept of paws moving, dogs jumping or standing, and most adorably, a floppy eared puppy in a sweatband.
+</p>
 					</div>
 				</div>
 			</div>
 			<div class="colorsElements">
 				<div class="text">
 					<h1>Colors &amp;<br>Elements</h1>
-					<p>There's one universal truth about having a pet - it makes you happy. Whether bouncing around, chasing each other, or rolling around on their back, pets bring down stress levels and make you smile.</p>
+					<p>The universal truth about having a pet is that it makes you happy. Whether bouncing around, chasing each other, or rolling around on their back, pets bring down stress levels and make you smile.</p>
 
-					<p>We infused every element of the DETAILS&#174; with that same spirit, focusing on bright, bold colors, easily accessible, but playful icons & interface elements, and fonts that are legible but soothing.</p>
+					<p>We infused every element of the DETAILS&#174; PAL with that same spirit. In the app, we focused on bright, bold colors, easily accessible, with playful icons and interface elements, and fonts that are legible but soothing.</p>
 
-					<p>It's important to be as fun to use as it is easy.</p>
+					<p>Details PAL Ux Design  is as much fun to use as it is easy!</p>
 				</div>
 				<div class="elements"></div>
 			</div>

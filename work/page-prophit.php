@@ -17,40 +17,40 @@
 		<!-- Logo Explanations -->
 			<div class="textBox firstBox lightestBox borderTop">
 				<p>
-					Picking the right branding is vital to determining the style of the project. Once we had the name Prophit, there were a few directions we could go.
+					Picking the right branding is vital to determining the style of the project. Once we had the name Prophit, we realized we could go in any of a few directions.
 				</p>
 			</div>
 			<div class="textBox borderTop lightestBox">
 				<p>
-					Since the name was decided early, we initially toyed with using magical imagery, such as genies and lamps. Cute, but it quite didn't fit our vision.
+					We decided early on the name, so we initially toyed with using magical imagery, such as genies and lamps. Cute, but it quite didn't fit our vision.
 				</p>
 			</div>		
 			<div class="textBox borderBoth lightestBox">
 				<p>
-					After testing sterile, more modern concepts, we wound up with a modified price tag, and a powerful geometric font treatment.
+					After testing more modern concepts that felt too sterile, we wound up with a modified price tag and a powerful geometric font treatment.
 				</p>
 			</div>		
 		<!-- /Logo Explanations -->		
 		<div class="spacerOne"></div>
 		<div class="textBox borderTop lightestBox">
 			<p>
-				We created Prophit to be the quick, go-to application for anyone needing to keep track of sales  & margins. 
+				We created Prophit to be the quick, go-to application for anyone needing to keep track of sales & margins.
 			</p>
 		</div>		
 		<div class="textBox borderBoth lightestBox">
 			<p>
-				Custom, retro-styled keyboard created to be reminiscent of classic desk calculators. Use the dedicated “next field” key to allow users to easily move through each form field as you enter items.
+				Prophet has a custom, retro-styled keyboard reminiscent of classic desk calculators. The dedicated “next field” key allows users to easily move through each form field as you enter items.
 			</p>
 		</div>	
 		<div class="spacerTwo"></div>		
 		<div class="textBox borderTop lightestBox">
 			<p>
-				Simple, clean, data entry to let you quickly enter your item details, and get back to running your business.
+				Simple, clean, data entry lets you quickly enter your item details into Prophit and get back to running your business.
 			</p>
 		</div>		
 		<div class="textBox borderBoth lightestBox">
 			<p>
-				Easily test out different combinations of mark-up and margin, to maximize profit for the number of items on hand. 
+				The Prophot app allows you to easily test out different combinations of mark-up and margin to maximize profit for the number of items on hand.
 			</p>
 		</div>				
 	</div>
@@ -101,7 +101,7 @@
 	<div id="quoteArea">
 		<div class="photo"></div>
 		<div class="text">
-			<p>"It was an awesome experience watching an idea grow in to something so great with the Rocksauce Studios team."</p>
+			<p>"It was an awesome experience watching an idea grow into something so great with the Rocksauce Studios team."</p>
 			<h1>Micah Payne, <strong>Prophit Creator</strong></h1>
 		</div>	
 	</div>

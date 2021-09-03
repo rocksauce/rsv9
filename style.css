@@ -7289,3 +7289,10 @@ a, a:link, a:hover, a:visited, a:focus {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+  .contact-intro .et_pb_map_container {
+    position: initial !important;
+    width: 100%;
+    height: 400px;
+}

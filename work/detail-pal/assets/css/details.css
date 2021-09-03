@@ -701,21 +701,27 @@
 
 
 
-   
-
-   #main-header {
-  background-color: transparent !important;
-  backdrop-filter: blur(10px) !important;
-}
-
-
-#main-header {
-  background-color: rgba(64, 178, 184, 0.5) !important;
-}
-
 
 footer {
-    background-color: #40B2B8 !important;
+    background-color: white !important;
     padding-top: 100px !important;
 }
 
+#logo {
+  filter: invert(1) sepia(24%) saturate(159%) hue-rotate(352deg) brightness(122%) contrast(93%) !important;
+}
+
+#main-header {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px) !important;
+}
+#main-header ul li a:not(:hover) {
+  color: #F6F3E0 !important;
+}
+
+body {
+  background-color: #047785 !important;
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}

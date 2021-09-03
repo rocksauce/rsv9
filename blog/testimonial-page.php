@@ -1,11 +1,11 @@
 <?php
-
 remove_all_filters('posts_orderby');
 $args = array(
     'post_type' => 'testimonials',
     'posts_per_page' => 1,
     'orderby' => 'rand'
 );
+
 
 $testimonialBlock = new WP_Query( $args );
 

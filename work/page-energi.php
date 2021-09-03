@@ -12,8 +12,9 @@
 		<div id="firstRow">
 			<div class="text">
 				<h1>Energi with a Touch of Elegance</h1>
-				<p>Everything we do either <inc>adds</inc> or <dec>saps</dec> our energy levels. A great lunch with your team may give you a <inc>boost</inc> for the rest of the day, but an argument with your spouse can cause a <dec>big drain</dec> on your energy.</p>
-				<p>Energi analyzes your daily calendars, letting you <inc>increase</inc> or <dec>decrease</dec> your energy levels appropriately, then recommends activities from world-class coaches to help you keep your energy levels where they need to be.</p>
+				<p>Stand out with Energi Apple Watch Design Everything we do either <inc>adds</inc> to or  <dec>saps</dec> our energy level. A great lunch with your team may give you a <inc>boost</inc> for the rest of the day, but an argument with your spouse can cause a <dec>big drain</dec> on your energy. What if you could monitor your tasks so you could make time for energy-boosting activities? With Energi, you can!
+				</p>
+				<p> The Energi apple watch design analyzes your daily calendars to help you <inc>increase</inc> or <dec>decrease</dec> your energy levels appropriately, then recommends activities from world-class coaches to help you keep your energy levels where they need to be. </p>
 			</div>
 			<div class="watch1"></div>
 		</div>
@@ -21,15 +22,15 @@
 			<div class="watch2"></div>
 			<div class="text">
 				<h1>Keep Energized with a Glance</h1>
-				<p>We built the Energi AppleWatch extension, to help keep track of your daily needs. With the Energi Glance, you can see when you're headed for a <dec>dip</dec> in energy, so you can add much-needed <inc>increasers</inc> when they'll be the most useful.</p>
-				<p>Energi is about keeping yourself balanced, so that you can get more accomplished, with a better attitude and outlook.</p>
+				<p>We built the Energi Apple Watch design to help keep track of your daily energy needs. With the Energi Glance, you can see when you're likely headed for a dip in energy. Allowing you to add much-needed energy increasers to your day when they'll be the most useful.</p>
+				<p>Energi is about keeping yourself balanced, so you accomplish more with a better attitude and outlook.</p>
 			</div>
 		</div>
 		<div id="thirdRow">
 			<div class="text">
 				<h1>Tracking & Logging your Day</h1>
 				<p>
-					Use Energi AppleWatch to rate events as they occur, allowing you to stay on top of your levels without interrupting your daily flow. Tapping into your events calendar gives you a quick glance of what's coming up, so you discover the best times to <inc>re-energize</inc> yourself as needed.					
+					Use Energi on your Apple Watch to rate energy-affecting events as they occur. This allows you to stay on top of your levels without interrupting your daily flow. Tapping into your events calendar gives you a quick glance of what's coming up, so you can discover the best times to  <inc>re-energize</inc> yourself with one of the suggested Energi activities when needed.				
 				</p>
 			</div>
 			<div class="watches">
