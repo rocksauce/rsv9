@@ -5437,7 +5437,7 @@ body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error
   padding: 0 0 0;
 }
 
-.section-global .et_pb_row.et_pb_row_3 {
+.section-global .et_pb_row.et_pb_row_4 {
   max-width: 100%;
 }
 
@@ -7352,4 +7352,13 @@ a, a:link, a:hover, a:visited, a:focus {
 
 .contact-intro .et_pb_map_container {
       height: 479px !important;
+}
+
+.et_pb_text_inner > h3 > a:hover {
+ color: #df5b4e !important;
+}
+
+
+.et_pb_text_inner > h2 > a:hover {
+ color: #df5b4e !important;
 }

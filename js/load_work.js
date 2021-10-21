@@ -1,13 +1,27 @@
 jQuery("#hide_no_resulsts").hide();
 jQuery(document, window).ready(function () {
+
+    $( ".et-l--footer ul li:nth-child(6)  > a" ).attr("href", "/blog");
+
+
+    $('a:contains("Terms of Services")').filter(function(index)
+    {
+        return $(this).text() === "Terms of Services";
+    }).attr("href", "/terms-of-service");
+
+
+     $('a:contains("Privacy Policy")').filter(function(index)
+    {
+        return $(this).text() === "Privacy Policy";
+    }).attr("href", "/privacy-policy-2");
     
     var page = 1;
-    var many = 9;
+    var many = 6;
     var excluded_ids = window.excluded_ids;
     var category_id = window.category_id;
     var no_more_posts = false;
 
-    var getPosts = () => {
+    function getWork(){
         if(no_more_posts) return;
         
         page++;
@@ -22,7 +36,7 @@ jQuery(document, window).ready(function () {
                 excluded_ids: excluded_ids,
                 category_id:category_id
             },
-            action: 'load_posts_api',
+            action: 'load_work_posts_api',
             nonce: ajax_info.ajax_nonce
         }
 
@@ -35,13 +49,13 @@ jQuery(document, window).ready(function () {
                 response = JSON.parse(response);
 
                 no_more_posts = response.no_more_items;
-                 console.log(no_more_posts);
-                if(!no_more_posts){
+                 
+                if(response.more_posts){
                     excluded_ids = response.excluded_ids;
                     
-                    jQuery('.rsv9_blog_content').append(response.more_posts);
+                    jQuery('.rsv9_work_content').append(response.more_posts);
                 }else{
-                    jQuery("#load_more_posts").hide();
+                    jQuery("#load_more_work").hide();
                     jQuery("#hide_no_resulsts").show();
                 }
                 
@@ -56,6 +70,12 @@ jQuery(document, window).ready(function () {
         
     }
     
-    jQuery("#load_more_posts").on( 'click', getPosts );
+ 
+    jQuery("#load_more_work").on( 'click', getWork );
+
+    
+      //jQuery("#load_more_work").click();
+      jQuery("#load_more_work").hide();
 
   });
+
