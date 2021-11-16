@@ -254,7 +254,8 @@ $list_query_options['orderby'] = 'date';
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
                                                             <img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="675">
                                                         </a>
-                                                        <h2 class="entry-title rs-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
+                                                        <h2 class="entry-title rs-title"><a href="<?= the_permalink() ?>">
+                                                            <?php echo  mb_strimwidth( get_the_title(), 0, 50, '...' ); ?></a></h2>
                                                         <div class="post-content">
                                                             <div class="post-content-inner rs-content"><?php rs_the_excerpt( 90 ) ?></div>
                                                         </div>

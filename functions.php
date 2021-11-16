@@ -19,6 +19,36 @@ add_action( 'wp_enqueue_scripts', function () {
 } );
 */
 //you can add custom functions below this line:
+// include custom stylesheet
+// get theme version
+function wpmix_get_version() {
+    $theme_data = wp_get_theme();
+    return $theme_data->Version;
+}
+$theme_version = wpmix_get_version();
+global $theme_version;
+
+// get random number
+function wpmix_get_random() {
+    $randomizr = '-' . rand(100,999);
+    return $randomizr;
+}
+$random_number = wpmix_get_random();
+global $random_number;
+
+
+function wpmix_queue_css() {
+    global $theme_version, $random_number;
+    if (!is_admin()) {
+        wp_register_style('custom_styles', get_template_directory_uri().'/style.css', false, $theme_version . $random_number);
+        wp_enqueue_style('custom_styles');
+    }
+}
+add_action('wp_print_styles', 'wpmix_queue_css');
+
+
+
+
 include('testimonials-shortcode.php');
 add_shortcode('testimonials', 'testimonials_function');
 

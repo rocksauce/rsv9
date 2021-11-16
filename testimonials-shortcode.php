@@ -29,8 +29,7 @@ function testimonials_function() {
                                   
 
        
-        $content = get_post_field('post_content', get_the_ID());
-
+        $content =   str_replace(['<p>', '</p>'], '', get_post_field('post_content', get_the_ID()) );
         
         $title = get_post_field('post_title', get_the_ID());
 
@@ -39,7 +38,7 @@ function testimonials_function() {
 
 
 
-        <div class="et_pb_row et_pb_row_10 et_pb_row_1-4_3-4">
+        <div class="et_pb_row et_pb_row_8 et_pb_row_1-4_3-4">
             <div class="et_pb_column et_pb_column_1_4 et_pb_column_22  et_pb_css_mix_blend_mode_passthrough">
 
 

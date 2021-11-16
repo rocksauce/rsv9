@@ -1,7 +1,16 @@
 jQuery("#hide_no_resulsts").hide();
 jQuery(document, window).ready(function () {
-
     $( ".et-l--footer ul li:nth-child(6)  > a" ).attr("href", "/blog");
+    $( ".et-l--footer li:eq(-2)  > a" ).attr("href", "https://dribbble.com/tags/rocksauce");
+
+     $( ".et-l--footer li:eq(-1)  > a" ).attr('target','_blank');
+     $( ".et-l--footer li:eq(-2)  > a" ).attr('target','_blank');
+     $( ".et-l--footer li:eq(-3)  > a" ).attr('target','_blank');
+     $( ".et-l--footer li:eq(-4)  > a" ).attr('target','_blank');
+     $( ".et-l--footer li:eq(-5)  > a" ).attr('target','_blank');
+     $( ".et-l--footer li:eq(-6)  > a" ).attr('target','_blank');
+     $( ".et-l--footer li:eq(-7)  > a" ).attr('target','_blank');
+
 
 
     $('a:contains("Terms of Services")').filter(function(index)
@@ -14,6 +23,9 @@ jQuery(document, window).ready(function () {
     {
         return $(this).text() === "Privacy Policy";
     }).attr("href", "/privacy-policy-2");
+
+
+
     
     var page = 1;
     var many = 6;
