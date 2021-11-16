@@ -1,0 +1,234 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+.case-study-single {
+  background: #fff;
+  font-family: 'Oswald', sans-serif;
+  color: #404040;
+}
+
+.case-study-single #top {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352149/vpu30s7szexdeusqqceq.jpg") no-repeat;
+  width: 100%;
+  background-size: 100%;
+  height: 130vw;
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.case-study-single #content {
+  width: 82%;
+  margin: 0 auto;
+  margin-top: -7vw;
+  display: block;
+  position: relative;
+}
+
+.case-study-single #content .left {
+  width: 45%;
+  float: left;
+}
+
+.case-study-single #content .left h1 {
+  color: #ee5f2c;
+  font-size: 4.5vw;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 1vw;
+}
+
+.case-study-single #content .left p {
+  font-size: 2.3vw;
+  font-weight: 300;
+  line-height: 4vw;
+  margin-bottom: 1.3vw;
+}
+
+.case-study-single #content .right {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/elw85u0mpyegr4f4a7pn.png") no-repeat right center;
+  width: 55%;
+  min-height: 60vw;
+  background-size: 96%;
+  display: block;
+  float: left;
+}
+
+.case-study-single .frame {
+  background-size: 35%;
+  width: 100%;
+  height: 57.5vw;
+  z-index: 1;
+  margin-top: 5vw;
+  display: block;
+  position: relative;
+  clear: both;
+  float: none;
+}
+
+.case-study-single .frame .slidee {
+  float: left;
+  width: 32vw;
+  height: 56.5vw;
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+.case-study-single .frame .slidee:first-child {
+  cursor: default;
+}
+
+.case-study-single .frame .slidee:last-child {
+  cursor: default;
+}
+
+.case-study-single .frame .shot1 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/iarby99xqhtwymllokfk.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot2 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352149/e6qipyvyzpyvnxpvo9cr.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot3 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428354842/ysbwtqldoqibck6vdo59.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot4 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/bvgvxzlrnpmdcqr8tdd6.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot5 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/yynwfuaqiisiijxmafoq.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot6 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352149/krfkh5yioig007ikhznj.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot7 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/iolqxb6qtltxdfuppbsx.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .clickToView {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/kotvmenaiddy4u583m3l.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single #bottomOfPage {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/cunsznnnjjjuepchilgs.jpg") no-repeat;
+  background-size: 100%;
+  height: 50vw;
+  width: 100%;
+  margin-top: 7vw;
+  display: block;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  .case-study-single #top {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428356998/pg7rutzauwr2k91dlzl9.jpg") no-repeat;
+    width: 100%;
+    height: 205vw;
+    background-size: 100%;
+  }
+  .case-study-single .frame {
+    height: 138vw;
+    margin-top: 5vw;
+    overflow: hidden;
+  }
+  .case-study-single .frame .slidee {
+    width: 75vw;
+    height: 138vw;
+    margin-right: 3vw;
+  }
+  .case-study-single #bottomOfPage {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428357002/lh3jhx1ndzddfu7dtamu.jpg") no-repeat;
+    background-size: 100%;
+    height: 90vw;
+  }
+  .case-study-single #content {
+    width: 90%;
+  }
+  .case-study-single #content .left {
+    width: 100%;
+  }
+  .case-study-single #content .left h1 {
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 4vw;
+  }
+  .case-study-single #content .left p {
+    text-align: center;
+    font-size: 6vw;
+    line-height: 10vw;
+    margin-bottom: 4vw;
+  }
+  .case-study-single #content .right {
+    margin-top: 10vw;
+    width: 100%;
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/elw85u0mpyegr4f4a7pn.png") no-repeat center center;
+    background-size: 100%;
+    height: 70vw;
+    margin-bottom: 5vw;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+  .case-study-single #top {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428356998/pg7rutzauwr2k91dlzl9.jpg") no-repeat;
+    width: 100%;
+    height: 205vw;
+    background-size: 100%;
+  }
+  .case-study-single .frame {
+    height: 138vw;
+    margin-top: 5vw;
+    overflow: hidden;
+  }
+  .case-study-single .frame .slidee {
+    width: 75vw;
+    height: 138vw;
+    margin-right: 3vw;
+  }
+  .case-study-single #bottomOfPage {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428357002/lh3jhx1ndzddfu7dtamu.jpg") no-repeat;
+    background-size: 100%;
+    height: 90vw;
+  }
+  .case-study-single #content {
+    width: 90%;
+  }
+  .case-study-single #content .left {
+    width: 100%;
+  }
+  .case-study-single #content .left h1 {
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 4vw;
+  }
+  .case-study-single #content .left p {
+    text-align: center;
+    font-size: 6vw;
+    line-height: 10vw;
+    margin-bottom: 4vw;
+  }
+  .case-study-single #content .right {
+    margin-top: 10vw;
+    width: 100%;
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1428352148/elw85u0mpyegr4f4a7pn.png") no-repeat center center;
+    background-size: 100%;
+    height: 70vw;
+    margin-bottom: 5vw;
+  }
+}
+/*# sourceMappingURL=wego.css.map */

@@ -1,0 +1,514 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic);
+body {
+  background: #000;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.case-study-single {
+  background: #000;
+  font-family: 'Nunito', sans-serif;
+}
+
+.case-study-single #top {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/i3guxuvwq9b5bilqlhnc.jpg") no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 52vw;
+  display: block;
+}
+
+.case-study-single #top video {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+}
+
+.case-study-single #top #topLogo {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496428/vfy8algn2q1iv5wa6g2n.png") no-repeat center center;
+  width: 100%;
+  height: 52vw;
+  background-size: 100%;
+  position: absolute;
+  top: 0px;
+  display: block;
+  z-index: 2;
+}
+
+.case-study-single #pleasureArea {
+  background: #80101a;
+  /* Old browsers */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#80101a), to(#000000));
+  background: linear-gradient(to bottom, #80101a 0%, #000000 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80101a', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+  width: 100%;
+  min-height: 50vw;
+  display: block;
+  overflow: hidden;
+}
+
+.case-study-single #pleasureArea #content {
+  clear: both;
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496598/jshxfun1grc8ltxr1ueo.png") no-repeat;
+  margin: 0 auto;
+  background-size: 100%;
+  width: 38.5vw;
+  display: block;
+  margin-top: 10vw;
+  padding-top: 23vw;
+  color: #fff;
+}
+
+.case-study-single #pleasureArea #content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.7vw;
+  text-align: justify;
+  clear: all;
+}
+
+.case-study-single #pleasureArea #pleasureItems {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/gfkput2be1ryrwc01s5e.png") no-repeat;
+  background-size: 100%;
+  height: 130vw;
+  width: 100%;
+  margin-top: 10vw;
+}
+
+.case-study-single .frame {
+  background-size: 35%;
+  width: 100%;
+  height: 57.5vw;
+  z-index: 1;
+  margin-top: -5vw;
+  display: block;
+  position: relative;
+  clear: both;
+}
+
+.case-study-single .frame .slidee {
+  float: left;
+  width: 32vw;
+  height: 56.5vw;
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+.case-study-single .frame .slidee:first-child {
+  cursor: default;
+}
+
+.case-study-single .frame .shot1 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496028/htqcppm2w3fmiujfzveu.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot2 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496034/pdrviejucpezas31nxah.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot3 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496034/yrblmthb8uyjhpksg802.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot5 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496034/klfo9cosybzqgc72rmos.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot6 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496034/jbjfvrzvdnsperfqzixs.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot7 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/m2x3hklc7cewncs9mjlq.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot9 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/qmdi1axljte19xkjnfkg.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot13 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/qmdi1axljte19xkjnfkg.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot10 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/hsitpkngkjx66piocfyt.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot12 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/luxg4lrpxdtt9bpqav0a.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot10 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/hsitpkngkjx66piocfyt.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot11 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/ndfgj7zpybffeigavr6z.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot15 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/gdf2uu40iji8ibyskr29.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot16 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/xvdjcgpewydzpd4f2ygv.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot17 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/thcqm06f3lun1utauerv.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot19 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496035/j8iyjiow5tohy2tmyyau.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot20 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/oouxdv1d9ks69ifx3srp.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot21 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/wljiexrrm2de6py3hodx.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot22 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/lmyc3qaebnybi8bwdrvv.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot23 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/g2ofte9irabfsim6fvad.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot25 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/ox5iwtnrrkz7so1qel5o.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot26 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/fjslhvlljpljsw0i2zqw.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .shot29 {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/zsfweahwrrupzfsjecaq.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single .frame .clickToView {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496036/astdopxqqt4cff9ko1rd.png") no-repeat;
+  background-size: 100%;
+}
+
+.case-study-single #statementArea {
+  background: #000000;
+  /* Old browsers */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(72%, #1c75a1), to(#1c75a1));
+  background: linear-gradient(to bottom, #000000 0%, #1c75a1 72%, #1c75a1 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1c75a1',GradientType=0 );
+  /* IE6-9 */
+  min-height: 50vw;
+  display: block;
+  overflow: hidden;
+}
+
+.case-study-single #icons {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496449/qdlv52cnvpgh7hh4avkw.png") no-repeat center top;
+  background-size: 50%;
+  width: 38.5vw;
+  min-height: 55vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15vw;
+}
+
+.case-study-single #birthday {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496449/isgcqpgn3r6r6gg7obpj.png") no-repeat center top;
+  background-size: 100%;
+  width: 35.5vw;
+  min-height: 22vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: 6vw;
+}
+
+.case-study-single #help {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496449/v0p4utwwv5hlwf2ggojm.png") no-repeat center top;
+  background-size: 100%;
+  width: 35.5vw;
+  min-height: 24vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vw;
+}
+
+.case-study-single #sorry {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/rtyp3yggloqj4iqy0jr7.png") no-repeat center top;
+  background-size: 100%;
+  width: 35.5vw;
+  min-height: 28vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vw;
+}
+
+.case-study-single #deliver {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/z4tm0wm7kf2fa4xy62sb.png") no-repeat center top;
+  background-size: 100%;
+  width: 35.5vw;
+  min-height: 28vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vw;
+}
+
+.case-study-single #way {
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496449/smrt2jct3axihfujv2gb.png") no-repeat center top;
+  background-size: 100%;
+  width: 35.5vw;
+  min-height: 44vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+.case-study-single #quote {
+  width: 100%;
+  min-height: 5vw;
+  display: block;
+  background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/ssunglswivyqca8pvtfc.png") no-repeat right center #80101a;
+  background-size: 35%;
+}
+
+.case-study-single #quote p {
+  margin: 0;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  font-size: 2.5vw;
+  padding: 5vw 10vw 5vw 10vw;
+  width: 60%;
+  text-align: justify;
+  line-height: 3.5vw;
+}
+
+.case-study-single #quote .attribution {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  display: block;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  .case-study-single #top {
+    height: 58vw;
+    background-size: 125%;
+  }
+  .case-study-single #top video {
+    display: none;
+  }
+  .case-study-single #top #topLogo {
+    background-size: 135%;
+    margin-left: 0%;
+    margin-top: 3vw;
+    overflow: hidden;
+  }
+  .case-study-single #pleasureArea #content {
+    width: 85%;
+    padding-top: 55vw;
+  }
+  .case-study-single #pleasureArea p {
+    font-size: 5vw !important;
+  }
+  .case-study-single #pleasureArea #pleasureItems {
+    height: 315vw;
+  }
+  .case-study-single .frame {
+    height: 138vw;
+    margin-top: 5vw;
+    overflow: hidden;
+  }
+  .case-study-single .frame .slidee {
+    width: 75vw;
+    height: 138vw;
+    margin-right: 3vw;
+  }
+  .case-study-single #icons {
+    background-size: 50%;
+    width: 85vw;
+    min-height: 130vw;
+    margin-top: 30vw;
+  }
+  .case-study-single #birthday {
+    width: 85vw;
+    min-height: 55vw;
+    margin-top: 10vw;
+  }
+  .case-study-single #help {
+    width: 85vw;
+    min-height: 60vw;
+    margin-top: 20vw;
+  }
+  .case-study-single #sorry {
+    width: 85vw;
+    min-height: 67vw;
+    margin-top: 20vw;
+  }
+  .case-study-single #deliver {
+    width: 85vw;
+    min-height: 70vw;
+    margin-top: 20vw;
+  }
+  .case-study-single #way {
+    width: 85vw;
+    min-height: 105vw;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+  }
+  .case-study-single #quote {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/ssunglswivyqca8pvtfc.png") no-repeat right center #80101a;
+    background-size: 35%;
+  }
+  .case-study-single #quote p {
+    margin: 0;
+    color: #fff;
+    font-size: 6vw;
+    padding: 10vw 5vw 10vw 5vw;
+    width: 50%;
+    text-align: justify;
+    line-height: 7vw;
+  }
+  .case-study-single #quote .attribution {
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 4vw;
+    padding-top: 4vw;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+  .case-study-single #top {
+    height: 58vw;
+    background-size: 125%;
+  }
+  .case-study-single #top video {
+    display: none;
+  }
+  .case-study-single #top #topLogo {
+    background-size: 135%;
+    margin-left: 0%;
+    margin-top: 3vw;
+    overflow: hidden;
+  }
+  .case-study-single #pleasureArea #content {
+    width: 85%;
+    padding-top: 55vw;
+  }
+  .case-study-single #pleasureArea p {
+    font-size: 5vw !important;
+  }
+  .case-study-single #pleasureArea #pleasureItems {
+    height: 315vw;
+  }
+  .case-study-single .frame {
+    height: 138vw;
+    margin-top: 5vw;
+    overflow: hidden;
+  }
+  .case-study-single .frame .slidee {
+    width: 75vw;
+    height: 138vw;
+    margin-right: 3vw;
+  }
+  .case-study-single #icons {
+    background-size: 50%;
+    width: 85vw;
+    min-height: 130vw;
+    margin-top: 30vw;
+  }
+  .case-study-single #birthday {
+    width: 85vw;
+    min-height: 55vw;
+    margin-top: 10vw;
+  }
+  .case-study-single #help {
+    width: 85vw;
+    min-height: 60vw;
+    margin-top: 20vw;
+  }
+  .case-study-single #sorry {
+    width: 85vw;
+    min-height: 67vw;
+    margin-top: 20vw;
+  }
+  .case-study-single #deliver {
+    width: 85vw;
+    min-height: 70vw;
+    margin-top: 20vw;
+  }
+  .case-study-single #way {
+    width: 85vw;
+    min-height: 105vw;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+  }
+  .case-study-single #quote {
+    background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1427496450/ssunglswivyqca8pvtfc.png") no-repeat right center #80101a;
+    background-size: 35%;
+  }
+  .case-study-single #quote p {
+    margin: 0;
+    color: #fff;
+    font-size: 6vw;
+    padding: 10vw 5vw 10vw 5vw;
+    width: 50%;
+    text-align: justify;
+    line-height: 7vw;
+  }
+  .case-study-single #quote .attribution {
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 4vw;
+    padding-top: 4vw;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=top-shelf.css.map */
