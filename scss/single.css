@@ -597,10 +597,4 @@ blockquote p:hover {
 .single-post #main-content .page .entry-content .et_builder_inner_content .et_pb_section_5 article {
   padding: 0 20px !important;
 }
-
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  body {
-    background-color: #000 !important;
-  }
-}
 /*# sourceMappingURL=single.css.map */
