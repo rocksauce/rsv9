@@ -27,7 +27,7 @@
 	@mixin active_fade {
 		transition: 0.5s ease !important;
 	}
-
+@import 'scss/blog-rsv9';
 @import 'scss/blog' ;
 @import 'scss/single' ;
 @import 'scss/ad' ;
@@ -36,6 +36,7 @@
 @import 'scss/contact_mobile' ;
 @import 'scss/ux_design';
 @import 'scss/singlepost';
+
 #main-header,
 .et_pb_section {
 	background-color: transparent !important;
@@ -1511,10 +1512,16 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 .section-idea.et_pb_section {
 	padding: 150px 0 75px !important;
 }
-.section-idea .et_pb_row {
+.section-idea .et_pb_row.et_pb_row_3{
 	padding: 0;
 	@media (max-width: 768px){
-		 margin-top: 60px !important;
+		 margin-top: 100px !important;
+	}
+}
+.section-idea .et_pb_row_4{
+	padding: 0;
+	@media (max-width: 768px){
+		margin-bottom: 100px !important;
 	}
 }
 .section-idea h2 {
@@ -1626,7 +1633,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 }
 @media (max-width: 767px) {
 	.section-idea.et_pb_section {
-		padding: 40px 20px !important;
+		padding:40px 20px 20px 20px !important;
 	}
 	.section-idea h2 {
 		display: inline;
@@ -5293,9 +5300,6 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	.blog-cols .et_pb_column_3_5 h2 a {
 		font-size: 30px;
 	}
-	.blog-cols .et_pb_column_3_5 p {
-		font-size: 14px !important;
-	}
 	.blog-cols .et_pb_column_2_5 h2 a {
 		font-size: 18px;
 	}
@@ -5575,6 +5579,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 
 	.blog-all article h2 {
 		font-size: 20px;
+		margin-bottom: 14px;
 	}
 }
 
