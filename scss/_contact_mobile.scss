@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+	.contact-intro .et_pb_map_container {
+	    height: 470px;
+	}
+
+    
+	.contact-intro .map-holder .et_pb_text_inner {
+    position: absolute;
+    top: 80% !important;
+    left: 24px;
+    right: 24px;
+    width: auto;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    }
+}
+
