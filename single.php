@@ -46,10 +46,17 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
                 <ul class="blog_category_list">
                     <?php
                         $categories = get_the_category();
+                            $len = count($categories);
                             foreach ($categories as $key => $category) {
                         ?>
                         <li class="blog_category_list_item">
                             <a href="<?=esc_attr( esc_url( get_category_link( $category->term_id ) ) )?>"><?= esc_html( $category->name ) ?></a>
+                            <?php 
+                                 if ($key != $len - 1) {
+                                    echo '<span class="show-mobile">,</span>';
+                                }
+                                
+                            ?>
                         </li>
                     <?php
                         }
@@ -67,6 +74,7 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
 <!-- / Blog Content -->
 
 <!-- Internal Ad -->
+    
     <?php wp_reset_postdata(); get_template_part( 'blog/ad', 'page' ); ?>
 <!-- /Internal Ad -->
 <!-- Three Other Articles -->

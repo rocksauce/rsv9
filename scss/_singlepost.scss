@@ -1,0 +1,30 @@
+span.show-mobile{
+    display: none;
+    margin-left: -4px;       
+}
+
+@media (max-width: 767px) {
+	#blog_single_hero_text .blog_single_hero_title{
+        line-height: 46px !important;
+        padding-top: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    #blog_article_content{
+        padding: 0 24px;
+    }
+
+    #blog_date_and_categories{
+        padding: 0 0 0 24px;
+    }
+
+    span.show-mobile{
+        display: inline;
+    }
+
+    #other_blog_articles {
+        margin: 30px 24px 0px 24px;
+    }
+}
+
+
