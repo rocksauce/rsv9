@@ -1507,6 +1507,10 @@ blockquote p:hover {
   text-decoration: underline;
 }
 
+.home-intro .et_parallax_bg_wrap {
+  border-radius: 4px;
+}
+
 @media (max-width: 767px) {
   .contact-intro .et_pb_map_container {
     height: 470px;
