@@ -171,8 +171,32 @@ if (!function_exists('rs_the_excerpt')) {
         $result = "";
         $content = strip_tags( get_the_excerpt());
         if($content != ""){
-            $content = substr($content, 0, $limit) . '...';
-            $result = "<p>$content</p>";
+
+            if(strlen($content) > $limit)
+                $result = trim(substr($content, 0, $limit)) . '...';
+            else
+                $result = trim(substr($content, 0, $limit));
+
+            $result = "<p>$result</p>";
+        }
+        echo $result;
+    }
+
+ }
+
+ if (!function_exists('rs_the_title')) {
+
+    function rs_the_title($limit = 500) {
+        global $post;
+
+        $result = "";
+        $content = strip_tags( get_the_title());
+        if($content != ""){
+
+            if(strlen($content) > $limit)
+                $result = trim(substr($content, 0, $limit)) . '...';
+            else
+                $result = trim(substr($content, 0, $limit));
         }
         echo $result;
     }
