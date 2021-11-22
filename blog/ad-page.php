@@ -15,9 +15,6 @@ if($adlBlock->have_posts() ){
             $bkg_image = '/wp-content/themes/rsv9/images/no-image.png';
         }
 
-        // configure all this variables on admin
-
-
         $text_button_one = get_post_meta(get_the_ID(), '_add_cta_link_one', true);
         $link_one = get_post_meta(get_the_ID(), '_add_cta_link_one_url', true);
 
@@ -35,8 +32,6 @@ if($adlBlock->have_posts() ){
             'blue',
             'orange'
         ];
-
-
 ?>
 
         <div class="et_pb_section et_pb_section_3 section-idea et_pb_section_parallax et_pb_with_background et_section_regular rsv-9-add">

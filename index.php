@@ -69,7 +69,7 @@ $list_query_options['orderby'] = 'date';
                                                             <div class="et_pb_slide_description">
                                                             <h2 class="et_pb_slide_title">
                                                                 <a  href="<?php the_permalink(); ?>">
-                                                                    <span><?=get_the_title()?></span>
+                                                                <span><?=rs_the_title(80)?></span>
                                                                 </a>
                                                             </h2>
                                                                 <div class="et_pb_slide_content
@@ -127,8 +127,8 @@ $list_query_options['orderby'] = 'date';
                                         ?>
                                                     <article id="post-<?=get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_0_0 post-<?=get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry category-media">
 
-                                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url"><img loading="lazy" src="<?= $image ?>" alt="<?=get_the_title()?>" class="" width="1080" height="675"></a>
-                                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?=get_the_title()?></a></h2>
+                                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url"><img loading="lazy" src="<?= $image ?>" alt="<?=rs_the_title(50)?>" class="" width="1080" height="675"></a>
+                                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?=rs_the_title(50)?></a></h2>
 
                                                         <div class="post-content">
                                                             <div class="post-content-inner et_multi_view_hidden"></div>
@@ -169,8 +169,8 @@ $list_query_options['orderby'] = 'date';
                                         ?>
                                                     <article id="post-<?= get_the_ID()?>" class="block-one et_pb_post clearfix et_pb_blog_item_1_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry">
 
-                                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="300"></a>
-                                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
+                                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="<?= rs_the_title(50) ?>" class="" width="1080" height="300"></a>
+                                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= rs_the_title(50) ?></a></h2>
 
                                                         <div class="post-content">
                                                             <div class="post-content-inner et_multi_view_hidden"></div>
@@ -206,7 +206,7 @@ $list_query_options['orderby'] = 'date';
                                                         <article  id="post-<?= get_the_ID()?>"  class="block-two et_pb_post clearfix et_pb_blog_item_2_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry category-design category-development">
 
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="What is a Design Sprint? (Part Two)" class="" width="1080" height="675"></a>
-                                                            <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
+                                                            <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= rs_the_title(50) ?></a></h2>
 
                                                             <div class="post-content">
                                                                 <div class="post-content-inner">
@@ -227,7 +227,7 @@ $list_query_options['orderby'] = 'date';
 
                     <?php get_template_part( 'blog/ad', 'page' ); ?>
 
-                    <div class="et_pb_section et_pb_section_5 recent-post recent-post-small et_section_regular">
+                    <div class="et_pb_section et_pb_section_5">
                         <div class="et_pb_row et_pb_row_5">
                             <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
 
@@ -252,7 +252,7 @@ $list_query_options['orderby'] = 'date';
                                                     <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
 
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
-                                                            <img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="675">
+                                                            <img loading="lazy" src="<?= $image ?>" alt="<?= rs_the_title(50) ?>" class="" width="1080" height="675">
                                                         </a>
                                                         <h2 class="entry-title rs-title"><a href="<?= the_permalink() ?>">
                                                             <?php echo  mb_strimwidth( get_the_title(), 0, 50, '...' ); ?></a></h2>
