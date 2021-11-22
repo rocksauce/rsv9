@@ -233,3 +233,8 @@ add_action( 'wp_enqueue_scripts', function() use ( $handle ) {
 
 // Ads
 include_once 'cpt/cpt.php';
+
+
+// Custom categories on blog view
+
+include_once 'blog/config.php';
