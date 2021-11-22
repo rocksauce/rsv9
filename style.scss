@@ -36,6 +36,8 @@
 @import 'scss/contact_mobile' ;
 @import 'scss/ux_design';
 @import 'scss/singlepost';
+@import 'scss/culture_mobile';
+
 
 #main-header,
 .et_pb_section {
@@ -2005,7 +2007,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	.section-testimonial h3:before {
 		position: relative;
 		top: 11px;
-		left: -3px;
+		left: -17px;
 		display: inline-block;
 		vertical-align: top;
 		margin-top: 0;
@@ -2017,7 +2019,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	}
 	.section-testimonial h4 {
 		font-size: 24px;
-		text-align: center;
+		text-align: left;
 	}
 }
 
@@ -2791,7 +2793,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 	}
 	.text-image-workshop .et_pb_column_1_2 p {
 		font-size: 16px;
-		line-height: 1;
+		line-height: 1.2;
 	}
 	.text-image-workshop .et_pb_column_1_2 p + p {
 		padding-top: 15px;
@@ -2823,7 +2825,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 		margin-bottom: 30px;
 	}
 	.text-image-col .et_pb_column_1_2 p {
-		line-height: 1;
+		line-height: 1.2;
 		padding-right: 0 !important;
 		padding-bottom: 15px;
 		text-align: start !important;

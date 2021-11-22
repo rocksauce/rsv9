@@ -29,7 +29,7 @@ function testimonials_function() {
                                   
 
        
-        $content =   str_replace(['<p>', '</p>'], '', get_post_field('post_content', get_the_ID()) );
+        $content =   str_replace(['<p>', '</p>'], '', trim(get_post_field('post_content', get_the_ID())) );
         
         $title = get_post_field('post_title', get_the_ID());
 

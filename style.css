@@ -1495,6 +1495,37 @@ blockquote p:hover {
   }
 }
 
+.section-training h4 a {
+  position: relative !important;
+  padding: 0 0 10px !important;
+  margin-bottom: 69px !important;
+  font-size: 40px !important;
+  line-height: 1 !important;
+  color: #df5b4f !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  text-decoration: underline;
+}
+
+.home-intro .et_parallax_bg_wrap {
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .contact-intro .et_pb_map_container {
+    height: 470px;
+  }
+  .contact-intro .map-holder .et_pb_text_inner {
+    position: absolute;
+    top: 80% !important;
+    left: 24px;
+    right: 24px;
+    width: auto;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+}
+
 @media (max-width: 768px) {
   .idea-banner .et_pb_row h4 {
     font-size: 24px;
