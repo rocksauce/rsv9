@@ -470,13 +470,21 @@ margin-bottom: 50px !important;
   float: right;
   border-radius: 4px;
 }
+
+
+.home-brands .title-brands-home {
+   text-align: left;
 }
 
 
-@media (max-width: 767px) {
-  .et_pb_row_9, .et_pb_row_10 {
-       display: none!important; 
-  }
+.section-services .et_pb_column_1_2 p {
+ text-align: left;
+}
+
+.section-services .et_pb_row_6{
+ min-height: auto !important;
+}
+
 }
 
 .section-training  h4 a {

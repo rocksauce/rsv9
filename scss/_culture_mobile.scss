@@ -1,17 +1,50 @@
-.thirsty-culture {
-    min-height: 400px;
-    padding: 10px !important;
-    background: blue;
+
+
+@media (max-width: 767px) {
+  .section-values .et_pb_text h3 {
+    font-size: 24px !important;
+}
+
+.section-idea.et_pb_section .et_pb_button,
+	.section-idea-alt .et_pb_button,
+	.section-idea-alt .btn-red.et_pb_button {
+		margin: 0px 10px 0px 0 !important;
+		padding: 10px !important;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+  .section-idea h2{
+    padding: 15px !important;
+    text-align: left;
+  }
+
+  .section-idea p {
+    text-align: left;
+    padding: 15px !important;
+}
+
+.section-stats .et_pb_text_inner{
+  padding: 15px !important;
+}
+
+
+.section-team .et_pb_text_inner h3{
+ font-size: 24px !important;
 }
 
 
 
-.thirsty-culture h3{
-  font-size: 20px;
+.section-team .et_pb_text_inner h5{
+  font-size: 16px !important;
+ }
+
+
+ .section-stats .et_pb_column_1_2 h2 {
+  font-size: 60px !important;
+}
+
 }
 
 
-
-.thirsty-culture p span{
-  font-size: 10px;
-}
