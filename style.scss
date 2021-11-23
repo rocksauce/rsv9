@@ -5700,6 +5700,7 @@ a, a:link, a:hover, a:visited, a:focus {
         height: 100%;
         display: flex;
         justify-content: space-between;
+		flex-direction: column;
     }
     .rsv9_blog_content .et_pb_section_1 .rsv9_slides .et_pb_slide {
         height: 412px !important;
