@@ -9,7 +9,6 @@
     left: 58%;
   }
 }
-
 /* Standard syntax */
 @keyframes cloud1 {
   0% {
@@ -22,7 +21,6 @@
     left: 58%;
   }
 }
-
 @-webkit-keyframes cloud2 {
   0% {
     left: 86%;
@@ -34,7 +32,6 @@
     left: 86%;
   }
 }
-
 /* Standard syntax */
 @keyframes cloud2 {
   0% {
@@ -47,7 +44,6 @@
     left: 86%;
   }
 }
-
 @-webkit-keyframes cloud3 {
   0% {
     left: 5%;
@@ -59,7 +55,6 @@
     left: 5%;
   }
 }
-
 /* Standard syntax */
 @keyframes cloud3 {
   0% {
@@ -72,7 +67,6 @@
     left: 5%;
   }
 }
-
 @-webkit-keyframes cloud4 {
   0% {
     left: 25%;
@@ -84,7 +78,6 @@
     left: 25%;
   }
 }
-
 /* Standard syntax */
 @keyframes cloud4 {
   0% {
@@ -97,7 +90,6 @@
     left: 25%;
   }
 }
-
 @-webkit-keyframes cloud5 {
   0% {
     left: 125%;
@@ -109,7 +101,6 @@
     left: 125%;
   }
 }
-
 /* Standard syntax */
 @keyframes cloud5 {
   0% {
@@ -122,7 +113,6 @@
     left: 125%;
   }
 }
-
 @-webkit-keyframes cloud6 {
   0% {
     left: 110%;
@@ -134,7 +124,6 @@
     left: 110%;
   }
 }
-
 /* Standard syntax */
 @keyframes cloud6 {
   0% {
@@ -147,19 +136,17 @@
     left: 110%;
   }
 }
-
 .case-study-single {
   background: #fff;
-  font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
   font-weight: 300;
   font-style: normal;
 }
-
 .case-study-single h1 {
   display: block;
   height: 2.3vw;
   display: inline-block;
-  font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
   font-weight: 300;
   font-style: normal;
   color: #603913;
@@ -174,7 +161,6 @@
   border-left-width: 0;
   border-bottom-width: 2px;
 }
-
 .case-study-single p {
   color: #603913;
   font-size: 1.6vw;
@@ -183,7 +169,6 @@
   line-height: 2.6vw;
   padding-top: 2vw;
 }
-
 .case-study-single #top {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/huzi4nanfrpzmbvcmmlq.png) no-repeat 0px 21vw;
   background-size: 100%;
@@ -194,7 +179,6 @@
   padding: 12vw 0 0 0;
   z-index: 70;
 }
-
 .case-study-single #top .logo {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/sjhdsgkfpy7xz2x4pnfr.png) no-repeat;
   background-size: 100%;
@@ -203,7 +187,6 @@
   display: block;
   margin: 0 auto;
 }
-
 .case-study-single #skyHills {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/s2incecoxnyerrtf1sqx.png) no-repeat;
   background-size: 100%;
@@ -213,12 +196,10 @@
   overflow: hidden;
   margin-top: -18vw;
 }
-
 .case-study-single #skyHills .cloud {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fjwk9l2dbzsl6gw608tm.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #skyHills #c1 {
   width: 17vw;
   height: 14vw;
@@ -239,7 +220,6 @@
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
 }
-
 .case-study-single #skyHills #c2 {
   width: 11vw;
   height: 8vw;
@@ -260,7 +240,6 @@
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
 }
-
 .case-study-single #skyHills #c3 {
   width: 13vw;
   height: 10vw;
@@ -281,7 +260,6 @@
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
 }
-
 .case-study-single #skyHills #c4 {
   width: 8vw;
   height: 6vw;
@@ -289,10 +267,8 @@
   position: relative;
   left: 25%;
   top: 3vw;
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  -webkit-filter: FlipH;
-          filter: FlipH;
+  filter: FlipH;
   -ms-filter: "FlipH";
   -webkit-animation-name: cloud4;
   animation-name: cloud4;
@@ -307,7 +283,6 @@
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
 }
-
 .case-study-single #skyHills #c5 {
   width: 12vw;
   height: 10vw;
@@ -315,10 +290,8 @@
   position: relative;
   left: 125%;
   top: -16vw;
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  -webkit-filter: FlipH;
-          filter: FlipH;
+  filter: FlipH;
   -ms-filter: "FlipH";
   -webkit-animation-name: cloud5;
   animation-name: cloud5;
@@ -333,7 +306,6 @@
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
 }
-
 .case-study-single #skyHills #c6 {
   width: 8vw;
   height: 6vw;
@@ -341,10 +313,8 @@
   position: relative;
   left: 110%;
   top: -6vw;
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  -webkit-filter: FlipH;
-          filter: FlipH;
+  filter: FlipH;
   -ms-filter: "FlipH";
   -webkit-animation-name: cloud6;
   animation-name: cloud6;
@@ -359,7 +329,6 @@
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
 }
-
 .case-study-single #skyHills #lock {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/x4atcmzvga3ywilcc4pb.png) no-repeat;
   background-size: 100%;
@@ -371,7 +340,6 @@
   top: -29vw;
   z-index: 85;
 }
-
 .case-study-single #skyHills #text {
   text-align: center;
   position: relative;
@@ -379,11 +347,9 @@
   top: -26vw;
   z-index: 85;
 }
-
 .case-study-single #skyHills #text p {
   width: 60%;
 }
-
 .case-study-single #skyHills #hills {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k0jmevup8tk9jgosjbkq.png) no-repeat;
   background-size: 100%;
@@ -393,13 +359,11 @@
   z-index: 84;
   top: -30vw;
 }
-
 .case-study-single #introduction {
   width: 87%;
   margin: 0 auto;
   display: block;
 }
-
 .case-study-single #introduction .icons {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/jzanor0l0nblevn8jzry.png) no-repeat;
   background-size: 100%;
@@ -408,24 +372,20 @@
   height: 75vw;
   float: left;
 }
-
 .case-study-single #introduction .text {
   width: 42vw;
   float: right;
   position: relative;
   top: 17vw;
 }
-
 .case-study-single #introduction .text h1 {
   text-align: right;
   float: right;
 }
-
 .case-study-single #introduction .text p {
   clear: both;
   text-align: right;
 }
-
 .case-study-single #beauty {
   clear: both;
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/gweg4updc2dnxuf085xs.png) no-repeat;
@@ -435,7 +395,6 @@
   padding-top: 22vw;
   overflow: hidden;
 }
-
 .case-study-single #beauty #rocksauceLogo {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/j6ahzhlwzd0wizwjfpgp.png) no-repeat;
   background-size: 100%;
@@ -445,7 +404,6 @@
   margin: 0 auto;
   position: relative;
 }
-
 .case-study-single #beauty #text {
   clear: both;
   text-align: center;
@@ -453,11 +411,9 @@
   display: block;
   padding-top: 5vw;
 }
-
 .case-study-single #beauty #text p {
   width: 55%;
 }
-
 .case-study-single #beauty .bottomBeauty {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat;
   background-size: 100%;
@@ -468,27 +424,22 @@
   position: relative;
   top: 119vw;
 }
-
 .case-study-single #beauty #v1 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/kbubqa5da0ofoayztuog.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #beauty #v2 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/k7qfkm8va8bdsegr4e5k.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #beauty #v3 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fh0z1ytpx2iassssoqqa.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #beauty #finalDesign {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qf6modiljejtxhnufdjc.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single .screenshots {
   width: 75%;
   display: block;
@@ -497,47 +448,38 @@
   position: relative;
   z-index: 85;
 }
-
 .case-study-single .screenshot {
   display: block;
   max-width: 33vw;
   padding-bottom: 8vw;
 }
-
 .case-study-single .screenshot .image {
   width: 33vw;
   height: 58.5vw;
   display: block;
 }
-
 .case-study-single .screenshot.left {
   float: left;
 }
-
 .case-study-single .screenshot.left h1, .case-study-single .screenshot.left p {
   text-align: left;
 }
-
 .case-study-single .screenshot.center {
   clear: both;
   float: none;
   margin: 0 auto;
 }
-
 .case-study-single .screenshot.right {
   float: right;
 }
-
 .case-study-single .screenshot.right h1, .case-study-single .screenshot.right p {
   text-align: right;
 }
-
 .case-study-single .screenshot .shotText {
   padding-top: 2vw;
 }
-
 .case-study-single .screenshot .shotText h1 {
-  font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
   font-weight: 500;
   font-style: normal;
   color: #603913;
@@ -545,17 +487,14 @@
   text-transform: none;
   width: 100%;
 }
-
 .case-study-single .screenshot .shotText p {
   font-size: 1.7vw;
 }
-
 .case-study-single #theLogo {
   clear: both;
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/rpgucwbwzu516rqq5mqx.png) no-repeat #e8e8e8 0 5vw;
   background-size: 100%;
 }
-
 .case-study-single #theLogo #text {
   clear: both;
   text-align: center;
@@ -563,11 +502,9 @@
   display: block;
   padding: 22vw 0 10vw 0;
 }
-
 .case-study-single #theLogo #text p {
   width: 50%;
 }
-
 .case-study-single .logoDescription {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/o8y5gqto2jbcrswpowzy.png) no-repeat;
   background-size: 100%;
@@ -576,14 +513,12 @@
   display: block;
   margin: 0 auto;
 }
-
 .case-study-single #theApp {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/fodfulxzftzwriz7m8d0.png) no-repeat #ececec;
   background-size: 100%;
   display: block;
   min-height: 120vw;
 }
-
 .case-study-single #theApp #text {
   clear: both;
   text-align: center;
@@ -591,21 +526,17 @@
   display: block;
   padding: 22vw 0 0 0;
 }
-
 .case-study-single #theApp #text p {
   width: 50%;
 }
-
 .case-study-single #theApp #udidScreen {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/la0rlthwtedicor5vxe9.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #theApp #hardwareScreen {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/xz08c71z2h2pmmmeno6z.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #theApp #creditsScreen {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1436392175/qrqvmwmcbhlkbbbgkkmp.png) no-repeat;
   background-size: 100%;
@@ -810,7 +741,7 @@
     padding: 2vw 0 10vw 0;
   }
   .case-study-single .screenshot .shotText h1 {
-    font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
     font-weight: 500;
     color: #603913;
     font-style: italic;
@@ -861,7 +792,6 @@
     height: 210vw;
   }
 }
-
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
   .case-study-single h1 {
     height: 5.5vw;
@@ -1060,7 +990,7 @@
     padding: 2vw 0 10vw 0;
   }
   .case-study-single .screenshot .shotText h1 {
-    font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
     font-weight: 500;
     color: #603913;
     font-style: italic;
@@ -1111,10 +1041,9 @@
     height: 210vw;
   }
 }
-
 @media (min-width: 1350px) {
   .case-study-single h1 {
-    height: 2.0vw;
+    height: 2vw;
     font-size: 1.7vw;
   }
   .case-study-single p {
@@ -1240,5 +1169,4 @@
   .case-study-single #theApp #creditsScreen {
     height: 95vw;
   }
-}
-/*# sourceMappingURL=metasauce.css.map */
+}/*# sourceMappingURL=metasauce.css.map */

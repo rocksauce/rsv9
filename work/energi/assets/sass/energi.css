@@ -1,51 +1,43 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500,300,200);
 .case-study-single {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.5vw;
   color: #343434;
   font-weight: 200;
 }
-
 .case-study-single h1, .case-study-single p {
   color: #343434;
   text-align: justify;
 }
-
 .case-study-single h1 {
   font-size: 2.95vw;
   margin-bottom: 1vw;
 }
-
 .case-study-single p {
   font-size: 2vw;
   line-height: 3.2vw;
   margin-bottom: 2.5vw;
 }
-
 .case-study-single inc {
   color: #248801;
   font-weight: 500;
 }
-
 .case-study-single dec {
   color: #a50e0e;
   font-weight: 500;
 }
-
 .case-study-single #top {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891418/ccnnonjvlp3ikwdl4h5w.jpg) no-repeat;
   background-size: 100%;
   min-height: 62vw;
   display: block;
 }
-
 .case-study-single #firstRow {
   background: #f3f3f3;
   width: 100%;
   height: 61vw;
   display: block;
 }
-
 .case-study-single #firstRow .watch1 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891418/pry4pyeaeirklkmreg3d.png) no-repeat;
   background-size: 115%;
@@ -55,18 +47,15 @@
   height: 60vw;
   margin-top: 5vw;
 }
-
 .case-study-single #firstRow .text {
   width: 45vw;
   float: left;
   margin: 14vw 0 0 6vw;
 }
-
 .case-study-single #secondRow {
   display: block;
   height: 67vw;
 }
-
 .case-study-single #secondRow .watch2 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891418/rpupo1ntzgqmec5jafjv.png) no-repeat;
   background-size: 100%;
@@ -75,43 +64,36 @@
   float: left;
   margin: 4vw 0 0 6vw;
 }
-
 .case-study-single #secondRow .text {
   width: 43vw;
   float: left;
   margin: 13vw 0 0 5vw;
 }
-
 .case-study-single #thirdRow {
   background: #f3f3f3;
   clear: both;
   padding: 0 0 6vw 0;
 }
-
 .case-study-single #thirdRow .text {
   margin: 0 auto;
   width: 70vw;
   padding: 6vw 0 4vw 0;
 }
-
 .case-study-single #thirdRow .text h1, .case-study-single #thirdRow .text p {
   text-align: center;
 }
-
 .case-study-single #thirdRow .watches {
   margin: 0 auto;
   display: block;
   overflow: hidden;
   text-align: center;
 }
-
 .case-study-single #thirdRow .watches ul {
   overflow: hidden;
   display: block;
   margin: 0 auto;
   max-width: 82vw;
 }
-
 .case-study-single #thirdRow .watches ul li {
   list-style-type: none;
   float: left;
@@ -119,45 +101,36 @@
   height: 37.5vw;
   margin-right: 8vw;
 }
-
 .case-study-single #thirdRow .watches ul li.watch3 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891417/iolrni0mg63grgncqcwm.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #thirdRow .watches ul li.watch4 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891417/zgrd77zfwcsdevacw3xk.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #thirdRow .watches ul li.watch5 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891418/wenv2daxd75lfjpipynr.png) no-repeat;
   background-size: 100%;
 }
-
 .case-study-single #thirdRow .watches ul li:last-child {
   margin-right: 0;
 }
-
 .case-study-single #quote {
   padding: 6vw 0 0 0;
   width: 100%;
 }
-
 .case-study-single #quote .text {
   width: 60vw;
   margin: 0 auto;
 }
-
 .case-study-single #quote .text h1, .case-study-single #quote .text p {
   text-align: center;
 }
-
 .case-study-single #quote .text p {
   font-style: italic;
   font-size: 2.2vw;
 }
-
 .case-study-single #quote .watch6 {
   background: url(http://res.cloudinary.com/rocksauce-studios/image/upload/v1430891418/tzrilcohihsfcxbutase.png) no-repeat;
   background-size: 100%;
@@ -266,7 +239,6 @@
     margin-top: 10vw;
   }
 }
-
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
   .case-study-single h1, .case-study-single p {
     text-align: center;
@@ -365,7 +337,6 @@
     margin-top: 10vw;
   }
 }
-
 @media (min-width: 1350px) {
   .case-study-single h1 {
     font-size: 2.4vw;
@@ -452,5 +423,4 @@
     margin: 0 auto;
     margin-top: 5vw;
   }
-}
-/*# sourceMappingURL=energi.css.map */
+}/*# sourceMappingURL=energi.css.map */

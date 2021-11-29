@@ -4,46 +4,38 @@
   background-size: 100%;
   overflow: hidden;
 }
-
 .case-study-single h1, .case-study-single p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #fff;
 }
-
 .case-study-single h1 {
   font-weight: 400;
   font-size: 2.1vw;
   text-transform: uppercase;
-  letter-spacing: .4vw;
+  letter-spacing: 0.4vw;
   line-height: 3vw;
 }
-
 .case-study-single p {
   font-weight: 300;
   font-size: 1.6vw;
   line-height: 3vw;
   margin-top: 2vw;
 }
-
 .case-study-single p.emphasis {
   font-size: 1.8vw;
   font-weight: 400;
 }
-
 .case-study-single p.emphasis .call {
   color: #ff8f2c;
 }
-
 .case-study-single p.smaller {
   font-size: 1.4vw;
 }
-
 .case-study-single .top {
   width: 100%;
   min-height: 60vw;
   display: block;
 }
-
 .case-study-single .top .logo {
   width: 55%;
   margin: 0 auto;
@@ -52,42 +44,34 @@
   position: relative;
   top: 15vw;
 }
-
 .case-study-single .top .logo img {
   width: 100%;
   height: auto;
 }
-
 .case-study-single text {
   width: 65%;
   display: block;
 }
-
 .case-study-single text.center {
   margin: 0 auto;
 }
-
 .case-study-single text.center h1, .case-study-single text.center p {
   text-align: center;
   color: #fff;
 }
-
 .case-study-single .description {
   background: #414242;
   padding: 10vw 0 10vw 0;
   margin-bottom: 10px;
 }
-
 .case-study-single .description .icons {
   text-align: center;
   margin-bottom: 3vw;
 }
-
 .case-study-single .description .icons img {
   width: 65%;
   height: auto;
 }
-
 .case-study-single .ux {
   background: #138b81;
   padding: 10vw 0 10vw 0;
@@ -95,43 +79,36 @@
   display: block;
   overflow: hidden;
 }
-
 .case-study-single .ux .area {
   width: 70%;
   margin: 0 auto;
   display: block;
 }
-
 .case-study-single .ux .area text {
   float: left;
   max-width: 45%;
   display: block;
   margin-right: 5%;
 }
-
 .case-study-single .ux .area text p {
   font-size: 1.4vw;
 }
-
 .case-study-single .ux .area .uxImage {
   text-align: right;
   float: left;
   width: 50%;
   display: block;
 }
-
 .case-study-single .ux .area .uxImage img {
   width: 100%;
   height: auto;
 }
-
 .case-study-single .branding {
   background: #004a69;
   padding: 10vw 0 10vw 0;
   overflow: hidden;
   margin-bottom: 10px;
 }
-
 .case-study-single .logoArea {
   display: block;
   overflow: hidden;
@@ -140,47 +117,38 @@
   width: 70%;
   clear: both;
 }
-
 .case-study-single .logoArea .theLogo {
   max-width: 50%;
   float: left;
   display: block;
 }
-
 .case-study-single .logoArea .theLogo img {
   width: 100%;
   height: auto;
 }
-
 .case-study-single .logoArea .explain {
   float: right;
   max-width: 45%;
 }
-
 .case-study-single .logoArea .explain p {
   vertical-align: middle;
   text-align: left;
 }
-
 .case-study-single .logoArea .explain p.one {
   margin-top: 10vw;
 }
-
 .case-study-single .logoArea .explain p.two {
   margin-top: 5vw;
 }
-
 .case-study-single .logoArea .explain p.three {
   margin-top: 10vw;
 }
-
 .case-study-single .elements {
   background: #cc5a2a;
   padding: 10vw 0 10vw 0;
   margin-bottom: 10px;
   overflow: hidden;
 }
-
 .case-study-single .elements .icons {
   width: 75%;
   margin: 0 auto;
@@ -188,12 +156,10 @@
   margin-bottom: 5vw;
   display: block;
 }
-
 .case-study-single .elements .icons img {
   width: 100%;
   height: auto;
 }
-
 .case-study-single .screenArea {
   background: #414242;
   padding: 10vw 0 10vw 0;
@@ -202,7 +168,6 @@
   width: 100%;
   text-align: center;
 }
-
 .case-study-single .frame {
   background-size: 35%;
   width: 100%;
@@ -212,7 +177,6 @@
   position: relative;
   clear: both;
 }
-
 .case-study-single .frame .slidee {
   float: left;
   width: 32vw;
@@ -223,44 +187,36 @@
   margin-right: 1vw;
   cursor: pointer;
 }
-
 .case-study-single .frame .slidee:first-child {
   cursor: default;
 }
-
 .case-study-single .frame .slidee img {
   width: 100%;
   height: auto;
 }
-
 .case-study-single .frame .clickToView {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1441059937/wp2mau8qxfhftxuwwtyo.png") no-repeat;
   background-size: 100%;
 }
-
 .case-study-single .quoteArea {
   background: #ff8f2c;
   padding: 10vw 0 10vw 0;
   margin-bottom: 10px;
   overflow: hidden;
 }
-
 .case-study-single .quoteArea text {
   margin: 0 auto;
 }
-
 .case-study-single .quoteArea .logo {
   float: left;
   width: 30%;
   display: block;
   padding-top: 1vw;
 }
-
 .case-study-single .quoteArea .logo img {
   width: 100%;
   height: auto;
 }
-
 .case-study-single .quoteArea p {
   width: 65%;
   float: right;
@@ -268,7 +224,6 @@
   font-size: 2.2vw;
   font-weight: 500;
 }
-
 .case-study-single .quoteArea p.person {
   margin-top: 2vw;
   font-weight: 600;
@@ -307,7 +262,7 @@
   .case-study-single h1 {
     font-size: 5vw;
     text-transform: uppercase;
-    letter-spacing: .7vw;
+    letter-spacing: 0.7vw;
     line-height: 6vw;
   }
   .case-study-single p {
@@ -420,5 +375,4 @@
     font-weight: 600;
     font-style: italic;
   }
-}
-/*# sourceMappingURL=win.css.map */
+}/*# sourceMappingURL=win.css.map */

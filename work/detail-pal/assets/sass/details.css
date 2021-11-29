@@ -6,18 +6,16 @@
   display: block;
   background-size: 100%;
   color: #fff;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   overflow: hidden;
 }
-
 .case-study-single h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #fff;
 }
-
 .case-study-single p {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   color: #fff;
 }
 
@@ -63,7 +61,6 @@
   background-size: 100%;
   display: block;
 }
-
 .phoneArea .phone {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454899677/avc5btaiiv8z9bbsb9bt.png") no-repeat;
   width: 28vw;
@@ -73,20 +70,17 @@
   margin-left: 3vw;
   float: left;
 }
-
 .phoneArea .text {
   float: left;
   width: 46%;
   margin-left: 3vw;
 }
-
 .phoneArea .text h1 {
   font-size: 3.3vw;
   line-height: 3.6vw;
   margin-top: 5.2vw;
   display: block;
 }
-
 .phoneArea .text p {
   font-size: 1.6vw;
   margin-top: 4vw;
@@ -104,7 +98,6 @@
   z-index: 20;
   text-align: left;
 }
-
 .uxArea .text {
   clear: both;
   padding-top: 11.3vw;
@@ -112,7 +105,6 @@
   width: 20%;
   margin-left: 9vw;
 }
-
 .uxArea .text h1 {
   font-size: 4vw;
   line-height: 4.2vw;
@@ -121,7 +113,6 @@
   top: 2vw;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
-
 .uxArea .ux {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454899677/x3otebprwjxc97m3qphq.png") no-repeat;
   float: right;
@@ -141,13 +132,11 @@
   display: block;
   background-size: 100%;
 }
-
 .logoArea .internal {
   width: 82%;
   margin: 0 auto;
   display: block;
 }
-
 .logoArea .logos {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454899677/yzyxswpojzm9pdtvgyhb.png") no-repeat;
   width: 45vw;
@@ -157,21 +146,18 @@
   background-size: 100%;
   margin-top: -8vw;
 }
-
 .logoArea .text {
   float: right;
   width: 35%;
   margin-top: 5vw;
 }
-
 .logoArea .text h1 {
   font-size: 4vw;
   line-height: 4.2vw;
   color: #414042;
   text-align: right;
-  margin-bottom: -.5vw;
+  margin-bottom: -0.5vw;
 }
-
 .logoArea .text p {
   text-align: right;
   font-size: 1.6vw;
@@ -184,26 +170,22 @@
   display: block;
   margin: 0 auto;
 }
-
 .colorsElements .text {
   float: left;
   width: 33%;
   margin-top: 2vw;
 }
-
 .colorsElements .text h1 {
   font-size: 4vw;
   line-height: 4.2vw;
   color: #fff;
-  margin-bottom: -.5vw;
+  margin-bottom: -0.5vw;
 }
-
 .colorsElements .text p {
   font-size: 1.6vw;
   line-height: 2.6vw;
   color: #fff;
 }
-
 .colorsElements .elements {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454899677/v2fei9qerutj8o4travd.png") right top no-repeat;
   width: 65%;
@@ -221,7 +203,6 @@
   display: block;
   padding-bottom: 11vw;
 }
-
 .theAppContent h1 {
   font-size: 5vw;
   line-height: 5.2vw;
@@ -229,17 +210,14 @@
   padding-top: 3vw;
   padding-bottom: 3vw;
 }
-
 .theAppContent .screenShots table {
   margin-top: 2vw;
 }
-
 .theAppContent .screenShots td {
   width: 33.3333333%;
   height: auto;
   text-align: center;
 }
-
 .theAppContent .screenShots td img {
   width: 80%;
   height: auto;
@@ -261,6 +239,7 @@
   .patternBG {
     height: 1200vw;
   }
+
   .case-study-single {
     height: 1100vw;
   }
@@ -367,7 +346,7 @@
   .case-study-single .colorsElements .text h1 {
     font-size: 9vw;
     line-height: 9.2vw;
-    margin-bottom: -.5vw;
+    margin-bottom: -0.5vw;
     text-align: center;
   }
   .case-study-single .colorsElements .text p {
@@ -408,16 +387,17 @@
     height: auto;
     padding-bottom: 6vw;
   }
+
   .theAppBG {
     top: 785vw;
     height: 380vw;
   }
 }
-
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
   .patternBG {
     height: 1200vw;
   }
+
   .case-study-single {
     height: 1100vw;
   }
@@ -524,7 +504,7 @@
   .case-study-single .colorsElements .text h1 {
     font-size: 9vw;
     line-height: 9.2vw;
-    margin-bottom: -.5vw;
+    margin-bottom: -0.5vw;
     text-align: center;
   }
   .case-study-single .colorsElements .text p {
@@ -565,24 +545,27 @@
     height: auto;
     padding-bottom: 6vw;
   }
+
   .theAppBG {
     top: 785vw;
     height: 380vw;
   }
 }
-
 @media (min-width: 1024px) {
   .case-study-single {
     height: 550vw;
   }
+
   .logoD {
     width: 27vw;
     height: 40vw;
   }
+
   .angledLight {
     top: 37vw;
     background-size: 100%;
   }
+
   .phoneArea {
     width: 75%;
     margin-top: 4vw;
@@ -609,6 +592,7 @@
     margin-top: 4vw;
     line-height: 2.2vw;
   }
+
   .uxArea {
     height: 89vw;
     margin-top: 16vw;
@@ -622,6 +606,7 @@
   .uxArea .ux {
     margin-top: -6vw;
   }
+
   .logoArea {
     width: 100%;
     height: 98vw;
@@ -646,12 +631,13 @@
   .logoArea .text h1 {
     font-size: 3vw;
     line-height: 3.2vw;
-    margin-bottom: -.5vw;
+    margin-bottom: -0.5vw;
   }
   .logoArea .text p {
     font-size: 1.3vw;
     line-height: 2.3vw;
   }
+
   .colorsElements {
     width: 75%;
     display: block;
@@ -665,7 +651,7 @@
   .colorsElements .text h1 {
     font-size: 3vw;
     line-height: 3.2vw;
-    margin-bottom: -.5vw;
+    margin-bottom: -0.5vw;
   }
   .colorsElements .text p {
     font-size: 1.3vw;
@@ -677,6 +663,7 @@
     background-size: 80%;
     margin-top: -8vw;
   }
+
   .theAppContent {
     width: 75%;
     padding-bottom: 11vw;
@@ -697,27 +684,31 @@
     height: auto;
     padding-bottom: 6vw;
   }
+
   .theAppBG {
     height: 250vw;
     top: 300vw;
   }
 }
-
 @media (min-width: 1280px) {
   .case-study-single {
     height: 466vw;
   }
+
   .logoD {
     width: 19vw;
     height: 32vw;
   }
+
   .patternBG {
     padding-top: 2vw;
   }
+
   .angledLight {
     top: 23vw;
     background-size: 100%;
   }
+
   .phoneArea {
     width: 60%;
     margin-top: -3vw;
@@ -744,6 +735,7 @@
     margin-top: 3vw;
     line-height: 2.05vw;
   }
+
   .uxArea {
     height: 89vw;
     margin-top: 16vw;
@@ -762,6 +754,7 @@
     display: block;
     margin-right: -5vw;
   }
+
   .logoArea {
     width: 100%;
     height: 98vw;
@@ -785,13 +778,14 @@
   }
   .logoArea .text h1 {
     font-size: 2.8vw;
-    line-height: 3.0vw;
-    margin-bottom: -.5vw;
+    line-height: 3vw;
+    margin-bottom: -0.5vw;
   }
   .logoArea .text p {
     font-size: 1.2vw;
     line-height: 2.2vw;
   }
+
   .colorsElements {
     width: 60%;
     display: block;
@@ -804,8 +798,8 @@
   }
   .colorsElements .text h1 {
     font-size: 2.8vw;
-    line-height: 3.0vw;
-    margin-bottom: -.5vw;
+    line-height: 3vw;
+    margin-bottom: -0.5vw;
   }
   .colorsElements .text p {
     font-size: 1.2vw;
@@ -817,13 +811,14 @@
     background-size: 80%;
     margin-top: -6vw;
   }
+
   .theAppContent {
     width: 60%;
     padding-bottom: 11vw;
   }
   .theAppContent h1 {
     font-size: 2.8vw;
-    line-height: 3.0vw;
+    line-height: 3vw;
     color: #fff;
     padding-top: 3vw;
     padding-bottom: 1vw;
@@ -838,9 +833,9 @@
     height: auto;
     padding-bottom: 6vw;
   }
+
   .theAppBG {
     height: 196.7vw;
     top: 273vw;
   }
-}
-/*# sourceMappingURL=details.css.map */
+}/*# sourceMappingURL=details.css.map */

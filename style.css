@@ -2618,7 +2618,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 
 .home-intro .et_pb_row_1 {
   position: relative;
-  z-index: 1;
+  z-index: 10000000;
 }
 
 .home-intro .et_pb_column_1_3 .et_parallax_bg {

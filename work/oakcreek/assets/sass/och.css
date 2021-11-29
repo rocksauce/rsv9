@@ -10,32 +10,28 @@ body {
   overflow: hidden;
   height: auto;
 }
-
 .case-study-single p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400 !important;
   color: #fff;
   font-size: 1.6vw;
   line-height: 3vw;
   margin-bottom: 1.5vw;
 }
-
 .case-study-single h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 700 !important;
   color: #fff;
   font-size: 3vw;
   text-transform: uppercase;
   margin-bottom: 2vw;
 }
-
 .case-study-single #photoLogo {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454619437/t8a7xrqmndvaiobptpse.png") no-repeat;
   width: 100%;
   background-size: 100%;
   padding-top: 10vw;
 }
-
 .case-study-single #photoLogo .logo {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454619437/poetbsxmzcy2rqqyrysr.png") no-repeat;
   width: 25vw;
@@ -44,7 +40,6 @@ body {
   margin: 0 auto;
   display: block;
 }
-
 .case-study-single #photoLogo .macBook {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454619437/buvwoeasf5qvo90wiase.png") no-repeat;
   width: 100%;
@@ -54,14 +49,12 @@ body {
   display: block;
   overflow: hidden;
 }
-
 .case-study-single #photoLogo .macBook video {
   width: 80vw;
   height: 45vw;
   margin: 0 auto;
   display: block;
 }
-
 .case-study-single #photoLogo .contentArea {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454619438/ffz7hmszmcre9dbwljbi.png") no-repeat;
   width: 80%;
@@ -71,12 +64,10 @@ body {
   margin-top: -8vw;
   overflow: hidden;
 }
-
 .case-study-single #photoLogo .contentArea .text {
   width: 45%;
   float: right;
 }
-
 .case-study-single #lotsOfShots {
   background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454621665/b3skplfvngmuv015aqc8.png") no-repeat;
   background-size: 100%;
@@ -112,7 +103,6 @@ body {
     padding-bottom: 3vw !important;
   }
 }
-
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
   .case-study-single #photoLogo .contentArea {
     background: url("http://res.cloudinary.com/rocksauce-studios/image/upload/v1454619438/ffz7hmszmcre9dbwljbi.png") no-repeat center top;
@@ -138,5 +128,4 @@ body {
     line-height: 8vw;
     padding-bottom: 3vw !important;
   }
-}
-/*# sourceMappingURL=och.css.map */
+}/*# sourceMappingURL=och.css.map */
