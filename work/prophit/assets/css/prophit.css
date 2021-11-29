@@ -309,8 +309,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 84vw;
     height: 85vw;
     background-size: 100%;
-    left: 50%;
-    margin-left: -54vw; }
+    margin-left: -54vw; 
+    left: 55%;
+    top: 15%;
+    width: 50vw;}
   .case-study-single .descriptions {
     display: none; }
   .case-study-single .illustrations {
@@ -398,3 +400,13 @@ body {
 } 
 
 
+footer img{
+  filter: brightness(0) invert(1) !important;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  #main-header ul li a:not(:hover) {
+    color: black !important;
+}
+}

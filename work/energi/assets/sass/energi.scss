@@ -441,3 +441,40 @@
 	}
 		
 }
+
+
+
+#logo {
+	filter: brightness(0) invert(0) !important;
+  }
+  
+  
+  #main-header {
+	background-color: transparent !important;
+	backdrop-filter: blur(10px) !important;
+  }
+  
+  
+  #main-header ul li a:not(:hover) {
+	color: #000 !important;
+  }
+  
+  
+  footer {
+	  background-color: #FCAA40 !important;
+	  padding-top: 100px !important;
+  }
+  
+  
+  
+  body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FCAA40 !important;
+  } 
+  
+  
+  .lasQuote{
+	background: white;
+	padding-bottom: 100px !important;
+  }

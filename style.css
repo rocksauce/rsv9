@@ -2512,6 +2512,18 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
   .footer-body h4 {
     margin-bottom: 30px !important;
   }
+  .footer-body .et_pb_row_0_tb_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .et_pb_column.et_pb_column_1_2.et_pb_column_0_tb_footer.et_pb_css_mix_blend_mode_passthrough {
+    margin-top: 30px !important;
+  }
 }
 
 @media (max-width: 767px) {
