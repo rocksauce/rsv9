@@ -3104,7 +3104,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
     text-align: left;
   }
   .section-testimonial h3:before {
-    position: relative;
+    position: absolute;
     top: 11px;
     left: -3px;
     display: inline-block;

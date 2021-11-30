@@ -2015,7 +2015,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a:hover {
 		text-align: left !important;
 	}
 	.section-testimonial h3:before {
-		position: relative;
+		position: absolute;
 		top: 11px;
 		left: -17px;
 		display: inline-block;
@@ -5714,3 +5714,23 @@ a, a:link, a:hover, a:visited, a:focus {
         height: 412px !important;
     }
 }
+
+.footer-body .et_pb_row_0_tb_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .et_pb_column.et_pb_column_1_2.et_pb_column_0_tb_footer.et_pb_css_mix_blend_mode_passthrough {
+    margin-top: 30px !important;
+  }
+
+  #ux-de-bra{
+	  .et_pb_text_align_left{
+		margin-left: 24px;
+		margin-right: 24px;	
+	  }
+  }
