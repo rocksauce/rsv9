@@ -52,7 +52,7 @@ $list_query_options['orderby'] = 'date';
                         <div class="et_pb_row et_pb_row_1">
                             <div class="et_pb_column et_pb_column_3_5 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough">
                                 <div class="et_pb_module et_pb_post_slider et_pb_post_slider_0 et_pb_slider et_pb_post_slider_image_background et_pb_slider_fullwidth_off et_pb_slider_with_overlay et_pb_bg_layout_dark">
-                                    <div class="et_pb_slides rsv9_slides">
+                                    <div class=" rsv9_slides slide-stuff">
 
                                         <?php
 
@@ -62,7 +62,7 @@ $list_query_options['orderby'] = 'date';
                                                 while ( $lists_posts->have_posts() ) : $lists_posts->the_post();
                                                 $excluded_posts_ids[] = get_the_ID();
                                             ?>
-                                                <div class="et_pb_slide et_pb_bg_layout_dark et_pb_post_slide-<?=get_the_ID()?> et-pb-active-slide" style="background-image: url(<?= get_the_post_thumbnail_url()?>);">
+                                                <div class=" et_pb_bg_layout_dark et_pb_post_slide-<?=get_the_ID()?> et-pb-active-slide" style="background-image: url(<?= get_the_post_thumbnail_url()?>);">
                                                     <div class="et_pb_slide_overlay_container"></div>
                                                     <div class="et_pb_container clearfix" style="height: 410px;">
                                                         <div class="et_pb_slider_container_inner">
@@ -90,7 +90,7 @@ $list_query_options['orderby'] = 'date';
                                         ?>
                                     </div> <!-- .et_pb_slides -->
 
-                                    <div class="et-pb-slider-arrows"><a class="et-pb-arrow-prev" href="#"><span>Previous</span></a><a class="et-pb-arrow-next" href="#"><span>Next</span></a></div>
+                                    <!-- <div class="et-pb-slider-arrows"><a class="et-pb-arrow-prev" href="#"><span>Previous</span></a><a class="et-pb-arrow-next" href="#"><span>Next</span></a></div>
                                     <div class="et-pb-controllers">
 
                                         <?php
@@ -101,7 +101,7 @@ $list_query_options['orderby'] = 'date';
                                             }
                                         ?>
 
-                                    </div>
+                                    </div> -->
                                 </div> <!-- .et_pb_slider -->
 
                             </div> <!-- .et_pb_column -->
@@ -317,17 +317,34 @@ $list_query_options['orderby'] = 'date';
 <script src="/wp-content/themes/Divi/js/custom.unified.js?ver=1.0.0"></script>
 <script>
 
-window.excluded_ids  = <?=json_encode($excluded_posts_ids)?> ;
-window.category_id  = '<?= $category_id ?>';
+    window.excluded_ids  = <?=json_encode($excluded_posts_ids)?> ;
+    window.category_id  = '<?= $category_id ?>';
 
-jQuery( document ).ready(function() {
-    setTimeout(
-        function(){
-            jQuery( "#main-header" ).addClass( 'et-fixed-header');
-        },
-        1000
-    );
-});
+    jQuery( document ).ready(function() {
+        setTimeout(
+            function(){
+                jQuery( "#main-header" ).addClass( 'et-fixed-header');
+            },
+            1000
+        );
+
+
+        jQuery(function($){
+            $('.slide-stuff').slick({ // Define the class which will be used to designate the parent container for the Divi Modules that will make up our slides
+                infinite: true, // This sets our slider to slide infinitely in a loop
+                slidesToShow: 1, // How many slides should be visible at all times
+                slidesToScroll: 1, // How many slides should scroll ,
+                dots: true,
+                //dotsClass: 'rsv9-dots'
+            });
+        });
+
+
+    });
+
+
+    
+
 </script>
 
 <?php

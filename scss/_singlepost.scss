@@ -28,3 +28,14 @@ span.show-mobile{
 }
 
 
+@media (max-width: 768px){
+    .wp-block-embed iframe{
+        height: 240px !important;
+    }
+    .wp-block-image{
+        flex-direction: column;
+    }
+    .w-full {
+        width: 100% !important;
+    }
+}

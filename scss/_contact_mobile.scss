@@ -28,3 +28,9 @@
     
 }
 
+@media (min-width: 768px) {
+    .et_pb_column.et_pb_column_1_4.et_pb_column_8.et_pb_css_mix_blend_mode_passthrough.et-last-child{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

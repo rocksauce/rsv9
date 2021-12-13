@@ -45,6 +45,10 @@
         }
     }
 }
+
+.rs-b2 .rs-b2-lc article .image-link img {
+    width: 100% !important;
+}
 @media (max-width: 767px){
     .blog-intro .small-posts h2 a {
         font-size: 20px !important;
@@ -105,4 +109,31 @@
             }
         }
     } 
+}
+
+.et_pb_bg_layout_dark{
+    background-size: cover !important;
+
+    .et_pb_slider_container_inner
+    {
+        .et_pb_slide_description{
+            padding-left: 24px !important;
+            padding-right: 24px !important;
+
+            h2, div{
+                margin: auto !important;
+            }
+        }
+    }
+}
+
+.rsv9_slides{
+    .slick-dots{
+        
+        bottom: -10px;
+
+        li{
+            background: #f6f3e0;
+        }
+    }
 }
