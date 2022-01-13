@@ -70,7 +70,7 @@ function my_theme_enqueue_styles() {
 
 function ajax_load_work_posts($hook) {
 
-    wp_enqueue_script( 'load_work_posts', get_stylesheet_directory_uri() . '/js/load_work.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'load_work_posts', get_stylesheet_directory_uri() . '/js/load_work.js', array(), '1.0.1', true );
 
     wp_localize_script( 'load_posts', 'ajax_info', array(
         'ajax_url'  => admin_url('admin-ajax.php'),
@@ -135,6 +135,18 @@ add_action('wp_enqueue_scripts', 'ajax_load_posts');
 
 add_action('wp_ajax_load_posts_api', 'load_posts_api_callback');
 add_action('wp_ajax_nopriv_load_posts_api', 'load_posts_api_callback');
+
+
+function enqueue_menu($hook) {
+
+    wp_enqueue_script( 'enqueue_menu', get_stylesheet_directory_uri() . '/js/menu.js', array(), '1.0.0', true );
+    wp_localize_script( 'enqueue_menu', 'ajax_info', array(
+        'ajax_url'  => admin_url('admin-ajax.php'),
+        'ajax_nonce'     => wp_create_nonce('enqueue_menu_nonce')
+    ));
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_menu');
 
 function load_posts_api_callback(){
 

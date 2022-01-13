@@ -147,7 +147,7 @@ $list_query_options['orderby'] = 'date';
                         </div> <!-- .et_pb_row -->
                     </div> <!-- .et_pb_section -->
 
-                    <div class="et_pb_section et_pb_section_2 blog-cols et_section_regular">
+                    <div id="two-columns" class="et_pb_section et_pb_section_2 blog-cols et_section_regular">
                         <div class="et_pb_row et_pb_row_2 rs-b2">
                             <div class="et_pb_column et_pb_column_2_5 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
                                 <div class="et_pb_module et_pb_blog_1 et_pb_posts et_pb_bg_layout_light rs-b2-lc">

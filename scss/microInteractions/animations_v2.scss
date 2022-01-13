@@ -1,0 +1,129 @@
+
+.hover {
+    position: relative;
+    width: fit-content;
+    color: #a06bce;
+    h4 > br {
+      display: none !important;
+    }
+    h3{
+      font-size: 35px;
+      margin-bottom: 15px;
+      line-height: 1;
+    } h4 a{
+      font-size: 26px;
+      margin-bottom: 10px;
+      color: pink;
+    }
+    &:hover {
+  
+    h3 {
+      cursor: pointer;  
+      text-shadow: -0px 0px #dfceb5, -1px 1px #dfceb5, -2px 2px #dfceb5, -3px 3px #dfceb5, -4px 4px #dfceb5, -5px 5px #dfceb5, -6px 6px #dfceb5, -7px 7px #dfceb5, -8px 8px #dfceb5;
+      transform: translate(9px, -9px);
+      transition: all .3s ease-out;
+      transition-property: all;
+    }
+    &:hover {
+  
+      h4 a  {
+      color: blue;
+      transition: all .3s ease-out;
+      }   
+    }
+    }
+  .icon-arrow{
+    display: inline-block;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(158, 56, 56);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  } 
+  
+  }
+  
+  .icon-arrow_aa::after, .icon-arrow_aa::before  {
+  
+    content: "";
+    display: inline-block;
+    border-radius: 4px;
+    width: 15px;
+    height: 4px;
+    background: rgb(158, 56, 56);
+    position: absolute;
+    right: -1px;
+  }
+  
+  .icon-arrow_aa::before {
+    
+    transform: rotate(40deg);
+    bottom: 4px;
+  }
+  
+  .icon-arrow_aa::after{
+  
+  transform: rotate(-40deg);
+  bottom: -4px;
+  }
+  
+  
+  .icon-arrow::after, .icon-arrow::before{    
+    content: "";
+    display: none;
+    border-radius: 4px;
+    width: 15px;
+    height: 4px;
+    background: rgb(158, 56, 56);
+    position: absolute;
+    right: -1px;
+  }
+    
+    .icon-arrow::before {
+    
+        transform: rotate(40deg);
+        bottom: 4px;
+    }
+  
+    .icon-arrow::after{
+  
+      transform: rotate(-40deg);
+      bottom: -4px;
+    }
+    /*hover*/
+  
+    .hover{ 
+      .icon-arrow_hover{
+  
+        display: inline-block;
+        height: 4px;
+        border-radius: 4px;
+        background: green;
+        position: absolute;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        transition: all .3s ease-out;
+    } 
+    &:hover {
+  
+      .icon-arrow_hover{
+        width: 100%;
+     }
+  
+     .icon-arrow_hover::after {
+  
+      display: block;
+      background: green;
+    }
+  
+    .icon-arrow_hover::before {
+    
+      display: block;
+      background: green;
+    }
+    }
+      
+  }
