@@ -1786,7 +1786,6 @@ span.show-mobile {
   z-index: 20;
 }
 
-/*Footer*/
 .footer-body p a, .footer-body ul a {
   position: relative;
   display: inline-block;
@@ -1910,6 +1909,96 @@ span.show-mobile {
   z-index: 20;
 }
 
+.hover_links-bg-white a {
+  position: relative;
+  display: inline-block;
+  color: black;
+  overflow: hidden;
+  background: linear-gradient(to right, #1FC774, #1FC774 50%, #d84b41 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  display: inline !important;
+}
+.hover_links-bg-white a:hover {
+  background-position: 0 100%;
+}
+.hover_links-bg-white a:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0%;
+  height: 0px;
+  transition: width 275ms ease;
+}
+.hover_links-bg-white a:after {
+  content: "";
+  display: block;
+  background: #d84b41;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  z-index: 10;
+}
+.hover_links-bg-white a:hover:before {
+  background: #1FC774;
+  width: 100%;
+  height: 2px;
+  z-index: 20;
+}
+
+.hover_single-link-bg-white {
+  position: relative;
+  display: inline-block;
+  color: black;
+  overflow: hidden;
+  background: linear-gradient(to right, #f6f3e0, #f6f3e0 50%, #ffa47c 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  display: inline !important;
+}
+.hover_single-link-bg-white:hover {
+  background-position: 0 100%;
+}
+.hover_single-link-bg-white:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0%;
+  height: 0px;
+  transition: width 275ms ease;
+}
+.hover_single-link-bg-white:after {
+  content: "";
+  display: block;
+  background: #f6f3e0;
+  opacity: 1;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  z-index: 10;
+}
+.hover_single-link-bg-white:hover:before {
+  background: #f6f3e0;
+  width: 100%;
+  height: 2px;
+  z-index: 20;
+}
+
 .hover {
   position: relative;
   width: -webkit-fit-content;
@@ -1932,17 +2021,16 @@ span.show-mobile {
   text-shadow: 0px 0px #dfceb5, -1px 1px #dfceb5, -2px 2px #dfceb5, -3px 3px #dfceb5, -4px 4px #dfceb5, -5px 5px #dfceb5, -6px 6px #dfceb5, -7px 7px #dfceb5, -8px 8px #dfceb5;
   transform: translate(9px, -9px);
   transition: all 0.3s ease-out;
-  transition-property: all;
 }
 .hover:hover:hover h4 a {
-  color: blue;
+  color: #1FC774 !important;
   transition: all 0.3s ease-out;
 }
 .hover .icon-arrow {
   display: inline-block;
   height: 4px;
   border-radius: 4px;
-  background: #9e3838;
+  background: #DFC6B9;
   position: absolute;
   width: 100%;
   left: 0;
@@ -1955,7 +2043,7 @@ span.show-mobile {
   border-radius: 4px;
   width: 15px;
   height: 4px;
-  background: #9e3838;
+  background: #DFC6B9;
   position: absolute;
   right: -1px;
 }
@@ -1976,7 +2064,7 @@ span.show-mobile {
   border-radius: 4px;
   width: 15px;
   height: 4px;
-  background: #9e3838;
+  background: #DFC6B9;
   position: absolute;
   right: -1px;
 }
@@ -1996,7 +2084,7 @@ span.show-mobile {
   display: inline-block;
   height: 4px;
   border-radius: 4px;
-  background: green;
+  background: #1FC774;
   position: absolute;
   width: 0%;
   left: 0;
@@ -2008,11 +2096,11 @@ span.show-mobile {
 }
 .hover:hover .icon-arrow_hover::after {
   display: block;
-  background: green;
+  background: #1FC774;
 }
 .hover:hover .icon-arrow_hover::before {
   display: block;
-  background: green;
+  background: #1FC774;
 }
 
 #main-header,
