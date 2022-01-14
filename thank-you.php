@@ -171,7 +171,7 @@ $list_query_options['orderby'] = 'date';
 
 
                                         <div class="et_pb_text_inner">
-                                            <h4><a class="hover_single-link-bg-white" href="https://www.rocksaucestudios.com/blog/">Training + Free Stuff</a></h4>
+                                            <h4><a href="https://www.rocksaucestudios.com/blog/">Training + Free Stuff</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +186,7 @@ $list_query_options['orderby'] = 'date';
 
 
                                         <div class="et_pb_video_box">
-                                            <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="Prototype an Image Comparison Slider in Figma | Figma Fridays" src="https://www.youtube.com/embed/sAF8runymIs?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Frsstaging.wpengine.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0" data-gtm-yt-inspected-33278975_13="true" id="562029411"></iframe></div>
+                                            <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="Prototype an Image Comparison Slider in Figma | Figma Fridays" src="https://www.youtube.com/embed/sAF8runymIs?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.rocksaucestudios.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0" data-gtm-yt-inspected-33278975_13="true" id="603610414"></iframe></div>
                                         </div>
                                         <div style="background-image:url(https://www.rocksaucestudios.com/wp-content/uploads/2021/08/FigmaFridays-1920x1080-Wide-Cover.png)" class="et_pb_video_overlay">
                                             <div class="et_pb_video_overlay_hover"><a href="#" class="et_pb_video_play"></a></div>
@@ -200,7 +200,7 @@ $list_query_options['orderby'] = 'date';
 
 
                                         <div class="et_pb_video_box">
-                                            <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="How do I pick the right font?!" src="https://www.youtube.com/embed/5d6bBD91Sc0?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Frsstaging.wpengine.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid1" data-gtm-yt-inspected-33278975_13="true" id="743418403"></iframe></div>
+                                            <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="How do I pick the right font?!" src="https://www.youtube.com/embed/5d6bBD91Sc0?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.rocksaucestudios.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid1" data-gtm-yt-inspected-33278975_13="true" id="467770608"></iframe></div>
                                         </div>
                                         <div style="background-image:url(https://www.rocksaucestudios.com/wp-content/uploads/2021/08/qanswers.png)" class="et_pb_video_overlay">
                                             <div class="et_pb_video_overlay_hover"><a href="#" class="et_pb_video_play"></a></div>
@@ -214,7 +214,7 @@ $list_query_options['orderby'] = 'date';
 
 
                                         <div class="et_pb_video_box">
-                                            <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="How to write great UX placeholder copy" src="https://www.youtube.com/embed/eqn9PzwEtRQ?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Frsstaging.wpengine.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid2" data-gtm-yt-inspected-33278975_13="true" id="326113508"></iframe></div>
+                                            <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="How to write great UX placeholder copy" src="https://www.youtube.com/embed/eqn9PzwEtRQ?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.rocksaucestudios.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid2" data-gtm-yt-inspected-33278975_13="true" id="88526366"></iframe></div>
                                         </div>
                                         <div style="background-image:url(https://www.rocksaucestudios.com/wp-content/uploads/2021/08/how-to-write-grewat-UX-placeholder-copy.png)" class="et_pb_video_overlay">
                                             <div class="et_pb_video_overlay_hover"><a href="#" class="et_pb_video_play"></a></div>
