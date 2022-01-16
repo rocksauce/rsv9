@@ -62,13 +62,16 @@ $list_query_options['orderby'] = 'date';
                                     <div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
 
                                         <div class="et_pb_text_inner add_cta_content">
-                                            <h2>Thank You! <br> You're <span>In!</span></h2>
-
+                                            <h2>
+                                                
+                                                <?= get_option( 'divi_thank_you_title')?>
+                                            </h2>
                                         </div>
 
                                         <div class="et_pb_text_inner add_cta_content">
-
-                                            <p>You went car shopping recently. How important was finding a car that would interact with your smartphone? Finding a car that would interact with my smartphone was pretty important. Even more than that, it was about having a strong onboard communication system that seemed cohesive, seemed to work together and had an overall solid interface</p>
+                                            <p>
+                                                <?= get_option( 'divi_thank_you_message')?>
+                                            </p>
                                         </div>
                                     </div> <!-- .et_pb_text -->
                                 </div> <!-- .et_pb_column -->

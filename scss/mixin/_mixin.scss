@@ -1,0 +1,46 @@
+@mixin nav_hover-effect($color, $underline_color: #d84b41, $bottom: 4px, $height_underline: 4px, $underline_default: false, $color_underline-default: #d84b41, $opacity: 0.4) {
+	position: relative;
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background: $color ; 
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: background-position 275ms ease;
+	text-decoration: none; 
+	&:hover {
+		background-position: 0 100%;
+	}
+	&:before{
+		content: "";
+		position: absolute;
+		bottom: $bottom;
+		width: 0%;
+		height: 0px;
+		transition: width 275ms ease;
+	}
+	@if $underline_default {
+		&:after{
+			content: "";
+			display: block;
+			background: $color_underline-default;
+			opacity: $opacity;
+			position: absolute;
+			bottom: $bottom;
+			width: 100%;
+			height: $height_underline;
+			left: 0;
+			z-index: 10;
+		}
+	  }
+
+	&:hover:before{
+		background:$underline_color;
+		width: 100%;
+		height: $height_underline;
+		z-index: 20;
+	}
+}

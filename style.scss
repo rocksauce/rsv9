@@ -5,7 +5,7 @@
  Author:       Q Manning
  Author URI:  	https://www.qmanning.com
  Template:     Divi
- Version:      9.0.2
+ Version:      9.0.3
  Text Domain:  RSv9
 */
 
@@ -40,6 +40,8 @@
 @import 'scss/design_sprints';
 @import 'scss/microInteractions/animations';
 @import 'scss/microInteractions/animations_v2';
+@import 'scss/404';
+
 #main-header,
 .et_pb_section {
 	background-color: transparent !important;

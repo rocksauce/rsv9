@@ -45,11 +45,15 @@
 }
 
 .hover_single-link-bg-black{
-    @include nav_hover-effect(linear-gradient(to right,  #f6f3e0, #f6f3e0 50%, #ffa47c 50%), #f6f3e0, 0px ,2px, true, #f6f3e0, 1 );
+    @include nav_hover-effect(linear-gradient(to right,  #f6f3e0, #f6f3e0 50%, #ffa47c 50%), #f6f3e0, 0px ,2px, true, #ffa47c, 1 );
     display: inline !important;
 }
 .hover_links a{
     @include nav_hover-effect(linear-gradient(to right, #d84b41, #d84b41 50%, #1FC774 50%));
+    display: inline !important;
+}
+.hover_links_black li:not(:first-child) a{
+    @include nav_hover-effect(linear-gradient(to right, #000000, #000000 50%, #d84b41 50%), #000000, 0px ,2px, true, #d84b41);
     display: inline !important;
 }
 .hover_links-bg-white a{
@@ -57,7 +61,29 @@
     linear-gradient(to right, #1FC774, #1FC774 50%,  #d84b41 50%), #1FC774, 0px ,2px, true);
     display: inline !important;
 }
+h2.entry-title .hover_links-color-green{
+    @include nav_hover-effect(
+    linear-gradient(to right, #1FC774, #1FC774 50%,  #373737 50%), #1FC774, 0px ,1px, true, #00000052);
+    display: inline !important;
+	text-decoration-color: #00000052;
+	&:hover {
+		text-decoration-color: #1FC774 !important;
+	}
+}
+.hover_link_green_color{
+	@include nav_hover-effect(
+		linear-gradient(to right, #1FC774, #1FC774 50%,  #d84b41 50%), #1FC774, 3px ,4px, true);
+}
 .hover_single-link-bg-white{
     @include nav_hover-effect(linear-gradient(to right,  #f6f3e0, #f6f3e0 50%, #ffa47c 50%), #f6f3e0, 0px ,2px, true, #f6f3e0, 1 );
     display: inline !important;
+}
+a.hover_black_orage{
+	@include nav_hover-effect(linear-gradient(to right, #df5b4e, #df5b4e 50%, #000 50%), #df5b4e, 0px ,0px, true, #000000, 0.1 );
+	display: inline !important;
+	text-decoration: underline !important;
+	text-decoration-color: #000 !important;
+	&:hover {
+		text-decoration-color: #df5b4e !important;
+	}
 }
