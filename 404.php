@@ -127,10 +127,11 @@ $list_query_options['orderby'] = 'date';
                         <div class="no_finding_search">
                             <div class="et_pb_row no_finding_search_container">
                                 <div class="no_finding_search_text">
-                                    <p>Not findig What You're Looking For</p>
+                                    <p>Not findig What You're Looking For?</p>
                                 </div>
                                 <div class="no_finding_search_form">
-                                    <input class="no_finding_search_input" type="text" name="search-404" id="search-404" placeholder="Try searching here">
+                                    <input class="no_finding_search_input" type="text" name="search-404" id="search-404" placeholder="Try Searching Here">
+                                    <span class="icon-search_form"></span>        
                                 </div>
                             </div>
                         </div>
@@ -228,7 +229,7 @@ $list_query_options['orderby'] = 'date';
 
 
 
-                        <div class="et_pb_section et_pb_section_7 section-training et_section_regular">
+                        <div class="et_pb_section et_pb_section_7 section-training et_pb_section-training et_section_regular">
 
 
 
@@ -248,7 +249,7 @@ $list_query_options['orderby'] = 'date';
 
 
                             </div>
-                            <div class="et_pb_row et_pb_row_19">
+                            <div class="et_pb_row et_pb_row_19 et_pb_video_grid">
                                 <div class="et_pb_column et_pb_column_1_3 et_pb_column_39  et_pb_css_mix_blend_mode_passthrough">
 
 
@@ -298,15 +299,13 @@ $list_query_options['orderby'] = 'date';
 
                         </div>
 
-                        <div class="et_pb_section et_pb_section_2 section-services et_section_regular">
+                        <div class="et_pb_section-services et_pb_section et_pb_section_2 section-services et_section_regular">
 
 
 
 
                             <div class="et_pb_row et_pb_row_6">
                                 <div class="et_pb_column et_pb_column_1_2 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough">
-
-
                                     <div class="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_left et_pb_bg_layout_light">
 
 
@@ -317,97 +316,54 @@ $list_query_options['orderby'] = 'date';
                                     </div>
                                 </div>
                                 <div class="et_pb_column et_pb_column_1_2 et_pb_column_15  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
-
-
-
                                 </div>
-
-
                             </div>
-
-                            
                             <div class="et_pb_row et_pb_row_7 bg-black__img et_pb_equal_columns">
-                                <div class="et_pb_column et_pb_column_1_3 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough">
-
-
+                                <div class="et_pb_column et_pb_column_1_3 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et_pb_card">
                                     <div class="et_pb_module et_pb_text et_pb_text_18 et_pb_text_align_left et_pb_bg_layout_light et_multi_view__hover_selector">
-
-
-                                        <div class="et_pb_text_inner"  style="float: left;"></p>
-                                            <h4 style="text-align: left;"></h4>
-                                            <h4 style="text-align: left;"></h4>
-                                            <p>&nbsp;</p>
+                                        <div class="et_pb_text_inner et_pb_body_card" >
+                                            <p><img loading="lazy" src="https://www.rocksaucestudios.com/wp-content/uploads/2021/05/start-something-new.svg" width="undefined" height="undefined" alt="" class="wp-image-674 alignnone size-medium" style="float: left;"></p>
                                             <h4 style="text-align: left;"><a class="hover_single-link-bg-black" href="#">Start something new</a></h4>
-                                            <p>&nbsp;</p>
-                                            <p style="text-align: left;"><span style="font-family: HelveticaNeue-Medium; color: #f6f3e0;">Start-ups. Entrepreneurs. New business lines or ideas. Rocksauce helps you design a business from concept to your TikTok marketing plan.<br></span><span style="font-family: HelveticaNeue-Medium; color: #f6f3e0;"></span></p>
-                                            <p>&nbsp;</p>
+                                            <p style="text-align: left;"><span style="color: #f6f3e0;">Start-ups. Entrepreneurs. New business lines or ideas. Rocksauce helps you design a business from concept to your TikTok marketing plan.<br></span><span style="color: #f6f3e0;"></span></p>
                                         </div>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_6_wrapper  et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_6 btn-orange w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">This you, boo? Then click it</a>
+                                        <a class="et_pb_button et_pb_button_6 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">This you, boo? Then click it</a>
                                     </div>
                                 </div>
-                                <div class="et_pb_column et_pb_column_1_3 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough">
-
-
+                                <div class="et_pb_column et_pb_column_1_3 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et_pb_card">
                                     <div class="et_pb_module et_pb_text et_pb_text_19 et_pb_text_align_left et_pb_bg_layout_light et_multi_view__hover_selector">
-
-
-                                        <div class="et_pb_text_inner"  style="float: left;"></p>
-                                            <h4></h4>
-                                            <h4></h4>
-                                            <p>&nbsp;</p>
+                                        <div class="et_pb_text_inner et_pb_body_card" >
+                                            <p><img loading="lazy" src="https://www.rocksaucestudios.com/wp-content/uploads/2021/05/update-and-refresh.svg" width="undefined" height="undefined" alt="" class="wp-image-673 alignnone size-medium" style="float: left;"></p>
                                             <h4 style="text-align: left;"><a class="hover_single-link-bg-black" href="#">Update + refresh</a></h4>
-                                            <p>&nbsp;</p>
-                                            <p style="text-align: left;"><span style="font-family: HelveticaNeue-Medium; color: #f6f3e0;">Brand refresh. New company website to entice customers. Fix UX + design issues with your app or software. Bring new life to your business + products.</span></p>
+                                            <p style="text-align: left;"><span style="color: #f6f3e0;">Brand refresh. New company website to entice customers. Fix UX + design issues with your app or software. Bring new life to your business + products.</span></p>
                                         </div>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_7_wrapper  et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_7 btn-orange w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">Click to get so fresh + so clean (clean)</a>
+                                        <a class="et_pb_button et_pb_button_7 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">Click to get so fresh + so clean (clean)</a>
                                     </div>
                                 </div>
-                                <div class="et_pb_column et_pb_column_1_3 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et-last-child">
-
-
+                                <div class="et_pb_column et_pb_column_1_3 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et_pb_card et-last-child">
                                     <div class="et_pb_module et_pb_text et_pb_text_20 et_pb_text_align_left et_pb_bg_layout_light et_multi_view__hover_selector">
-
-
-                                        <div class="et_pb_text_inner"  style="float: left;"></p>
-                                            <h4></h4>
-                                            <h4></h4>
-                                            <p>&nbsp;</p>
+                                        <div class="et_pb_text_inner et_pb_body_card" >
+                                            <p><img loading="lazy" src="https://www.rocksaucestudios.com/wp-content/uploads/2021/05/innovate-internally.svg" width="undefined" height="undefined" alt="" class="wp-image-672 alignnone size-medium" style="float: left;"></p>
                                             <h4 style="text-align: left;"><a class="hover_single-link-bg-black" href="#">Innovate internally</a></h4>
-                                            <p style="text-align: left;"><span style="font-family: HelveticaNeue-Medium; color: #f6f3e0;">
-                                                <br>Enterprise companies know start-ups are coming for their customers. Intrapreneurs + internal innovators work with Rocksauce to digitally transform how they do business.</span>
-                                            </p>
-                                          
+                                            <p style="text-align: left;"><span style="color: #f6f3e0;">Enterprise companies know start-ups are coming for their customers. Intrapreneurs + internal innovators work with Rocksauce to digitally transform how they do business.</span></p>
                                         </div>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_8_wrapper et_pb_button_alignment_left et_pb_button_alignment_tablet_center et_pb_button_alignment_phone_center et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_8 btn-orange w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">Company, click to heal thyself</a>
+                                        <a class="et_pb_button et_pb_button_8 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">Company, click to heal thyself</a>
                                     </div>
                                 </div>
-
-
                             </div>
                             <div class="et_pb_row et_pb_row_8">
                                 <div class="et_pb_column et_pb_column_4_4 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
-
-
-
                                 </div>
-
-
                             </div>
-
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </article>
     </div>
 </div>

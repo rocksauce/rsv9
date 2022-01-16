@@ -148,6 +148,18 @@ function enqueue_menu($hook) {
 
 add_action('wp_enqueue_scripts', 'enqueue_menu');
 
+function enqueue_animations($hook) {
+
+    wp_enqueue_script( 'enqueue_animations', get_stylesheet_directory_uri() . '/js/interactions.js', array(), '1.0.0', true );
+    wp_localize_script( 'enqueue_animations', 'ajax_info', array(
+        'ajax_url'  => admin_url('admin-ajax.php'),
+        'ajax_nonce'     => wp_create_nonce('enqueue_animations_nonce')
+    ));
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_animations');
+
+
 function load_posts_api_callback(){
 
     global $xcluded_ids;

@@ -49,6 +49,23 @@
 body {
     background-color: #f6f3e0 !important;
 }
+
+img {
+	opacity: 1;
+	transition: opacity 0.8s;
+}
+
+img[loading] {
+	opacity: 0;
+}
+
+.et_pb_image_wrap:hover {
+    opacity: 0.5;
+	transition: 0.5s ease !important;
+}
+
+
+
 .et_pb_row,
 .container {
 	width: 100% !important;
