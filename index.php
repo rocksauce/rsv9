@@ -335,6 +335,7 @@ $list_query_options['orderby'] = 'date';
                 slidesToShow: 1, // How many slides should be visible at all times
                 slidesToScroll: 1, // How many slides should scroll ,
                 dots: true,
+                lazyLoad: 'ondemand',
                 //dotsClass: 'rsv9-dots'
             });
         });

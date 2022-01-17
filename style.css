@@ -2295,11 +2295,14 @@ a.hover_black_orage:hover {
   background: #1FC774;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1240px) {
   .error404 .et_pb_section_content_title_posts {
     height: 296px;
     margin-top: 66px !important;
   }
+}
+.error404 .et_pb_column.et_pb_column_2_5.et_pb_column_2.et_pb_css_mix_blend_mode_passthrough.et-last-child.et_pb_container {
+  display: flex;
 }
 @media (min-width: 768px) {
   .error404 .et_pb_column.et_pb_column_2_5.et_pb_column_2.et_pb_css_mix_blend_mode_passthrough.et-last-child.et_pb_container {
@@ -2340,9 +2343,7 @@ a.hover_black_orage:hover {
 @media (min-width: 768px) {
   .error404 .et_pb_slider_container_inner .et_pb_slide_description.et_pb_container_description h2.et_pb_container_description_title {
     font-size: 72px !important;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: auto;
   }
 }
 .error404 .et_pb_slider_container_inner .et_pb_slide_description.et_pb_container_description h2.et_pb_container_description_title span {
@@ -2358,7 +2359,7 @@ a.hover_black_orage:hover {
 @media (min-width: 768px) {
   .error404 .et_pb_slider_container_inner .et_pb_slide_description.et_pb_container_description div.et_pb_container_description-text {
     margin-left: 5px !important;
-    width: 570px;
+    width: auto;
   }
 }
 .error404 .no_finding_search {
@@ -2456,6 +2457,17 @@ a.hover_black_orage:hover {
 .error404 .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child.et_pb_nav_post {
   display: flex !important;
   justify-content: center !important;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .error404 .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child.et_pb_nav_post {
+    margin-bottom: 35px;
+  }
+}
+@media (min-width: 1230px) {
+  .error404 .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child.et_pb_nav_post {
+    margin-bottom: 0px;
+  }
 }
 .error404 .et_pb_row_5 .et_pb_module .et_pb_ajax_pagination_container .et_pb_post .entry-featured-image-url img {
   width: 100% !important;
@@ -2524,6 +2536,9 @@ a.hover_black_orage:hover {
   display: flex;
   flex-direction: column;
 }
+.error404 .et_pb_section-services .et_pb_card .et_pb_body_card p img {
+  opacity: 1 !important;
+}
 @media (max-width: 768px) {
   .error404 .et_pb_section-services .et_pb_card .et_pb_body_card p img {
     width: 80px;
@@ -2534,7 +2549,7 @@ a.hover_black_orage:hover {
   margin: 24px 0 !important;
   width: 100% !important;
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .error404 .et_pb_section-services .et_pb_card .btn-orange.et_pb_card_btn {
     width: auto !important;
   }
