@@ -242,7 +242,7 @@ $list_query_options['orderby'] = 'date';
 
 
                                         <div class="et_pb_text_inner">
-                                            <h4><a class="hover_link_green_color" href="https://www.rocksaucestudios.com/blog/">Training + Free Stuff</a></h4>
+                                            <h4><a class="hover_link_green_color" href="/blog/">Training + Free Stuff</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +259,7 @@ $list_query_options['orderby'] = 'date';
                                         <div class="et_pb_video_box">
                                             <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="Prototype an Image Comparison Slider in Figma | Figma Fridays" src="https://www.youtube.com/embed/sAF8runymIs?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Frsstaging.wpengine.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0" data-gtm-yt-inspected-33278975_13="true" id="562029411"></iframe></div>
                                         </div>
-                                        <div style="background-image:url(https://www.rocksaucestudios.com/wp-content/uploads/2021/08/FigmaFridays-1920x1080-Wide-Cover.png)" class="et_pb_video_overlay">
+                                        <div style="background-image:url(/wp-content/uploads/2021/08/FigmaFridays-1920x1080-Wide-Cover.png)" class="et_pb_video_overlay">
                                             <div class="et_pb_video_overlay_hover"><a href="#" class="et_pb_video_play"></a></div>
                                         </div>
                                     </div>
@@ -273,7 +273,7 @@ $list_query_options['orderby'] = 'date';
                                         <div class="et_pb_video_box">
                                             <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;"><iframe loading="lazy" title="How do I pick the right font?!" src="https://www.youtube.com/embed/5d6bBD91Sc0?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Frsstaging.wpengine.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid1" data-gtm-yt-inspected-33278975_13="true" id="743418403"></iframe></div>
                                         </div>
-                                        <div style="background-image:url(https://www.rocksaucestudios.com/wp-content/uploads/2021/08/qanswers.png)" class="et_pb_video_overlay">
+                                        <div style="background-image:url(/wp-content/uploads/2021/08/qanswers.png)" class="et_pb_video_overlay">
                                             <div class="et_pb_video_overlay_hover"><a href="#" class="et_pb_video_play"></a></div>
                                         </div>
                                     </div>
@@ -287,7 +287,7 @@ $list_query_options['orderby'] = 'date';
                                         <div class="et_pb_video_box">
                                             <div class="fluid-width-video-wrapper"style="padding-top: 56.2963%;"><iframe loading="lazy" title="How to write great UX placeholder copy" src="https://www.youtube.com/embed/eqn9PzwEtRQ?feature=oembed&amp;enablejsapi=1&amp;origin=https%3A%2F%2Frsstaging.wpengine.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid2" data-gtm-yt-inspected-33278975_13="true" id="326113508"></iframe></div>
                                         </div>
-                                        <div style="background-image:url(https://www.rocksaucestudios.com/wp-content/uploads/2021/08/how-to-write-grewat-UX-placeholder-copy.png)" class="et_pb_video_overlay">
+                                        <div style="background-image:url(/wp-content/uploads/2021/08/how-to-write-grewat-UX-placeholder-copy.png)" class="et_pb_video_overlay">
                                             <div class="et_pb_video_overlay_hover"><a href="#" class="et_pb_video_play"></a></div>
                                         </div>
                                     </div>
@@ -322,37 +322,37 @@ $list_query_options['orderby'] = 'date';
                                 <div class="et_pb_column et_pb_column_1_3 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et_pb_card">
                                     <div class="et_pb_module et_pb_text et_pb_text_18 et_pb_text_align_left et_pb_bg_layout_light et_multi_view__hover_selector">
                                         <div class="et_pb_text_inner et_pb_body_card" >
-                                            <p><img loading="lazy" src="https://www.rocksaucestudios.com/wp-content/uploads/2021/05/start-something-new.svg" width="undefined" height="undefined" alt="" class="wp-image-674 alignnone size-medium" style="float: left;"></p>
+                                            <p><img loading="lazy" src="/wp-content/uploads/2021/05/start-something-new.svg" width="undefined" height="undefined" alt="" class="wp-image-674 alignnone size-medium" style="float: left;"></p>
                                             <h4 style="text-align: left;"><a class="hover_single-link-bg-black" href="#">Start something new</a></h4>
                                             <p style="text-align: left;"><span style="color: #f6f3e0;">Start-ups. Entrepreneurs. New business lines or ideas. Rocksauce helps you design a business from concept to your TikTok marketing plan.<br></span><span style="color: #f6f3e0;"></span></p>
                                         </div>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_6_wrapper  et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_6 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">This you, boo? Then click it</a>
+                                        <a class="et_pb_button et_pb_button_6 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="/contact/">This you, boo? Then click it</a>
                                     </div>
                                 </div>
                                 <div class="et_pb_column et_pb_column_1_3 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et_pb_card">
                                     <div class="et_pb_module et_pb_text et_pb_text_19 et_pb_text_align_left et_pb_bg_layout_light et_multi_view__hover_selector">
                                         <div class="et_pb_text_inner et_pb_body_card" >
-                                            <p><img loading="lazy" src="https://www.rocksaucestudios.com/wp-content/uploads/2021/05/update-and-refresh.svg" width="undefined" height="undefined" alt="" class="wp-image-673 alignnone size-medium" style="float: left;"></p>
+                                            <p><img loading="lazy" src="/wp-content/uploads/2021/05/update-and-refresh.svg" width="undefined" height="undefined" alt="" class="wp-image-673 alignnone size-medium" style="float: left;"></p>
                                             <h4 style="text-align: left;"><a class="hover_single-link-bg-black" href="#">Update + refresh</a></h4>
                                             <p style="text-align: left;"><span style="color: #f6f3e0;">Brand refresh. New company website to entice customers. Fix UX + design issues with your app or software. Bring new life to your business + products.</span></p>
                                         </div>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_7_wrapper  et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_7 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">Click to get so fresh + so clean (clean)</a>
+                                        <a class="et_pb_button et_pb_button_7 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="/contact/">Click to get so fresh + so clean (clean)</a>
                                     </div>
                                 </div>
                                 <div class="et_pb_column et_pb_column_1_3 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et_pb_card et-last-child">
                                     <div class="et_pb_module et_pb_text et_pb_text_20 et_pb_text_align_left et_pb_bg_layout_light et_multi_view__hover_selector">
                                         <div class="et_pb_text_inner et_pb_body_card" >
-                                            <p><img loading="lazy" src="https://www.rocksaucestudios.com/wp-content/uploads/2021/05/innovate-internally.svg" width="undefined" height="undefined" alt="" class="wp-image-672 alignnone size-medium" style="float: left;"></p>
+                                            <p><img loading="lazy" src="/wp-content/uploads/2021/05/innovate-internally.svg" width="undefined" height="undefined" alt="" class="wp-image-672 alignnone size-medium" style="float: left;"></p>
                                             <h4 style="text-align: left;"><a class="hover_single-link-bg-black" href="#">Innovate internally</a></h4>
                                             <p style="text-align: left;"><span style="color: #f6f3e0;">Enterprise companies know start-ups are coming for their customers. Intrapreneurs + internal innovators work with Rocksauce to digitally transform how they do business.</span></p>
                                         </div>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_8_wrapper et_pb_button_alignment_left et_pb_button_alignment_tablet_center et_pb_button_alignment_phone_center et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_8 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="https://www.rocksaucestudios.com/contact/">Company, click to heal thyself</a>
+                                        <a class="et_pb_button et_pb_button_8 btn-orange et_pb_card_btn w-full et_pb_bg_layout_light" href="/contact/">Company, click to heal thyself</a>
                                     </div>
                                 </div>
                             </div>
