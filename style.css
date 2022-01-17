@@ -9090,6 +9090,22 @@ body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error
 /* ------------------------------------------------------------ *\
 	Blog All
 \* ------------------------------------------------------------ */
+.blog-all .et_pb_ajax_pagination_container.rs-posts-thum {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .blog-all .et_pb_ajax_pagination_container.rs-posts-thum {
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) {
+  .blog-all .et_pb_ajax_pagination_container.rs-posts-thum {
+    justify-content: space-between;
+  }
+}
+
 .blog-all article {
   display: inline-block;
   vertical-align: top;
@@ -9267,12 +9283,6 @@ a, a:link, a:hover, a:visited, a:focus {
 #ux-de-bra .et_pb_text_align_left {
   margin-left: 24px;
   margin-right: 24px;
-}
-
-.et_pb_ajax_pagination_container.rs-posts-thum {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 @media (min-width: 1024px) {
