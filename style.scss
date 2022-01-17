@@ -5553,7 +5553,6 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 		font-size: 25px;
 	}
 }
-
 /* ------------------------------------------------------------ *\
 	Blog All
 \* ------------------------------------------------------------ */
@@ -5562,8 +5561,14 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 .blog-all article {
 	display: inline-block;
 	vertical-align: top;
-	width: 32.5%;
+	width: 100%;
 	padding: 0 0px;
+	@media (min-width: 600px) {
+		width: 45% !important;
+	}
+	@media (min-width: 1024px) {
+		width: 32.5% !important;
+	}
 }
 .blog-all article img {
 	border-radius: 4px;
@@ -5577,7 +5582,6 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 @media (max-width: 767px) {
 	.blog-all article {
 		display: block;
-		width: 100%;
 		padding: 0 20px;
 	}
 
@@ -5586,7 +5590,6 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 		margin-bottom: 14px;
 	}
 }
-
 /* ------------------------------------------------------------ *\
 	Privacy Policy
 \* ------------------------------------------------------------ */
