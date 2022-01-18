@@ -2555,6 +2555,10 @@ a.hover_black_orage:hover {
   }
 }
 
+.page-template-thank-you-php .et_pb_row .et_pb_row_19 {
+  display: flex;
+  justify-content: space-between;
+}
 .page-template-thank-you-php .section-idea .et_pb_row.et_pb_row_3 {
   margin-top: 0 !important;
 }
@@ -2659,6 +2663,8 @@ a.hover_black_orage:hover {
 }
 .page-template-thank-you-php .et_pb_gutters1 .et_pb_column_1_3, .page-template-thank-you-php .et_pb_gutters1.et_pb_row .et_pb_column_1_3 {
   width: 30.3333%;
+  display: flex;
+  justify-content: space-between;
 }
 @media (min-width: 768px) {
   .page-template-thank-you-php .section-training .et_pb_row_flex {
