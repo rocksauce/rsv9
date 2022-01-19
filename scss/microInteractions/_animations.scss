@@ -87,3 +87,13 @@ a.hover_black_orage{
 		text-decoration-color: #df5b4e !important;
 	}
 }
+a.hover_black_green{
+	@include nav_hover-effect(linear-gradient(to right, #1FC774, #1FC774 50%, #000 50%), #1FC774, 0px ,0px, true, #000000, 1 );
+	display: inline !important;
+	text-decoration: underline !important;
+	text-decoration-color: #000 !important;
+	opacity: 1 !important;
+	&:hover {
+		text-decoration-color: #1FC774 !important;
+	}
+}

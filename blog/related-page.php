@@ -35,7 +35,7 @@ if($relatedPosts->have_posts() ){
 
             <article id="post-<?= get_the_ID()?>" class="other_blog_article">
                 <a class="other_blog_article_image" href="<?= the_permalink() ?>" style="background-image:url(<?= $image ?>)"></a>
-                <a class="other_blog_article_title" href="<?= the_permalink() ?>"><?= get_the_title() ?></a>
+                <a class="other_blog_article_title hover_black_orage " href="<?= the_permalink() ?>"><?= get_the_title() ?></a>
                 <div class="other_blog_article_summary"><?php rs_the_excerpt( 96 ) ?></div>
             </article>
     <?php

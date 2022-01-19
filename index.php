@@ -128,7 +128,7 @@ $list_query_options['orderby'] = 'date';
                                                     <article id="post-<?=get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_0_0 post-<?=get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry category-media">
 
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url"><img loading="lazy" src="<?= $image ?>" alt="<?=rs_the_title(50)?>" class="" width="1080" height="675"></a>
-                                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?=rs_the_title(50)?></a></h2>
+                                                        <h2 class="entry-title"><a class="hover_black_green" href="<?= the_permalink() ?>"><?=rs_the_title(50)?></a></h2>
 
                                                         <div class="post-content">
                                                             <div class="post-content-inner et_multi_view_hidden"></div>
@@ -170,7 +170,7 @@ $list_query_options['orderby'] = 'date';
                                                     <article id="post-<?= get_the_ID()?>" class="block-one et_pb_post clearfix et_pb_blog_item_1_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry">
 
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="<?= rs_the_title(50) ?>" class="" width="1080" height="300"></a>
-                                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= rs_the_title(50) ?></a></h2>
+                                                        <h2 class="entry-title"><a class="hover_black_green" href="<?= the_permalink() ?>"><?= rs_the_title(50) ?></a></h2>
 
                                                         <div class="post-content">
                                                             <div class="post-content-inner et_multi_view_hidden"></div>
@@ -206,7 +206,7 @@ $list_query_options['orderby'] = 'date';
                                                         <article  id="post-<?= get_the_ID()?>"  class="block-two et_pb_post clearfix et_pb_blog_item_2_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry category-design category-development">
 
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="What is a Design Sprint? (Part Two)" class="" width="1080" height="675"></a>
-                                                            <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= rs_the_title(50) ?></a></h2>
+                                                            <h2 class="entry-title"><a class="hover_black_green" href="<?= the_permalink() ?>"><?= rs_the_title(50) ?></a></h2>
 
                                                             <div class="post-content">
                                                                 <div class="post-content-inner">
@@ -233,7 +233,7 @@ $list_query_options['orderby'] = 'date';
 
                                 <div class="et_pb_module et_pb_blog_0 blog-all et_pb_posts et_pb_bg_layout_light ">
 
-                                    <div class="et_pb_ajax_pagination_container rs-posts-thum">
+                                    <div class="et_pb_ajax_pagination_container rs-posts-thum et_pb_container_single-post">
                                         <?php
 
                                             $list_query_options['posts_per_page'] = $lastPostsNumber;
@@ -252,9 +252,9 @@ $list_query_options['orderby'] = 'date';
                                                     <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
 
                                                         <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
-                                                            <img loading="lazy" src="<?= $image ?>" alt="<?= rs_the_title(50) ?>" class="" width="1080" height="675">
+                                                            <div class="et_pb_post background_image" style="background: url(<?= $image ?>);"></div>
                                                         </a>
-                                                        <h2 class="entry-title rs-title"><a href="<?= the_permalink() ?>">
+                                                        <h2 class="entry-title rs-title"><a class="hover_black_green" href="<?= the_permalink() ?>">
                                                             <?php echo  mb_strimwidth( get_the_title(), 0, 50, '...' ); ?></a></h2>
                                                         <div class="post-content">
                                                             <div class="post-content-inner rs-content"><?php rs_the_excerpt( 90 ) ?></div>

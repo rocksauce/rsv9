@@ -379,22 +379,13 @@ blockquote {
 
 #other_blog_articles {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	flex-wrap: wrap;
 	margin: 60px 15px 0px 15px;
-	@media (min-width: 1025px){
-		display:grid;
-		max-width:1200px;
-		margin:0 auto;
-		grid-template-columns:1fr 1fr 1fr;
-		justify-content:space-between;
-		gap:39px;
-		padding:104px 0 104px 0;		 
-	}
+
 
 	.other_blog_article {
-		
+		margin: 20px 25px;
 		justify-content: center;
 		@media (min-width: 700px) {
 			width: 600px;
@@ -402,11 +393,7 @@ blockquote {
 		@media (min-width: 1026px){
 			width: 376px;
 		}
-		display:inline-grid;
-		grid-gap:8px;
-		grid-template-rows: repeat(3, min-content);
-		margin: 20px 0;
-		padding:0;
+
 		@include active_fade();
 
 		&:hover, &:active, &:focus {
@@ -420,7 +407,7 @@ blockquote {
 
 			.other_blog_article_title {
 				color:$color_fire;
-				text-decoration-color:$color_subtle_link_fire;
+				text-decoration-color:$color_subtle_link_fire !important; 
 				padding: 0px 10px;
 			}
 		}
@@ -461,13 +448,14 @@ blockquote {
 			color:$color_dark_gray;
 			text-decoration:underline;
 			text-decoration-thickness:3px;
-			text-decoration-color:$color_subtle_link_gray;
+			text-decoration-color:$color_subtle_link_gray !important;
 			padding: 0px 10px;
+			
 			@include active_fade();
 
 			&:hover, &:active, &:focus {
 				color:$color_fire;
-				text-decoration-color:$color_subtle_link_fire;
+				text-decoration-color: #df5b4e !important;
 				@include active_fade();
 			}
 		}
@@ -497,7 +485,7 @@ blockquote {
 			.entry-content{
 				.et_builder_inner_content{
 					.et_pb_section_0{
-						//background-image: url(/wp-content/uploads/2021/04/post-image6.jpg)!important;
+						//background-image: url(https://www.rocksaucestudios.com/wp-content/uploads/2021/04/post-image6.jpg)!important;
 
 						.et_pb_row_0{
 							min-height: 550.8px;

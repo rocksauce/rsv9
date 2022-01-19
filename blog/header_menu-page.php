@@ -8,7 +8,7 @@
             <div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
                 <div class="et_pb_text_inner">
                     <h1>Blog</h1>
-                    <ul>
+                    <ul class="hover_links_black">
                         <li><a href="/blog">All</a></li>
                         <?php
                             $categories = get_categories( array(

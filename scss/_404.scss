@@ -199,9 +199,11 @@
                 flex-direction: column;
                 p img{
                     opacity: 1 !important;
+                    width: 104px;
+                    height: 98px;
                     @media (max-width: 768px){
-                        width: 80px;
-                        height: 80px;
+                        width: 80px !important;
+                        height: 80px !important;
                     }
                 }
             }
@@ -214,4 +216,19 @@
             }
           }    
         }
+}
+
+.et_pb_container_single-post{
+    .entry-featured-image-url.image-link{
+        height: 225px;
+        width: 100%;
+        .et_pb_post.background_image{
+            width: 100%;
+            height: 100%;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            border-radius: 4px !important;
+        }
     }
+}

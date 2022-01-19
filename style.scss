@@ -41,8 +41,6 @@
 @import 'scss/microInteractions/animations';
 @import 'scss/microInteractions/animations_v2';
 @import 'scss/404';
-@import 'scss/thank-you';
-@import 'scss/extra';
 
 #main-header,
 .et_pb_section {
@@ -1515,7 +1513,7 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 \* ------------------------------------------------------------ */
 
 .section-idea.et_pb_section {
-	padding: 75px 0 100px !important;
+	padding: 150px 0 75px !important;
 }
 .section-idea .et_pb_row.et_pb_row_3{
 	padding: 0;
@@ -5122,7 +5120,10 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 	letter-spacing: -0.02em;
 	font-weight: 700;
 	text-decoration: underline;
-	text-decoration-color: #e4e1d2;
+	text-decoration-color: #e4e1d2 !important;
+	&:hover {
+		text-decoration-color: #1FC774 !important;
+	}
 }
 
 .blog-intro .small-posts h2 a:hover {
@@ -5195,9 +5196,13 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 	line-height: 0.9;
 	font-weight: 700;
 	text-decoration: underline;
-	text-decoration-color: #e4e1d2;
+	text-decoration-color: #e4e1d2 !important;
 	color: #373737;
 	letter-spacing: -0.02em;
+	&:hover {
+		text-decoration-color: #1FC774 !important;
+	}
+
 }
 .blog-cols .et_pb_column_3_5 h2 {
 	display: block;
@@ -5595,7 +5600,6 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 @media (max-width: 767px) {
 	.blog-all article {
 		display: block;
-		width: 100%;
 		padding: 0 20px;
 	}
 
@@ -5604,7 +5608,6 @@ body .et_pb_text_0_tb_footer.et_pb_text h4 a {
 		margin-bottom: 14px;
 	}
 }
-
 /* ------------------------------------------------------------ *\
 	Privacy Policy
 \* ------------------------------------------------------------ */
@@ -5734,12 +5737,6 @@ a, a:link, a:hover, a:visited, a:focus {
 		margin-right: 24px;	
 	  }
   }
-
-  .et_pb_ajax_pagination_container.rs-posts-thum{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 @media (min-width: 1024px) {
     .footer-body .et_pb_row_0_tb_footer{
         display: block !important;
@@ -5876,9 +5873,4 @@ a, a:link, a:hover, a:visited, a:focus {
 		}
     }
    
-}
-
-.et_pb_video_play:before {
-    font-family: ETmodules;
-    content: "I";
 }
