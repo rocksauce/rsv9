@@ -77,7 +77,7 @@ function testimonials_function() {
 
 }
 
-
+add_shortcode('testimonials', 'testimonials_function');
 
 
 ?>

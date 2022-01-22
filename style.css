@@ -2568,13 +2568,11 @@ a.hover_black_green:hover {
 }
 .error404 .et_pb_section-services .et_pb_card .et_pb_body_card p img {
   opacity: 1 !important;
-  width: 104px;
-  height: 98px;
 }
 @media (max-width: 768px) {
   .error404 .et_pb_section-services .et_pb_card .et_pb_body_card p img {
-    width: 80px !important;
-    height: 80px !important;
+    width: 80px;
+    height: 80px;
   }
 }
 .error404 .et_pb_section-services .et_pb_card .btn-orange.et_pb_card_btn {

@@ -114,10 +114,16 @@
             font-size: 40px;
         }
 
-        .et_pb_gutters1 .et_pb_column_1_3, .et_pb_gutters1.et_pb_row .et_pb_column_1_3 {
-            width: 30.3333%;
+        .et_pb_gutters1 .et_pb_column_1_3, .et_pb_gutters1.et_pb_row .et_pb_column_1_3.fle-column {
+            width: 100% !important;
             display: flex;
             justify-content: space-between;
+            @media (min-width: 768px){
+                width: 30.3333% !important;
+            }
+            .et_pb_module.et_pb_video{
+                width: 100% !important;
+            }
         }
 
         @media (min-width: 768px){

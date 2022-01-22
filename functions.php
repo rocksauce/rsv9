@@ -47,10 +47,10 @@ function wpmix_queue_css() {
 add_action('wp_print_styles', 'wpmix_queue_css');
 
 
+// Call all the shortcodes
 
+include('short-codes.php');
 
-include('testimonials-shortcode.php');
-add_shortcode('testimonials', 'testimonials_function');
 
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
