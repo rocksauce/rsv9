@@ -87,7 +87,7 @@ $list_query_options['orderby'] = 'date';
                                       
 
                                             <?php
-
+                                            $excluded_posts_ids= array();
                                             $list_query_options['posts_per_page'] = $listNumberPosts;
                                             $list_query_options['post__not_in'] = $excluded_posts_ids;
 

@@ -208,6 +208,28 @@ if (!function_exists('rs_the_excerpt')) {
 
  }
 
+ if (!function_exists('rs_the_excerpt_str')) {
+
+    function rs_the_excerpt_str($limit = 500) {
+        global $post;
+
+        $result = "";
+        $content = strip_tags( get_the_excerpt());
+        if($content != ""){
+
+            if(strlen($content) > $limit)
+                $result = trim(substr($content, 0, $limit)) . '...';
+            else
+                $result = trim(substr($content, 0, $limit));
+
+            $result = "<p>$result</p>";
+        }
+        
+        return $result;
+    }
+
+ }
+
  if (!function_exists('rs_the_title')) {
 
     function rs_the_title($limit = 500) {
@@ -223,6 +245,25 @@ if (!function_exists('rs_the_excerpt')) {
                 $result = trim(substr($content, 0, $limit));
         }
         echo $result;
+    }
+
+ }
+
+ if (!function_exists('rs_the_title_str')) {
+
+    function rs_the_title_str($limit = 500) {
+        global $post;
+
+        $result = "";
+        $content = strip_tags( get_the_title());
+        if($content != ""){
+
+            if(strlen($content) > $limit)
+                $result = trim(substr($content, 0, $limit)) . '...';
+            else
+                $result = trim(substr($content, 0, $limit));
+        }
+        return $result;
     }
 
  }
