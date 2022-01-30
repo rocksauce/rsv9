@@ -66,7 +66,7 @@ $list_query_options['orderby'] = 'date';
 
                                                             </h2>
                                                             <div class="et_pb_slide_content et_pb_container_description-text">
-                                                                Dragée tootsie roll lemon drops jujubes sweet. Marzipan apple pie brownie bonbon pastry cotton candy cookie marzipan. Powder topping halvah pie marzipan halvah marzipan. Chocolate soufflé cupcake pudding cake chocolate bar.
+                                                                Whoops! Looks like we can’t find what you’re searching for, but we have plenty of other kickass resources for you. Try some of these on for size, they’re our most popular for a reason.
                                                             </div>
                                                         </div> <!-- .et_pb_slide_description -->
                                                     </div>
@@ -127,11 +127,13 @@ $list_query_options['orderby'] = 'date';
                         <div class="no_finding_search">
                             <div class="et_pb_row no_finding_search_container">
                                 <div class="no_finding_search_text">
-                                    <p>Not findig What You're Looking For?</p>
+                                    <p>Not Finding What You're Looking For?</p>
                                 </div>
                                 <div class="no_finding_search_form">
-                                    <input class="no_finding_search_input" type="text" name="search-404" id="search-404" placeholder="Try Searching Here">
-                                    <span class="icon-search_form"></span>        
+                                    <form action="/search" method="get" >
+                                        <input class="no_finding_search_input" type="text" name="keyword" id="keyword" placeholder="Try Searching Here">
+                                        <span class="icon-search_form"></span>        
+                                    </form>
                                 </div>
                             </div>
                         </div>

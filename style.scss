@@ -41,6 +41,7 @@
 @import 'scss/microInteractions/animations';
 @import 'scss/microInteractions/animations_v2';
 @import 'scss/404';
+@import 'scss/thank-you';
 
 #main-header,
 .et_pb_section {
@@ -5873,4 +5874,81 @@ a, a:link, a:hover, a:visited, a:focus {
 		}
     }
    
+}
+
+.no_finding_search{
+	background: #DF5B4E;
+	height: 193px !important;
+	margin: 30px 0 !important;
+	display: flex;
+	align-items: center; 
+	padding: 0 24px !important;//Media querie solo de mobile 0 < 768px 
+	@media (min-width: 768px){ //Media querie  de mobile  768px hasta 1224px 
+		padding: 40px !important;
+	}
+	@media (min-width: 1225px){ // media querie de desktop de 1225px en adelante
+		padding: 0 !important;
+	}
+	.no_finding_search_container{
+		display: flex;        
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column; 
+		@media (min-width: 768px){
+			flex-direction:row;    
+		}
+		.no_finding_search_text{
+			color: #FBF9F6;
+			font-weight: bold;
+			line-height: 100%;
+			font-size: 32px;
+		   @media (min-width: 768px){
+				width: 477px;
+				font-size: 40px;
+			}   
+		}
+	}
+		.no_finding_search_form{
+			width: 100%;
+			margin-top: 24px;
+			position: relative;
+			@media (min-width: 768px){
+				width: 60%;
+				margin-top: 0px;
+			}
+			.icon-search_form{
+				position: relative;
+				&:before{
+					content: " ";
+					background-image: url(/wp-content/themes/rsv9/images/search.svg);
+					background-size: contain;
+					background-repeat: no-repeat;
+					width: 24px;
+					height: 100%;
+					display: inline-block;
+					position: absolute;
+					right: 6px;
+					top: -3px;
+				}
+			}
+			.no_finding_search_input{
+				background-color: #df5b4e !important;
+				border: 2px solid #fff !important;
+				padding: 2px !important;
+				color: #fbf9f6 !important;
+				font-size: 24px;
+				line-height: 140%;
+				height: 34px;
+				width: 100%;
+				padding: 20px 10px !important;
+				&:focus{
+					outline: none !important;
+					border-color: #ffffff !important;
+					color: #ffffff !important;
+				}
+				&::placeholder{
+					color: #ffffff !important;
+				}
+		}
+		}
 }
