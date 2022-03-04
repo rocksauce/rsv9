@@ -293,6 +293,7 @@ $list_query_options['orderby'] = 'date';
 
                             <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper  et_pb_module ">
                                 <button id="load_more_posts" class="et_pb_button et_pb_button_2 btn-dark-blue et_pb_bg_layout_light" >Click to load more</button>
+                                <img style="display: none;" id="load_more_post-gift" src="/wp-content/themes/rsv9/images/loading.gif" alt="Loading" width="50px">
                                 <div id="hide_no_resulsts">
                                     <?php get_template_part( 'includes/no-results', 'index' ); ?>
                                 </div>

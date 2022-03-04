@@ -50,15 +50,22 @@ if($blockLeft->have_posts() ){
                                 }
 
                     ?>
-                                <article id="post-<?= get_the_ID()?>" class="block-one et_pb_post clearfix et_pb_blog_item_1_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry">
-
-                                    <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="300"></a>
-                                    <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
-
-                                    <div class="post-content">
-                                        <div class="post-content-inner et_multi_view_hidden"></div>
-                                    </div>
-                                </article> <!-- .et_pb_post -->
+                         <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
+                            <a style="height: 225px; width: 100%;" href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
+                                <div class="et_pb_post background_image" 
+                                style="background: url(<?= $image ?>);
+                                        width: 100%;
+                                        height: 100%;
+                                        background-size: cover !important;
+                                        background-repeat: no-repeat !important;
+                                        background-position: center !important;
+                                        border-radius: 4px !important;"></div>
+                            </a>
+                            <h2 class="entry-title rs-title"  style="margin-top:10px;"><a class="hover_black_green" href="<?= the_permalink() ?>">
+                                <?php echo  mb_strimwidth( get_the_title(), 0, 50, '...' ); ?></a></h2>
+                            <div class="post-content">
+                                <div class="post-content-inner rs-content"><?php rs_the_excerpt( 90 ) ?></div>
+                            </div>
 
                     <?php
                                 wp_reset_postdata();
@@ -86,17 +93,23 @@ if($blockLeft->have_posts() ){
                                         $image = '/wp-content/themes/rsv9/images/no-image.png';
                                     }
                     ?>
-                                    <article  id="post-<?= get_the_ID()?>"  class="block-two et_pb_post clearfix et_pb_blog_item_2_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail hentry category-design category-development">
-
-                                        <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link"><img loading="lazy" src="<?= $image ?>" alt="What is a Design Sprint? (Part Two)" class="" width="1080" height="675"></a>
-                                        <h2 class="entry-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
-
-                                        <div class="post-content">
-                                            <div class="post-content-inner rs-content">
-                                                <p><?php rs_the_excerpt( 250 ) ?></p>
-                                            </div>
-                                        </div>
-                                    </article> <!-- .et_pb_post -->
+                        <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
+                            <a style="height: 225px; width: 100%;" href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
+                                <div class="et_pb_post background_image" 
+                                style="background: url(<?= $image ?>);
+                                        width: 100%;
+                                        height: 100%;
+                                        background-size: cover !important;
+                                        background-repeat: no-repeat !important;
+                                        background-position: center !important;
+                                        border-radius: 4px !important;"></div>
+                            </a>
+                            <h2 class="entry-title rs-title"  style="margin-top:10px;"><a class="hover_black_green" href="<?= the_permalink() ?>">
+                                <?php echo  mb_strimwidth( get_the_title(), 0, 50, '...' ); ?></a></h2>
+                            <div class="post-content">
+                                <div class="post-content-inner rs-content"><?php rs_the_excerpt( 90 ) ?></div>
+                            </div>
+                        </article>
                     <?php
                                 wp_reset_postdata();
                                 endwhile;
@@ -131,17 +144,25 @@ if($blockLeft->have_posts() ){
                                 if( $image == ''){
                                     $image = '/wp-content/themes/rsv9/images/no-image.png';
                                 }
-                    ?>
-                                <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
+                    ?>          
 
-                                    <a href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
-                                        <img loading="lazy" src="<?= $image ?>" alt="<?= get_the_title() ?>" class="" width="1080" height="675"></a>
-                                        <h2 class="entry-title rs-title"><a href="<?= the_permalink() ?>"><?= get_the_title() ?></a></h2>
-
-                                    <div class="post-content">
-                                        <div class="post-content-inner rs-content"><?php rs_the_excerpt( 80 ) ?></div>
-                                    </div>
-                                </article>
+                        <article id="post-<?= get_the_ID()?>" class="et_pb_post clearfix et_pb_blog_item_3_0 post-<?= get_the_ID()?> post type-post status-publish format-standard has-post-thumbnail sticky hentry category-design category-q-answers category-thoughts">
+                            <a style="height: 225px; width: 100%;" href="<?= the_permalink() ?>" class="entry-featured-image-url image-link">
+                                <div class="et_pb_post background_image" 
+                                style="background: url(<?= $image ?>);
+                                        width: 100%;
+                                        height: 100%;
+                                        background-size: cover !important;
+                                        background-repeat: no-repeat !important;
+                                        background-position: center !important;
+                                        border-radius: 4px !important;"></div>
+                            </a>
+                            <h2 class="entry-title rs-title" style="margin-top:10px;"><a class="hover_black_green" href="<?= the_permalink() ?>">
+                                <?php echo  mb_strimwidth( get_the_title(), 0, 50, '...' ); ?></a></h2>
+                            <div class="post-content">
+                                <div class="post-content-inner rs-content"><?php rs_the_excerpt( 90 ) ?></div>
+                            </div>
+                        </article>
                     <?php
                             wp_reset_postdata();
                             endwhile;

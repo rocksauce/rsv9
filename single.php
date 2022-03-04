@@ -67,7 +67,19 @@ $author_id = get_post_field( 'post_author', get_the_ID() );
     <!-- /Date + categories -->
     <!-- Blog article content -->
         <div id="blog_article_content">
-           <?=the_content()?>
+            
+            
+            <?php 
+                $content = apply_filters('the_content', get_the_content());
+                
+                $content = str_replace('src="https://www.youtube', 'class="lightbox-trigger-bluecta" src="https://www.youtube', $content);
+                
+
+                debug($content);
+
+            ?>
+
+            <?=$content?>
         </div>
     <!-- /Blog article content -->
 </div>

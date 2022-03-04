@@ -166,7 +166,7 @@ function load_posts_api_callback(){
     global $no_more_items;
 
     if ( ! wp_verify_nonce( $_POST['nonce'], 'load_posts_nonce' ) ) {
-        die( __( 'Security check', 'textdomain' ) );
+        //die( __( 'Security check', 'textdomain' ) );
     }
 
     ob_start();
